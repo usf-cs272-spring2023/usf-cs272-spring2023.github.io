@@ -1,0 +1,53 @@
+
+title: 'CS 272 Software Development'
+subtitle: 'CS 272-01, CS 272-02 &bull; Spring 2023'
+
+description: >-
+  This course gives students experience with advanced programming topics, including inheritance and polymorphism, multithreaded programming, networking, database programming, and web development. Students will also learn techniques for designing, debugging, refactoring, and reviewing code.
+
+timezone: 'America/Los_Angeles'
+
+name: 'Sophie Engle'
+email: 'sjengle@cs.usfca.edu'
+github_username: 'sjengle'
+
+include: ['favicon.ico']
+permalink: '/guides/:title:output_ext'
+
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: 'default'
+
+collections:
+  general:
+    title: 'General'
+    output: true
+    permalink: /resources/:collection/:name:output_ext
+
+  # eclipse:
+  #   title: 'Eclipse'
+  #   output: true
+  #   permalink: /resources/:collection/:name:output_ext
+
+  # homework:
+  #   title: 'Homework'
+  #   output: true
+  #   permalink: /resources/:collection/:name:output_ext
+
+  # projects:
+  #   title: 'Projects'
+  #   output: true
+  #   permalink: /resources/:collection/:name:output_ext
+
+  # exams:
+  #   title: 'Exams'
+  #   output: true
+  #   permalink: /resources/:collection/:name:output_ext
+
+  # sql:
+  #   title: 'Databases'
+  #   output: true
+  #   permalink: /resources/:collection/:name:output_ext
