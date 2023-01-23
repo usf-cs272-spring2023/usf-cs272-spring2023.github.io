@@ -32,13 +32,14 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'Introduction'
 
       - date: 2023-01-26
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'File IO'
+              - text: 'Exceptions'
 
           - <<: *participation
             items:
@@ -48,7 +49,7 @@ weeks:
         rows:
           - <<: *labs
             items:
-              - text: 'Pending'
+              - text: 'Homework Setup'
           
           - <<: *assignments
             items:
@@ -68,13 +69,14 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'File IO'
+              - text: 'Exceptions'
 
       - date: 2023-02-02
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'Data Structures'
 
           - <<: *participation
             items:
@@ -84,7 +86,7 @@ weeks:
         rows:
           - <<: *labs
             items:
-              - text: 'Pending'
+              - text: 'Project Setup'
           
           - <<: *assignments
             items:
@@ -104,13 +106,14 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'Data Structures'
 
       - date: 2023-02-09
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'Objects'
+              - text: 'Mutability'
 
           - <<: *participation
             items:
@@ -120,7 +123,11 @@ weeks:
         rows:
           - <<: *labs
             items:
-              - text: 'Pending'
+              - text: 'Homework Help'
+                icon: 'homework'
+
+              - text: 'Project Help'
+                icon: 'project'
           
           - <<: *assignments
             items:
@@ -140,13 +147,14 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'Objects'
+              - text: 'Mutability'
 
       - date: 2023-02-09
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'Inheritance'
 
           - <<: *participation
             items:
@@ -180,13 +188,14 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'Inheritance'
 
       - date: 2023-02-23
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'Lambda Expressions'
+              - text: 'Stream Pipelines'
 
           - <<: *participation
             items:
@@ -220,13 +229,14 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'Lambda Expressions'
+              - text: 'Exam Review'
 
       - date: 2023-03-02
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'Stream Pipelines'
 
           - <<: *participation
             items:
@@ -260,16 +270,24 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'Exam 1'
+                icon: 'exam'
+                type: 'has-text-weight-bold has-text-danger'
 
       - date: 2023-03-09
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'Assertions'
+              - text: 'Logging'
 
           - <<: *participation
             items:
+              - text: 'Exam 1 Retake'
+                icon: 'exam'
+                type: 'has-text-weight-bold has-text-danger pb-1'
+                date: 2023-03-21
+              
               - text: 'Pending'
 
       - date: 2023-03-10
@@ -295,6 +313,33 @@ weeks:
               - text: 'Pending'
 
   - week: 'Week 08'
+    days:
+      - date: 2023-03-14
+        rows:
+          - text: 'Class Cancelled'
+            info: 'classes cancelled for spring break'
+            items:
+              - text: 'Spring Break'
+                icon: 'spring'
+                type: 'has-text-grey'
+
+      - date: 2023-03-16
+        rows:
+          - text: 'Class Cancelled'
+            info: 'classes cancelled for spring break'
+            items:
+              - text: 'Spring Break'
+                icon: 'spring'
+                type: 'has-text-grey'
+
+      - date: 2023-03-17
+        rows:
+          - text: 'Lab Cancelled'
+            info: 'classes cancelled for spring break'
+            items:
+              - text: 'Spring Break'
+                icon: 'spring'
+                type: 'has-text-grey'
 
   - week: 'Week 09'
     days:
@@ -302,13 +347,20 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'Multithreading'
+
+          - <<: *deadlines
+            items:
+              - text: 'Exam 1 Retake'
+                icon: 'exam'
+                type: 'has-text-weight-bold has-text-danger'
+                date: 2023-03-21
 
       - date: 2023-03-23
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'Multithreading'
 
           - <<: *participation
             items:
@@ -342,13 +394,13 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'Multithreading'
 
       - date: 2023-03-30
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'Multithreading'
 
           - <<: *participation
             items:
@@ -382,13 +434,13 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'Regular Expressions'
 
       - date: 2023-04-06
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'Regular Expressions'
 
           - <<: *participation
             items:
@@ -418,13 +470,15 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'HTTP'
+              - text: 'Sockets'
 
       - date: 2023-04-13
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'HTML'
+              - text: 'Servlets'
 
           - <<: *participation
             items:
@@ -458,13 +512,13 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'Servlets'
 
       - date: 2023-04-20
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'Sessions'
 
           - <<: *participation
             items:
@@ -498,13 +552,14 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'SQL'
+              - text: 'Exam Review'
 
       - date: 2023-04-27
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'SQL'
 
           - <<: *participation
             items:
@@ -538,16 +593,23 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'Exam 2'
+                icon: 'exam'
+                type: 'has-text-weight-bold has-text-danger'
 
       - date: 2023-05-04
         rows:
           - <<: *videos
             items:
-              - text: 'Pending'
+              - text: 'Software Testing'
 
           - <<: *participation
             items:
+              - text: 'Exam 2 Retake'
+                icon: 'exam'
+                type: 'has-text-weight-bold has-text-danger pb-1'
+                date: 2023-05-12
+
               - text: 'Pending'
 
       - date: 2023-05-05
@@ -575,17 +637,17 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'JDBC'
 
       - date: 2023-05-11
         rows:
-          - <<: *videos
+          - <<: *lectures
             items:
-              - text: 'Pending'
+              - text: 'In Person Lecture'
+                icon: 'warning'
+                type: 'has-text-weight-medium has-text-warning pb-1'
 
-          - <<: *participation
-            items:
-              - text: 'Pending'
+              - text: 'Conclusion'
 
       - date: false
         rows:
@@ -598,6 +660,11 @@ weeks:
           - <<: *deadlines
             text: 'Last Major Deadlines'
             items:
+              - text: 'Exam 2 Retake'
+                icon: 'exam'
+                type: 'has-text-weight-bold has-text-danger pb-1'
+                date: 2023-05-12
+
               - text: 'Pending'
 
   - week: 'Finals'
