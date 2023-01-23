@@ -38,6 +38,11 @@ participation:
   type: 'far fa-tasks'
   show: true
 
+attendance:
+  text: 'Attendance'
+  type: 'far fa-users-class'
+  show: true
+
 quiz:
   text: 'Quiz'
   type: 'far fa-edit'
