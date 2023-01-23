@@ -22,8 +22,8 @@ defaults:
     info: 'assignments that students should begin working on'
 
   deadlines: &deadlines
-    text: 'Dates and Deadlines'
-    info: 'deadlines that fall on that day and other nearby dates (such as holidays)'
+    text: 'Major Deadlines'
+    info: 'major deadlines that fall on that day and other nearby dates (such as holidays)'
 
 weeks:
   - week: 'Week 01'
@@ -52,7 +52,11 @@ weeks:
           
           - <<: *assignments
             items:
-              - text: 'Pending'
+              - file: 'attendance'
+                name: 'week01'
+
+              - file: 'homework'
+                name: 'ArgumentParser'
 
           - <<: *deadlines
             items:
@@ -84,7 +88,11 @@ weeks:
           
           - <<: *assignments
             items:
-              - text: 'Pending'
+              - file: 'attendance'
+                name: 'week02'
+
+              - file: 'homework'
+                name: 'FileStemmer'
 
           - <<: *deadlines
             items:
@@ -116,33 +124,491 @@ weeks:
           
           - <<: *assignments
             items:
-              - text: 'Pending'
+              - file: 'attendance'
+                name: 'week03'
+
+              - file: 'homework'
+                name: 'JsonWriter'
 
           - <<: *deadlines
             items:
               - text: 'Pending'
 
   - week: 'Week 04'
+    days:
+      - date: 2023-02-07
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-02-09
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-02-10
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Homework Help'
+                icon: 'homework'
+
+              - text: 'Project Help'
+                icon: 'project'
+          
+          - <<: *assignments
+            items:
+              - file: 'attendance'
+                name: 'week04'
+
+              - file: 'homework'
+                name: 'FileIndex'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
   - week: 'Week 05'
+    days:
+      - date: 2023-02-21
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-02-23
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-02-24
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Homework Help'
+                icon: 'homework'
+
+              - text: 'Project Help'
+                icon: 'project'
+          
+          - <<: *assignments
+            items:
+              - file: 'attendance'
+                name: 'week05'
+
+              - file: 'homework'
+                name: 'FileSorter'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
   - week: 'Week 06'
+    days:
+      - date: 2023-02-28
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-03-02
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-03-03
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Homework Help'
+                icon: 'homework'
+
+              - text: 'Project Help'
+                icon: 'project'
+          
+          - <<: *assignments
+            items:
+              - file: 'attendance'
+                name: 'week06'
+
+              - file: 'homework'
+                name: 'FileFinder'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
   - week: 'Week 07'
+    days:
+      - date: 2023-03-07
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-03-09
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-03-10
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Homework Help'
+                icon: 'homework'
+
+              - text: 'Project Help'
+                icon: 'project'
+          
+          - <<: *assignments
+            items:
+              - file: 'attendance'
+                name: 'week07'
+
+              - file: 'homework'
+                name: 'LoggerSetup'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
   - week: 'Week 08'
+
   - week: 'Week 09'
+    days:
+      - date: 2023-03-21
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-03-23
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-03-24
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Homework Help'
+                icon: 'homework'
+
+              - text: 'Project Help'
+                icon: 'project'
+          
+          - <<: *assignments
+            items:
+              - file: 'attendance'
+                name: 'week09'
+
+              - file: 'homework'
+                name: 'ReadWriteLock'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
   - week: 'Week 10'
+    days:
+      - date: 2023-03-28
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-03-30
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-03-31
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Homework Help'
+                icon: 'homework'
+
+              - text: 'Project Help'
+                icon: 'project'
+          
+          - <<: *assignments
+            items:
+              - file: 'attendance'
+                name: 'week10'
+
+              - file: 'homework'
+                name: 'PrimeFinder'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
   - week: 'Week 11'
+    days:
+      - date: 2023-04-04
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-04-06
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-04-07
+        rows:
+          - text: 'Lab Cancelled'
+            info: 'classes cancelled for university holiday'
+            items:
+              - text: 'Easter Recess'
+                icon: 'easter'
+                type: 'has-text-grey'
+
+          - <<: *assignments
+            items:
+              - file: 'attendance'
+                name: 'week11'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
   - week: 'Week 12'
+    days:
+      - date: 2023-04-11
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-04-13
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-04-14
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Homework Help'
+                icon: 'homework'
+
+              - text: 'Project Help'
+                icon: 'project'
+          
+          - <<: *assignments
+            items:
+              - file: 'attendance'
+                name: 'week12'
+
+              - file: 'homework'
+                name: 'HtmlFetcher'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
   - week: 'Week 13'
+    days:
+      - date: 2023-04-18
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-04-20
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-04-21
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Homework Help'
+                icon: 'homework'
+
+              - text: 'Project Help'
+                icon: 'project'
+          
+          - <<: *assignments
+            items:
+              - file: 'attendance'
+                name: 'week13'
+
+              - file: 'homework'
+                name: 'HtmlCleaner'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
   - week: 'Week 14'
+    days:
+      - date: 2023-04-25
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-04-27
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-04-28
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Homework Help'
+                icon: 'homework'
+
+              - text: 'Project Help'
+                icon: 'project'
+          
+          - <<: *assignments
+            items:
+              - file: 'attendance'
+                name: 'week14'
+
+              - file: 'homework'
+                name: 'LinkFinder'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
   - week: 'Week 15'
+    days:
+      - date: 2023-05-02
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-05-04
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-05-05
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Homework Help'
+                icon: 'homework'
+
+              - text: 'Project Help'
+                icon: 'project'
+          
+          - <<: *assignments
+            items:
+              - file: 'attendance'
+                name: 'week15'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
 
   - week: 'Week 16'
     days:
       - date: 2023-05-09
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
       - date: 2023-05-11
-      - text: 'End of Semester Deadlines'
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: false
+        rows:
+          - <<: *assignments
+            text: 'Last Assignments'
+            items:
+              - file: 'attendance'
+                name: 'week16'
+
+          - <<: *deadlines
+            text: 'Last Major Deadlines'
+            items:
+              - text: 'Pending'
 
   - week: 'Finals'
     days:
-      - text: 'Mon 05/15 to Thu 05/18'
-      - text: ''
-      - text: ''
+      - date: false
+        rows:
+          - text: 'Mon 05/15 to Thu 05/18'
+            info: 'finals week'
+            items:
+              - text: 'Final Code Reviews'
+                icon: 'project'
+
+      - date: false
+      - date: false
