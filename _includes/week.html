@@ -55,7 +55,9 @@
           <li class="{{ item_type }}">
             <i class="{{ icon_type }}" title="{{ icon_text }}"></i>
             {%- if item_date %}
-            <span class="has-text-weight-medium">{{ item_date | date: "%m/%d" }}:</span>
+            <span class="has-text-weight-medium">
+            {%- if day.date and item_date == day.date %}Due:{% else %}{{ item_date | date: "%m/%d" }}:{% endif -%}
+            </span>
             {%- endif %}
             {% if item_link %}<a href="{{ item_href }}">{{ item_text }}</a>{% else %}{{ item_text }}{% endif %}
             {% if item_repo %}<a href="{{ site.data.info.links.github.href }}/{{ item_repo }}/" title="GitHub Repository"><i class="fab fa-github-square"></i></a>{% endif %}
