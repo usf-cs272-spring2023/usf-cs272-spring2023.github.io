@@ -5,89 +5,74 @@ defaults: &default
 week01:
   <<: *default
   text: 'Week 01 Attendance'
-  link: ''
   date: 2023-02-03
 
 week02:
   <<: *default
   text: 'Week 02 Attendance'
-  link: ''
   date: 2023-02-10
 
 week03:
   <<: *default
   text: 'Week 03 Attendance'
-  link: ''
   date: 2023-02-17
 
 week04:
   <<: *default
   text: 'Week 04 Attendance'
-  link: ''
   date: 2023-02-24
 
 week05:
   <<: *default
   text: 'Week 05 Attendance'
-  link: ''
   date: 2023-03-03
 
 week06:
   <<: *default
   text: 'Week 06 Attendance'
-  link: ''
   date: 2023-03-10
 
 week07:
   <<: *default
   text: 'Week 07 Attendance'
-  link: ''
   date: 2023-03-21
 
 week09:
   <<: *default
   text: 'Week 09 Attendance'
-  link: ''
   date: 2023-03-31
 
 week10:
   <<: *default
   text: 'Week 10 Attendance'
-  link: ''
   date: 2023-04-11
 
 week11:
   <<: *default
   text: 'Week 11 Attendance'
-  link: ''
   date: 2023-04-14
 
 week12:
   <<: *default
   text: 'Week 12 Attendance'
-  link: ''
   date: 2023-04-21
 
 week13:
   <<: *default
   text: 'Week 13 Attendance'
-  link: ''
   date: 2023-04-28
 
 week14:
   <<: *default
   text: 'Week 14 Attendance'
-  link: ''
   date: 2023-05-05
 
 week15:
   <<: *default
   text: 'Week 15 Attendance'
-  link: ''
   date: 2023-05-12
 
 week16:
   <<: *default
   text: 'Week 16 Attendance'
-  link: ''
   date: 2023-05-12
