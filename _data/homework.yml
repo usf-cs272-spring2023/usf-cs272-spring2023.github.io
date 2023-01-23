@@ -1,7 +1,7 @@
 ArgumentParser: &default
   text: 'ArgumentParser'
   date: 2023-02-03
-  href: '#'
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268359'
   tags: ['objects', 'data']
   repo: 'homework-ArgumentParser-template'
   icon: 'homework'
@@ -10,6 +10,7 @@ FileStemmer:
   <<: *default
   text: 'FileStemmer'
   date: 2023-02-10
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268360'
   repo: 'homework-WordCleaner-template'
   tags: ['files', 'data']
 
@@ -17,6 +18,7 @@ JsonWriter:
   <<: *default
   text: 'JsonWriter'
   date: 2023-02-17
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268361'
   repo: 'homework-JsonWriter-template'
   tags: ['files', 'data', 'inheritance']
 
@@ -24,7 +26,7 @@ FileIndex:
   <<: *default
   text: 'FileIndex'
   date: 2023-02-24
-  link: 'https://usfca.instructure.com/courses/1608197/assignments/7223921'
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268362'
   repo: 'homework-FileIndex-template'
   tags: ['objects', 'data', 'inheritance']
 
@@ -32,6 +34,7 @@ FileSorter:
   <<: *default
   text: 'FileSorter'
   date: 2023-03-03
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268363'
   repo: homework-FileSorter-template'
   tags: ['inheritance', 'lambdas']
 
@@ -39,6 +42,7 @@ FileFinder:
   <<: *default
   text: 'FileFinder'
   date: 2023-03-10
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268364'
   repo: 'homework-FileFinder-template'
   tags: ['lambdas', 'streams']
 
@@ -46,6 +50,7 @@ LoggerSetup:
   <<: *default
   text: 'LoggerSetup'
   date: 2023-03-24
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268365'
   repo: 'homework-LoggerSetup-template'
   tags: ['debugging']
 
@@ -53,13 +58,15 @@ ReadWriteLock:
   <<: *default
   text: 'ReadWriteLock'
   date: 2023-03-31
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268366'
   repo: 'homework-ReadWriteLock-template'
   tags: ['threads']
 
 PrimeFinder:
   <<: *default
   text: 'PrimeFinder'
-  date: 2023-04-11
+  date: 2023-04-10
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268367'
   repo: 'homework-PrimeFinder-template'
   tags: ['threads']
 
@@ -67,6 +74,7 @@ HtmlFetcher:
   <<: *default
   text: 'HtmlFetcher'
   date: 2023-04-21
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268369'
   repo: 'homework-HtmlFetcher-template'
   tags: ['web']
 
@@ -74,7 +82,7 @@ HtmlCleaner:
   <<: *default
   text: 'HtmlCleaner'
   date: 2023-04-28
-  link: 'https://usfca.instructure.com/courses/1608197/assignments/7223895'
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268370'
   repo: 'homework-HtmlCleaner-template'
   tags: ['web', 'regexes']
 
@@ -82,11 +90,6 @@ LinkFinder:
   <<: *default
   text: 'LinkFinder'
   date: 2023-05-05
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268368'
   repo: 'homework-LinkFinder-template'
   tags: ['web', 'regexes']
-
-
-
-
-
-
