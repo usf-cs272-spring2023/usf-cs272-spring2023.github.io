@@ -45,7 +45,7 @@ week09:
 week10:
   <<: *default
   text: 'Week 10 Attendance'
-  date: 2023-04-11
+  date: 2023-04-10
 
 week11:
   <<: *default
@@ -75,4 +75,4 @@ week15:
 week16:
   <<: *default
   text: 'Week 16 Attendance'
-  date: 2023-05-12
+  date: 2023-05-15
