@@ -1,0 +1,118 @@
+# icon_label:
+#  text: '' <-- title for legend and tooltip
+#  type: '' <-- font awesome icon classes
+#  show: true/false <-- whether to show in legend
+
+website:
+  text: 'Website'
+  type: 'far fa-link'
+  show: true
+
+code:
+  text: 'Code'
+  type: 'far fa-code'
+  show: true
+
+slides:
+  text: 'Slides'
+  type: 'far fa-chalkboard-teacher'
+  show: true
+
+video:
+  text: 'Video'
+  type: 'far fa-video'
+  show: true
+
+project:
+  text: 'Project'
+  type: 'far fa-project-diagram'
+  show: true
+
+homework:
+  text: 'Homework'
+  type: 'far fa-laptop-code'
+  show: true
+
+participation:
+  text: 'Participation'
+  type: 'far fa-tasks'
+  show: true
+
+quiz:
+  text: 'Quiz'
+  type: 'far fa-edit'
+  show: true
+
+exam:
+  text: 'Exam'
+  type: 'far fa-ballot-check'
+  show: true
+
+date:
+  text: 'Date'
+  type: 'far fa-calendar-alt'
+  show: true
+
+# not included in legend
+
+pending:
+  text: 'Pending'
+  type: 'far fa-question-square'
+
+nothing:
+  text: 'Placeholder'
+  type: ''
+
+warning:
+  text: 'Warning'
+  type: 'fas fa-exclamation-triangle'
+
+indented:
+  text: 'Indented'
+  type: 'fal fa-minus'
+
+review:
+  text: 'Code Review'
+  type: 'far fa-code-branch'
+
+classroom:
+  text: 'Class'
+  type: 'far fa-users-class'
+
+presentation:
+  text: 'Presentation'
+  type: 'far fa-user-chart'
+
+time:
+  text: 'Time'
+  type: 'far fa-alarm-clock'
+
+# holidays and breaks
+
+spring:
+  text: 'Spring Break'
+  type: 'far fa-flower-tulip'
+
+easter:
+  text: 'Easter Holiday'
+  type: 'far fa-rabbit'
+
+linkedin:
+  text: 'Linkedin'
+  type: 'fab fa-linkedin'
+
+picnic:
+  text: 'CS Picnic'
+  type: 'far fa-kite'
+
+fall:
+  text: 'Fall Break'
+  type: 'fas fa-wheat'
+
+thanksgiving:
+  text: 'Thanksgiving Recess'
+  type: 'far fa-pie'
+
+travel:
+  text: 'Travel'
+  type: 'far fa-plane-departure'

@@ -1,0 +1,69 @@
+<!-- {{ week.week | downcase }} -->
+<div class="columns" id="{{ week.text | slugify }}">
+  <div class="column is-narrow heading has-text-weight-medium" style="width: 7em;">
+    {{ week.week }}
+  </div>
+
+  <div class="column">
+    <div class="columns">
+    {%- for day in week.days %}
+      <!-- start day -->
+      <div class="column one-third">
+      {%- for row in day.rows %}
+        <div class="heading has-text-weight-medium">
+          {% if day.date and forloop.first %}{{ day.date | date: "%a %m/%d" }} {% endif -%}
+          {{ row.text }}
+          {% if row.info %}<i class="fas fa-info-circle has-text-grey-light" title="{{ row.info }}"></i>{% endif %}
+        </div>
+
+        {% if row.items -%}
+        <ul class="icons">
+        {%- for found in row.items %}
+          {%- assign icon_type = site.data.icons.pending.type %}
+          {%- assign icon_text = site.data.icons.pending.text %}
+          {%- assign item_text = "Pending" %}
+          {%- assign item_date = false %}
+          {%- assign item_time = false %}
+          {%- assign item_href = false %}
+          {%- assign item_html = false %}
+          {%- assign item_type = false %}
+
+          {%- if found.file %}
+          {%- assign item = site.data[found.file][found.name] %}
+          {%- if item.icon %}{% assign icon_type = site.data.icons[item.icon].type %}{% endif %}
+          {%- if item.icon %}{% assign icon_text = site.data.icons[item.icon].text %}{% endif %}
+          {%- if item.text %}{% assign item_text = item.text %}{% endif %}
+          {%- if item.date %}{% assign item_date = item.date %}{% endif %}
+          {%- if item.time %}{% assign item_time = item.time %}{% endif %}
+          {%- if item.href %}{% assign item_href = item.href %}{% endif %}
+          {%- if item.html %}{% assign item_html = item.html %}{% endif %}
+          {%- if item.type %}{% assign item_type = item.type %}{% endif %}
+          {%- endif %}
+
+          {%- if found.icon %}{% assign icon_type = site.data.icons[found.icon].type %}{% endif %}
+          {%- if found.icon %}{% assign icon_text = site.data.icons[found.icon].text %}{% endif %}
+          {%- if found.text %}{% assign item_text = found.text %}{% endif %}
+          {%- if found.date %}{% assign item_date = found.date %}{% endif %}
+          {%- if found.time %}{% assign item_time = found.time %}{% endif %}
+          {%- if found.href %}{% assign item_href = found.href %}{% endif %}
+          {%- if found.html %}{% assign item_html = found.html %}{% endif %}
+          {%- if found.type %}{% assign item_type = found.type %}{% endif %}
+
+          <li class="{{ item_type }}">
+            <i class="{{ icon_type }}" title="{{ icon_text }}"></i>
+            {% if item_link %}<a href="{{ item_href }}">{{ item_text }}</a>
+            {%- else %}{{ item_text }}{% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      {% endif -%}
+      {% endfor -%}
+      </div>
+      <!-- end day -->
+    {% endfor -%}
+    </div>
+  </div>
+</div>
+<!-- end {{ week.week | downcase }} -->
+
+{% unless forloop.last %}<hr>{% endunless %}

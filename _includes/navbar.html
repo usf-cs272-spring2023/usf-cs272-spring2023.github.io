@@ -24,8 +24,8 @@
 
 <!-- navbar-start -->
 <div class="navbar-start">
-  {%- assign data = site.data.info.links | where: "type", "navbar" -%}
-  {%- for item in data -%}
+  {%- assign data = site.data.info.links | where: "type", "navbar" %}
+  {%- for item in data %}
   <a class="navbar-item{% if page.navbar == item.text %} is-active{% endif %}" href="{{ item.href | relative_url }}" title="{{ item.info }}">
     <i class="{{ item.icon }} pr-1"></i> {{ item.text }}
   </a>
@@ -35,13 +35,10 @@
 <div class="navbar-end">
   <!-- quick links -->
   <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link">
-      <i class="far fa-link pr-1"></i> Quick Links
-    </a>
-
+    <a class="navbar-link"><i class="far fa-link pr-1"></i> Quick Links</a>
     <div class="navbar-dropdown is-right">
-      {%- assign data = site.data.info.links | where: "type", "video" -%}
-      {%- for item in data -%}
+      {%- assign data = site.data.info.links | where: "type", "video" %}
+      {%- for item in data %}
       <a class="navbar-item" href="{{ item.href }}" title="{{ item.info }}">
         <i class="{{ item.icon }} fa-fw mr-1"></i> {{ item.text }}
       </a>
@@ -49,7 +46,6 @@
     </div>
   </div>
 </div> <!-- end navbar-end -->
-
 </div> <!-- end navbar-main -->
 </div> <!-- end container -->
 </nav>

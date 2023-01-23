@@ -1,0 +1,148 @@
+defaults:
+  pending: &pending 'has-text-grey-light'
+
+  lectures: &lectures
+    text: 'Sync Lecture' # text displayed as heading
+    info: 'agenda for synchronous in-class lecture' # description of heading
+
+  videos: &videos
+    text: 'Async Videos'
+    info: 'assigned videos for asynchronous remote lecture'
+
+  participation: &participation
+    text: 'Async Assignments'
+    info: 'assigned quizzes and participation assignments for asynchronous remote lecture'
+
+  labs: &labs
+    text: 'Lab Agenda'
+    info: 'agenda for synchronous in-class lab'
+
+  assignments: &assignments
+    text: 'Assignments'
+    info: 'assignments that students should begin working on'
+
+  deadlines: &deadlines
+    text: 'Dates and Deadlines'
+    info: 'deadlines that fall on that day and other nearby dates (such as holidays)'
+
+weeks:
+  - week: 'Week 01'
+    days:
+      - date: 2023-01-24
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-01-26
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-01-27
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Pending'
+          
+          - <<: *assignments
+            items:
+              - text: 'Pending'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
+  - week: 'Week 02'
+    days:
+      - date: 2023-01-31
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-02-02
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-02-03
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Pending'
+          
+          - <<: *assignments
+            items:
+              - text: 'Pending'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
+  - week: 'Week 03'
+    days:
+      - date: 2023-02-07
+        rows:
+          - <<: *lectures
+            items:
+              - text: 'Pending'
+
+      - date: 2023-02-09
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Pending'
+
+          - <<: *participation
+            items:
+              - text: 'Pending'
+
+      - date: 2023-02-10
+        rows:
+          - <<: *labs
+            items:
+              - text: 'Pending'
+          
+          - <<: *assignments
+            items:
+              - text: 'Pending'
+
+          - <<: *deadlines
+            items:
+              - text: 'Pending'
+
+  - week: 'Week 04'
+  - week: 'Week 05'
+  - week: 'Week 06'
+  - week: 'Week 07'
+  - week: 'Week 08'
+  - week: 'Week 09'
+  - week: 'Week 10'
+  - week: 'Week 11'
+  - week: 'Week 12'
+  - week: 'Week 13'
+  - week: 'Week 14'
+  - week: 'Week 15'
+
+  - week: 'Week 16'
+    days:
+      - date: 2023-05-09
+      - date: 2023-05-11
+      - text: 'End of Semester Deadlines'
+
+  - week: 'Finals'
+    days:
+      - text: 'Mon 05/15 to Thu 05/18'
+      - text: ''
+      - text: ''

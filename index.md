@@ -17,9 +17,9 @@ This website serves as the main portal for all content related to this course. T
 <ul class="fa-ul ml-6">
 
 {%- assign data = site.data.info.links %}
-{%- for values in data %}
-{%- assign label = values[0] %}
-{%- assign item = data[label] %}
+{%- for property in data %}
+{%- assign name = property[0] %}
+{%- assign item = property[1] %}
 
 {%- if forloop.first %}
 {%- assign type = item.type %}

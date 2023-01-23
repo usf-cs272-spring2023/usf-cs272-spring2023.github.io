@@ -152,18 +152,39 @@ a code {
   color: inherit;
 }
 
+ul.icons {
+  list-style-type: none;
+  margin-left: 1.5em;
+  margin-top: 0em;
+}
+
+ul.icons > li {
+  position: relative;
+}
+
+ul.icons > li > i {
+  width: 1.25em;
+  left: -1.5em;
+  position: absolute;
+  text-align: center;
+  line-height: inherit;
+}
+
 /* syntax highlighter styles */
+
 div.highlight {
   margin-bottom: 1em;
 }
 
 /* anchorjs styles */
+
 .anchorjs-link {
   font-family: "Font Awesome 5 Pro";
   color: $usf-gray;
 }
 
 /* font-awesome styles */
+
 ul.fa-ul li,
 li.task-list-item {
   list-style-type: none;
