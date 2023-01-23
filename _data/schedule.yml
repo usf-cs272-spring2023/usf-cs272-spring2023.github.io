@@ -747,7 +747,11 @@ weeks:
                 type: 'pt-2'
 
               - file: 'projects'
-                name: 'review_v50'
+                name: 'tests_v50'
+                type: ''
+
+              - file: 'projects'
+                name: 'design_v50'
                 type: ''
 
           - <<: *deadlines
@@ -793,7 +797,10 @@ weeks:
                 name: 'tests_v41'
 
               - file: 'projects'
-                name: 'review_v50'
+                name: 'tests_v50'
+
+              - file: 'projects'
+                name: 'design_v50'
 
   - week: 'Finals'
     days:

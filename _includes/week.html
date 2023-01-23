@@ -60,7 +60,7 @@
             </span>
             {%- endif %}
             {% if item_href %}<a href="{{ item_href }}">{{ item_text }}</a>{% else %}{{ item_text }}{% endif %}
-            {% if item_repo %}<a href="{{ site.data.info.links.github.href }}/{{ item_repo }}/" title="GitHub Repository"><i class="fab fa-github-square"></i></a>{% endif %}
+            {% if item_repo %}<a href="{{ site.data.info.links.github.href }}/{{ item_repo }}" title="GitHub Repository"><i class="fab fa-github-square"></i></a>{% endif %}
           </li>
         {% endfor %}
         </ul>
