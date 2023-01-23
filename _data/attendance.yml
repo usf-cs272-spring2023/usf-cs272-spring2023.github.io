@@ -6,73 +6,88 @@ week01:
   <<: *default
   text: 'Week 01 Attendance'
   date: 2023-02-03
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7268394'
 
 week02:
   <<: *default
   text: 'Week 02 Attendance'
   date: 2023-02-10
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286025'
 
 week03:
   <<: *default
   text: 'Week 03 Attendance'
   date: 2023-02-17
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286029'
 
 week04:
   <<: *default
   text: 'Week 04 Attendance'
   date: 2023-02-24
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286046'
 
 week05:
   <<: *default
   text: 'Week 05 Attendance'
   date: 2023-03-03
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286055'
 
 week06:
   <<: *default
   text: 'Week 06 Attendance'
   date: 2023-03-10
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286059'
 
 week07:
   <<: *default
   text: 'Week 07 Attendance'
-  date: 2023-03-21
+  date: 2023-03-24
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286062'
 
 week09:
   <<: *default
   text: 'Week 09 Attendance'
   date: 2023-03-31
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286067'
 
 week10:
   <<: *default
   text: 'Week 10 Attendance'
   date: 2023-04-10
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286069'
 
 week11:
   <<: *default
   text: 'Week 11 Attendance'
   date: 2023-04-14
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286071'
 
 week12:
   <<: *default
   text: 'Week 12 Attendance'
   date: 2023-04-21
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286072'
 
 week13:
   <<: *default
   text: 'Week 13 Attendance'
   date: 2023-04-28
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286073'
 
 week14:
   <<: *default
   text: 'Week 14 Attendance'
   date: 2023-05-05
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286074'
 
 week15:
   <<: *default
   text: 'Week 15 Attendance'
   date: 2023-05-12
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286075'
 
 week16:
   <<: *default
   text: 'Week 16 Attendance'
-  date: 2023-05-15
+  date: 2023-05-12
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286131'
