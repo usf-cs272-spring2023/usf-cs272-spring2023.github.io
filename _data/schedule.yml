@@ -69,6 +69,10 @@ weeks:
         rows:
           - <<: *lectures
             items:
+              - file: 'projects'
+                name: 'project1'
+                type: 'has-text-usf-plum pb-2'
+            
               - text: 'File IO'
               - text: 'Exceptions'
 
@@ -95,6 +99,10 @@ weeks:
 
               - file: 'homework'
                 name: 'FileStemmer'
+              
+              - file: 'projects'
+                name: 'tests_v10'
+                type: 'pt-2'
 
           - <<: *deadlines
             items:
@@ -137,9 +145,18 @@ weeks:
               - file: 'homework'
                 name: 'JsonWriter'
 
+              - file: 'projects'
+                name: 'review_v10'
+                type: 'pt-2'
+
+              - file: 'projects'
+                name: 'tests_v11'
+                type: ''
+
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - file: 'projects'
+                name: 'tests_v10'
 
   - week: 'Week 04'
     days:
@@ -178,9 +195,17 @@ weeks:
               - file: 'homework'
                 name: 'FileIndex'
 
+              - file: 'projects'
+                name: 'review_v11'
+                type: 'pt-2'
+
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - file: 'projects'
+                name: 'review_v10'
+
+              - file: 'projects'
+                name: 'tests_v11'
 
   - week: 'Week 05'
     days:
@@ -188,6 +213,10 @@ weeks:
         rows:
           - <<: *lectures
             items:
+              - file: 'projects'
+                name: 'project2'
+                type: 'has-text-usf-plum pb-2'
+
               - text: 'Inheritance'
 
       - date: 2023-02-23
@@ -219,9 +248,14 @@ weeks:
               - file: 'homework'
                 name: 'FileSorter'
 
+              - file: 'projects'
+                name: 'design_v1x'
+                type: 'pt-2'
+
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - file: 'projects'
+                name: 'review_v11'
 
   - week: 'Week 06'
     days:
@@ -260,9 +294,14 @@ weeks:
               - file: 'homework'
                 name: 'FileFinder'
 
+              - file: 'projects'
+                name: 'tests_v20'
+                type: 'pt-2'
+
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - file: 'projects'
+                name: 'design_v1x'
 
   - week: 'Week 07'
     days:
@@ -285,7 +324,7 @@ weeks:
             items:
               - text: 'Exam 1 Retake'
                 icon: 'exam'
-                type: 'has-text-weight-bold has-text-danger pb-1'
+                type: 'has-text-weight-bold has-text-danger pb-2'
                 date: 2023-03-21
               
               - text: 'Pending'
@@ -308,9 +347,18 @@ weeks:
               - file: 'homework'
                 name: 'LoggerSetup'
 
+              - file: 'projects'
+                name: 'review_v20'
+                type: 'pt-2'
+
+              - file: 'projects'
+                name: 'tests_v21'
+                type: ''
+
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - file: 'projects'
+                name: 'tests_v20'
 
   - week: 'Week 08'
     days:
@@ -384,9 +432,17 @@ weeks:
               - file: 'homework'
                 name: 'ReadWriteLock'
 
+              - file: 'projects'
+                name: 'review_v21'
+                type: 'pt-2'
+
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - file: 'projects'
+                name: 'review_v20'
+
+              - file: 'projects'
+                name: 'tests_v21'
 
   - week: 'Week 10'
     days:
@@ -394,6 +450,10 @@ weeks:
         rows:
           - <<: *lectures
             items:
+              - file: 'projects'
+                name: 'project3'
+                type: 'has-text-usf-plum pb-2'
+
               - text: 'Multithreading'
 
       - date: 2023-03-30
@@ -418,15 +478,28 @@ weeks:
           
           - <<: *assignments
             items:
+              - text: 'Due Mon to Observe Holiday'
+                icon: 'warning'
+                type: 'has-text-weight-bold has-text-warning pb-2'
+
               - file: 'attendance'
                 name: 'week10'
 
               - file: 'homework'
                 name: 'PrimeFinder'
 
+              - file: 'projects'
+                name: 'design_v2x'
+                type: 'pt-2'
+
+              - file: 'projects'
+                name: 'tests_v30'
+                type: ''
+
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - file: 'projects'
+                name: 'review_v21'
 
   - week: 'Week 11'
     days:
@@ -460,9 +533,25 @@ weeks:
               - file: 'attendance'
                 name: 'week11'
 
+              - file: 'projects'
+                name: 'review_v30'
+                type: 'pt-2'
+
+              - file: 'projects'
+                name: 'tests_v31'
+                type: ''
+
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - text: 'Due Mon to Observe Holiday'
+                icon: 'warning'
+                type: 'has-text-weight-bold has-text-warning pb-2'
+
+              - file: 'projects'
+                name: 'design_v2x'
+
+              - file: 'projects'
+                name: 'tests_v30'
 
   - week: 'Week 12'
     days:
@@ -470,6 +559,10 @@ weeks:
         rows:
           - <<: *lectures
             items:
+              - file: 'projects'
+                name: 'project4'
+                type: 'has-text-usf-plum pb-2'
+
               - text: 'HTTP'
               - text: 'Sockets'
 
@@ -502,9 +595,17 @@ weeks:
               - file: 'homework'
                 name: 'HtmlFetcher'
 
+              - file: 'projects'
+                name: 'review_v31'
+                type: 'pt-2'
+
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - file: 'projects'
+                name: 'review_v30'
+
+              - file: 'projects'
+                name: 'tests_v31'
 
   - week: 'Week 13'
     days:
@@ -542,9 +643,14 @@ weeks:
               - file: 'homework'
                 name: 'HtmlCleaner'
 
+              - file: 'projects'
+                name: 'design_v3x'
+                type: 'pt-2'
+
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - file: 'projects'
+                name: 'review_v31'
 
   - week: 'Week 14'
     days:
@@ -552,6 +658,10 @@ weeks:
         rows:
           - <<: *lectures
             items:
+              - file: 'projects'
+                name: 'project5'
+                type: 'has-text-usf-plum pb-2'
+
               - text: 'SQL'
               - text: 'Exam Review'
 
@@ -583,9 +693,14 @@ weeks:
               - file: 'homework'
                 name: 'LinkFinder'
 
+              - file: 'projects'
+                name: 'tests_v40'
+                type: 'pt-2'
+
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - file: 'projects'
+                name: 'design_v3x'
 
   - week: 'Week 15'
     days:
@@ -607,7 +722,7 @@ weeks:
             items:
               - text: 'Exam 2 Retake'
                 icon: 'exam'
-                type: 'has-text-weight-bold has-text-danger pb-1'
+                type: 'has-text-weight-bold has-text-danger pb-2'
                 date: 2023-05-12
 
               - text: 'Pending'
@@ -627,9 +742,18 @@ weeks:
               - file: 'attendance'
                 name: 'week15'
 
+              - file: 'projects'
+                name: 'tests_v41'
+                type: 'pt-2'
+
+              - file: 'projects'
+                name: 'review_v50'
+                type: ''
+
           - <<: *deadlines
             items:
-              - text: 'Pending'
+              - file: 'projects'
+                name: 'tests_v40'
 
   - week: 'Week 16'
     days:
@@ -645,7 +769,7 @@ weeks:
             items:
               - text: 'In Person Lecture'
                 icon: 'warning'
-                type: 'has-text-weight-medium has-text-warning pb-1'
+                type: 'has-text-weight-medium has-text-warning pb-2'
 
               - text: 'Conclusion'
 
@@ -662,10 +786,14 @@ weeks:
             items:
               - text: 'Exam 2 Retake'
                 icon: 'exam'
-                type: 'has-text-weight-bold has-text-danger pb-1'
+                type: 'has-text-weight-bold has-text-danger pb-2'
                 date: 2023-05-12
 
-              - text: 'Pending'
+              - file: 'projects'
+                name: 'tests_v41'
+
+              - file: 'projects'
+                name: 'review_v50'
 
   - week: 'Finals'
     days:
