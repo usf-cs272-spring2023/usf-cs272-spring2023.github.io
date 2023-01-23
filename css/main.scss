@@ -1,0 +1,170 @@
+---
+---
+
+/* usf colors */
+$usf-gold:  #FDBB30;
+$usf-green: #00543C;
+$usf-gray:  #919194;
+
+/* usf accent palette */
+$usf-olive:     #73973F;
+$usf-lime:      #AED136;
+$usf-turquoise: #02B8A0;
+$usf-blue:      #00B3D8;
+
+$usf-orange:  #EB821E;
+$usf-terra:   #CD542C;
+$usf-saddle:  #CCAF74;
+$usf-beige:   #DED5B4;
+$usf-plum:    #A8228E;
+
+/* bulma color customization */
+$yellow:    $usf-gold;
+$orange:    $usf-terra;
+$green:     $usf-lime;
+$turquoise: $usf-turquoise;
+$blue:      $usf-blue;
+$purple:    $usf-plum;
+
+$primary: $usf-green;
+$link:    $usf-blue;
+$info:    $usf-turquoise;
+$success: $usf-lime;
+$warning: $usf-gold;
+$danger:  $usf-terra;
+
+$custom-colors: (
+  "usf-gold":  $usf-gold,
+  "usf-green": $usf-green,
+  "usf-gray":  $usf-gray,
+  "usf-lime":  $usf-lime,
+  "usf-plum":  $usf-plum,
+  "usf-blue":  $usf-blue,
+  "usf-teal":  $usf-turquoise,
+  "usf-terra": $usf-terra
+);
+
+/* bulma font customization */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap');
+
+$family-sans-serif: 'Fira Sans', sans-serif;
+$family-monospace: 'Fira Code', monospace;
+
+$weight-light: 300;
+$weight-normal: 300;
+$weight-medium: 500;
+$weight-semibold: 500;
+$weight-bold: 700;
+
+@import "bulma";
+
+/* custom non-bulma styles */
+
+code,
+pre,
+tt,
+.code,
+.pre,
+.tt,
+{
+  font-family: $family-monospace;
+  font-size: 0.9em;
+  font-weight: $weight-normal;
+}
+
+hr {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+strong,
+em {
+  color: inherit;
+}
+
+.em {
+  font-style: italic;
+  color: inherit;
+}
+
+del,
+strike,
+.del,
+.strike
+{
+  text-decoration: line-through;
+}
+
+li p {
+  margin-bottom: 1em;
+}
+
+[class^="has-text-usf-"] a,
+.has-text-primary a,
+.has-text-link a,
+.has-text-info a,
+.has-text-success a,
+.has-text-warning a,
+.has-text-danger a,
+.has-text-usf-plum a {
+  color: inherit;
+  text-decoration: currentColor underline dotted;
+}
+
+.button a {
+  color: inherit;
+}
+
+a code {
+  text-decoration: currentColor underline dotted;
+}
+
+@media print {
+  .noprint, .noprint * {
+      display: none !important;
+  }
+
+  html, body {
+    font-size: 10pt !important;
+    line-height: 1.125 !important;
+  }
+}
+
+.is-auto, .content table.is-auto {
+  width: auto;
+}
+
+/* custom classes */
+
+.page-header {
+  border-bottom: 1px solid $grey-light;
+  text-transform: uppercase;
+  letter-spacing: 0.01rem;
+  padding-bottom: 0.125rem;
+}
+
+.invert pre {
+  color: whitesmoke;
+  background-color: #4a4a4a;
+}
+
+.icons li[class="has-text-"] a {
+  color: inherit;
+}
+
+/* syntax highlighter styles */
+div.highlight {
+  margin-bottom: 1em;
+}
+
+/* anchorjs styles */
+.anchorjs-link {
+  font-family: "Font Awesome 5 Pro";
+  color: $usf-gray;
+}
+
+/* font-awesome styles */
+ul.fa-ul li,
+li.task-list-item {
+  list-style-type: none;
+}

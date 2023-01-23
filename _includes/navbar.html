@@ -1,0 +1,76 @@
+<!-- navigation -->
+<nav class="navbar is-light noprint" role="navigation" aria-label="main navigation">
+<div class="container">
+
+<!-- navbar-brand -->
+<div class="navbar-brand">
+  <a class="navbar-item" href="{{ '/' | relative_url }}">
+    <img src="{{ '/favicon.ico' | relative_url }}" height="28" alt="USF Logo">
+    &nbsp;
+    <span class="has-text-weight-bold">
+      <span class="has-text-usf-green">CS</span> <span class="has-text-usf-gold">272</span>
+    </span>
+  </a>
+
+  <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="main-menu">
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+  </a>
+</div> <!-- end navbar-brand -->
+
+<!-- navbar-main -->
+<div id="main-menu" class="navbar-menu has-text-weight-medium">
+
+<!-- navbar-start -->
+<div class="navbar-start">
+  {%- assign data = site.data.info.links | where: "type", "navbar" -%}
+  {%- for item in data -%}
+  <a class="navbar-item{% if page.navbar == item.text %} is-active{% endif %}" href="{{ item.href | relative_url }}" title="{{ item.info }}">
+    <i class="{{ item.icon }} pr-1"></i> {{ item.text }}
+  </a>
+{% endfor -%}
+</div> <!-- end navbar-start -->
+
+<div class="navbar-end">
+  <!-- quick links -->
+  <div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link">
+      <i class="far fa-link pr-1"></i> Quick Links
+    </a>
+
+    <div class="navbar-dropdown is-right">
+      {%- assign data = site.data.info.links | where: "type", "video" -%}
+      {%- for item in data -%}
+      <a class="navbar-item" href="{{ item.href }}" title="{{ item.info }}">
+        <i class="{{ item.icon }} fa-fw mr-1"></i> {{ item.text }}
+      </a>
+      {% endfor -%}
+    </div>
+  </div>
+</div> <!-- end navbar-end -->
+
+</div> <!-- end navbar-main -->
+</div> <!-- end container -->
+</nav>
+<!-- end navigation -->
+
+<!-- mobile menu responsiveness -->
+<!-- https://bulma.io/documentation/components/navbar/ -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  if ($navbarBurgers.length > 0) {
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+      });
+    });
+  }
+});
+</script>
+<!-- end mobile menu responsiveness -->

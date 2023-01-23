@@ -1,0 +1,92 @@
+name: Software Development
+code: CS 272
+term: Spring 2023
+credits: 4
+
+links: 
+  # navbar links
+  schedule:
+    text: 'Schedule'
+    icon: 'far fa-calendar-alt'
+    href: '/schedule.html'
+    info: 'a detailed weekly schedule with links to lecture materials and assignment deadlines'
+    type: 'navbar'
+
+  resources:
+    text: 'Resources'
+    icon: 'far fa-book'
+    href: '/resources/'
+    info: 'helpful resources, setup guides, and project writeups'
+    type: 'navbar'
+
+  # external links (shown in hero)
+  canvas:
+    text: 'Canvas' # link text
+    href: 'https://usfca.instructure.com/courses/1611719' # link href
+    icon: 'far fa-school' # link icon
+    info: 'grades, assignments, and deadlines' # link description
+    type: 'external'
+
+  github:
+    text: 'GitHub'
+    icon: 'fab fa-github-alt'
+    href: 'https://github.com/usf-cs272-spring2023'
+    info: 'lecture code, homework templates, and project tests'
+    type: 'external'
+
+  forums:
+    text: 'Piazza'
+    icon: 'far fa-comments'
+    href: 'https://piazza.com/usfca/spring2023/cs272/home'
+    info: 'course announcements, upcoming events, homework help, and general discussion'
+    type: 'external'
+
+  polls:
+    text: 'Live Polls'
+    icon: 'far fa-poll-people'
+    href: 'https://PollEv.com/sjengle'
+    info: 'live anonymous polls'
+    type: 'external'
+
+  # other links for navigation
+  syllabus:
+    text: 'Syllabus'
+    icon: 'far fa-file-alt'
+    href: 'https://usfca.simplesyllabus.com/doc/bm0d2oi7l/Spring-2023-CS-272-01-Software-Development?mode=view'
+    info: 'official course and university policies'
+    type: 'other'
+
+  suggestions:
+    text: 'Suggestion Box'
+    icon: 'far fa-box-ballot'
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSfCj9UrtNNz06GDqn5zeWHy57kSGjrU5tPshFGwbu8Xnm_9zQ/viewform?usp=sf_link'
+    info: 'anonymous course suggestions'
+    type: 'other'
+
+  recordings:
+    text: 'Recordings'
+    icon: 'far fa-video'
+    href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=54af0720-b38c-496f-89c3-af8f0060ff12'
+    info: 'lecture recordings for CS 272-01 and CS 272-02'
+    type: 'video'
+
+  # assistants:
+  #   text: 'Office Hours (TA)'
+  #   icon: ''
+  #   href: ''
+  #   info: 'Zoom meeting for remote teacher assistant office hours'
+  #   type: 'video'
+
+  instructor:
+    text: 'Office Hours (Sophie)'
+    icon: 'far fa-webcam'
+    href: 'https://usfca.zoom.us/j/82316326953'
+    info: 'Zoom meeting for remote instructor office hours'
+    type: 'video'
+
+  reviews:
+    text: 'Code Reviews'
+    icon: 'far fa-laptop-code'
+    href: 'https://usfca.zoom.us/j/82316326953'
+    info: 'Zoom meeting for remote code reviews'
+    type: 'video'

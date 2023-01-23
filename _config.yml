@@ -6,6 +6,7 @@ description: >-
   This course gives students experience with advanced programming topics, including inheritance and polymorphism, multithreaded programming, networking, database programming, and web development. Students will also learn techniques for designing, debugging, refactoring, and reviewing code.
 
 timezone: 'America/Los_Angeles'
+encoding: 'utf-8'
 
 name: 'Sophie Engle'
 email: 'sjengle@cs.usfca.edu'

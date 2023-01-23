@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<!-- head -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" href="{{ '/favicon.ico' | absolute_url }}" type="image/x-icon">
+<link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/css/all.min.css' | relative_url }}">
+
+<title>{{ site.title }}</title>
+</head>
+
+<!-- body -->
+<body>
+
+<!-- header-->
+<section class="hero is-primary is-bold noprint">
+<div class="hero-body">
+<div class="container">
+  <h1 class="title">{{ site.title }}</h1>
+  <h2 class="subtitle mb-2">{{ site.subtitle }}</h2>
+
+  <p class="tags">
+  {%- assign data = site.data.info.links | where: "type", "external" -%}
+  {%- for item in data -%}
+    <a class="tag is-primary" href="{{ item.href }}" title="{{ item.info }}">
+      <i class="{{ item.icon }} pr-1"></i> {{ item.text }}
+    </a>
+
+  {%- endfor %}
+  </p>
+</div>
+</div>
+</section>
+<!-- end header -->
+
+{% include navbar.html %}
+
+<!-- content -->
+<section class="section">
+<div class="container">
+<h2 class="title is-2">{{ page.title }}</h2>
+
+<div class="content">
+{{ content }}
+</div>
+
+</div>
+</section>
+<!-- end content -->
+
+<!-- footer -->
+<footer class="footer noprint">
+<div class="content has-text-centered is-size-7">
+<p>
+  <a href="#top">
+    <span class="fas fa-arrow-up"></span>
+    <span class="has-text-weight-medium">Back to Top</span>
+  </a>
+</p>
+
+<p>
+  Website created with 
+  <a href="{{ site.github.repository_url }}">GitHub</a>,
+  <a href="https://jekyllrb.com/">Jekyll</a>,
+  <a href="https://fontawesome.com/v5/search">FontAwesome</a>, and
+  <a href="https://bulma.io/">Bulma</a> by
+  Professor <a href="https://sjengle.cs.usfca.edu/">Sophie Engle</a>.
+  Last generated on {{ "now" | date: "%A, %B %d, %Y" }}.
+</p>
+</div>
+</footer>
+<!-- end footer -->
+
+<!-- end body -->
+</body>
+</html>
