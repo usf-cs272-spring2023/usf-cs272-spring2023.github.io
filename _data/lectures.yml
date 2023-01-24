@@ -1,0 +1,339 @@
+defaults: &default
+  text: 'Pending'
+  icon: 'slides'
+  save: true
+  tube: false
+  tags: []
+
+course_intro:
+  <<: *default
+  text: 'Course Introduction'
+  href: 'https://docs.google.com/presentation/d/e/2PACX-1vS8sACyf9lrjGUTkS3TxSuq0v6As8POig4tSvkYseWYTaHtpYb9JEaFz8CWI6M2hNVJB8kEUQHHMaW5/pub?start=false&loop=false&delayms=3000'
+  save: '/files/Course Introduction.pdf'
+
+# exceptions:
+#   <<: *default
+#   text: 'Exception Handling'
+#   tags: ['exceptions']
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vROu3FS53xFrjB_HQzBYEW16rhtulZgAlXrLr6V30Se60zvEo4_ryQb9tXRb5U9klMRkg4vXdqpOENp/pub?start=false&loop=false&delayms=3000'
+
+# paths:
+#   <<: *default
+#   text: 'Paths and Files'
+#   tags: ['files']
+#   tube: 'https://drive.google.com/file/d/1yff1jEPcLSrh0po2Wytc3k9PcLlGZ0xg/view?usp=sharing'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSMw70ffmHrJygS-g_bWOXUo2CsRMhaz1HotrCCYetM2YXIcB0plT_oLgrje18_U8X_cCrjb-d3W3-b/pub?start=false&loop=false&delayms=3000'
+
+# data:
+#   <<: *default
+#   tags: ['data']
+#   text: 'Abstract Data Types'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSsSJlcmoH-SWqcDhl6iFdVpS4EwFVUHfCNVtDCY3GSDhvtl_6XKYn3GHN7fW66-kTgqjpPFEnf04db/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1OvFMONm4PEYQ8LtR9P9BxkfxxJZrGNK4/view?usp=sharing'
+
+# collections:
+#   <<: *default
+#   tags: ['data']
+#   text: 'Collections Framework'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSuurg3CcidG3_JCw68NOnSKep8DzY_e9ZtANCB8x1g0G8q79Oe7zwUxTSZQLmwjKsagv6Ygw1_i1VH/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1O2I-vvdaul1AEZ31PO6KrFakcw1ORlkJ/view?usp=sharing'
+
+# oop:
+#   <<: *default
+#   tags: ['objects']
+#   text: 'Object Oriented Programming'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTHOQmSkbb8ey4RK0fV-S3ObZ2bK-AUltiRCRPK7xlca06fiOngxOn02rOQBwZ3Miv-WrDWZUD8NOqs/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/14aTl6kRfuIptdA3T9kOx75FNUBXS7tGX/view?usp=sharing'
+
+# projects:
+#   <<: *default
+#   tags: ['none']
+#   text: 'Project Overview'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRG9FEXbAK_1mMZ6jIy4O_v7YJTCAwsr-a0Y19M3HiV8XsNOrkx7VwyrosOKvwPMxtwqiFRR2pd6euD/pub?start=false&loop=false&delayms=3000'
+
+# help:
+#   <<: *default
+#   tags: ['none']
+#   text: 'Getting Help'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTBG6IAT560dL4dnMpmHRxGhe6ZBk1w0r3axeih2WxRMNqRp0Vh9LmEtXKQrjzfYCkJ2owhGSRmZ33S/pub?start=false&loop=false&delayms=3000'
+
+# inheritance:
+#   <<: *default
+#   tags: ['inheritance']
+#   text: 'Inheritance Relationships'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRERLodkAk1fbT4ViN7An3U2udLB30MAEzqf8POvrRXRgjX68uYtZpI0G_osB-KUJBTC7Wry6Mg6fax/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1eu_Co497YW-6vW6JpbtUkET75VZ3iFyw/view?usp=sharing'
+
+# abstract:
+#   <<: *default
+#   tags: ['inheritance']
+#   text: 'Abstract and Interfaces'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRGzFfMR5DzWcEKtJbgKVaXvUjgRjjPg35S5fblIhJwbwaGY8MFLRjVHnt1YmsD71ep7qhvy7qWsKXN/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1PmAI01wb-SL5_ImzTJ_mfUiBo0Pxicfd/view?usp=sharing'
+
+# generics:
+#   <<: *default
+#   tags: ['inheritance']
+#   text: 'Generic Types'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTpTGgMPDYxADKD194mm3gk_OP2ws_eMoc_XcDOii9qBq40dYHUzas5eHPkUbLVJWFRztlOmyyEfpk4/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1nQgjWWZhPalu3bkcWzGkO2v_5_6rc9BF/view?usp=sharing'
+
+# revisited:
+#   <<: *default
+#   tags: ['inheritance']
+#   text: 'Collections Revisited'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTplKJJQvcBbXh4ZOAPePKrXQnCYo0VL0MIeOSA_Ycq7TXNbSX2yEpP6PITOuIyReoCiLmMUwumV0p0/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1NO1gWoNzCMx4Rs5GkZe0ICK8OrI6uk2z/view?usp=sharing'
+
+# casting:
+#   <<: *default
+#   tags: ['inheritance']
+#   text: 'Casting'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vScucSAwDq8dHVEu6tumqDjrcOOdYK0dha7hHCgloqdsVrr8VHYbPKwKGvML8Zwp1YRm839wOa3WEOV/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1Rdwp_kCYGd5lBt2NpD5-di9loJ05ZGyd/view?usp=sharing'
+
+# object:
+#   <<: *default
+#   tags: ['inheritance', 'objects']
+#   text: 'Object Class'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSDKDmvc3WVIl91sLPoHofAICQHPqpkUfvL_Vkl5_Q2wjyye4MgcizetqcBWb_4C4Jwt6dgmbwreLQ2/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1Ktagbp_14RRcvlbZrU7qp22qa8hH3pvi/view?usp=sharing'
+
+# final:
+#   <<: *default
+#   tags: ['inheritance']
+#   text: 'Final Keyword'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRsnBGeqewLKwSgm2XIfplLk_D2O_SZH8fbI-buemxgycpPvVVcs03AbKEzux_WGT9P_ty1ZFt8lJ07/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1L61dJEpzn1yAwP7dizMCqGnhtSlyNFlP/view?usp=sharing'
+
+# nested:
+#   <<: *default
+#   tags: ['inheritance']
+#   text: 'Nested Classes'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSeqg3U6O_VkZfdI434cdgk0G5TVkTkJ4AzjqQB1GuG1Ti-eKnY_mom9TyYk3_DBLJ5yDSHIkGMo_kr/pub?start=false&loop=false&delayms=3000'
+
+# java:
+#   <<: *default
+#   text: 'Java Features'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vQgwh-Ed-cHJac54JsmOnFAAwXsApcUzkqJZeQsf1IS36NYlxcSAa1VjQc0qEYvjK2AGXZQ70C8ldfC/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1WNk4AG9zWdC-n58sLeCEkgVA8VEgFUji/view?usp=sharing'
+
+# lambdas:
+#   <<: *default
+#   tags: ['lambdas']
+#   text: 'Lambda Expressions'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTmBu1XB3WYKH1KXyLtUqQyV40Lh2ceGW5G8beU-XlSGfbKCLPVRh8Lfmn6DGzfOUi85g7qVsEATXvd/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1H2_A1qYec7PtvSPi_9TiC-nI51dpAlG-/view?usp=sharing'
+
+# streams:
+#   <<: *default
+#   tags: ['streams']
+#   text: 'Stream Basics'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRl3Ev_VVDJC4aEEE5APaLREdbgdI71Ly_iVqLI4zY1gOt8abiV0WPQRLrKvabBwVQzR2Xz36nuc0Tt/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/10MCP3wTHYPQ5LGL6rP3sH7kYiF3OAIhh/view?usp=sharing'
+
+# pipelines:
+#   <<: *default
+#   tags: ['streams']
+#   text: 'Stream Pipelines'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTjQo-LxI9hY2OwOZtF9MYqm2uzAB3voPgcpR3Sufzx6s8QEj-sIitaeOMVst8wanFt0iVM3kxjG0XD/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1vWdlCE8eOt3HzVGa04zO1jJiWP1mJJ3z/view?usp=sharing'
+
+# regex:
+#   <<: *default
+#   tags: ['regexes']
+#   text: 'Regular Expressions'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTO88-l6I37jTV3eM1QGEPbsZ9XsYM5YCascMfUqjzYPXSQnJG1elC0Hx0oUw9MT9z781i8ApW3nYmh/pub?start=false&loop=false&delayms=3000'
+
+# testing_bugs:
+#   <<: *default
+#   tags: ['testing']
+#   text: 'Software Bugs'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRx3Celd7paeP5-TbE-LEU-1f1UzcoG93-PlqwrmTsW76tMXlyOH3qxlJB067TaeUWEznDGa7CsDcwN/pub?start=false&loop=false&delayms=3000'
+
+# testing_intro:
+#   <<: *default
+#   tags: ['testing']
+#   text: 'Software Testing'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSBCRFRsHERFo9gqwW8TsusCW63wgsBDXs5k2SBuphtbigsZplHkiQB6sxesTaNFcKPHDU8u2f7ZpbD/pub?start=false&loop=false&delayms=3000'
+
+# testing_unit:
+#   <<: *default
+#   tags: ['testing']
+#   text: 'Unit Testing'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRRfeHE_j03Wl4zQRnubmZBztMMC94gUt4Gs2FnN7Ka31KuO7GMK8bQjmEzSHnoZZeqrnRQNCAZTDNU/pub?start=false&loop=false&delayms=3000'
+
+# assertions:
+#   <<: *default
+#   tags: ['debugging']
+#   text: 'Assertions'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRLXyc0T98b27UmaNg-jZONLb-CIRy_TFAL5sGendDFbFFc2MmV6ZOURlEwZhE6WBDr8Q36Degsx9vA/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1mSAPW69YHYzl-Uqz-FyZY3Eg8j7StxiP/view?usp=sharing'
+
+# logging:
+#   <<: *default
+#   tags: ['debugging']
+#   text: 'Logging'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSW62BhOpFZQzghSV5fkrmZCGQ3udhK-myxFmh9Cf1WfsiP6PK0h4PFx02DUhidksERTk1Ou4_QQ8nh/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1ZJnvRK56Zj43E8pkby_YVPfQm7rwM_PT/view?usp=sharing'
+
+# multithreading:
+#   <<: *default
+#   tags: ['threads']
+#   text: 'Multithreading'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRX6RCeUBV4oY2pE3PwPR11oV0CbXnJYDQg6fupgT6b1w44qmzsCsRfWyhd_kIdZjtqECwITRfm-X-L/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1bDx_QfV8uXgxBnMuGW1BifaOkcHuVsxU/view?usp=sharing'
+
+# lifecycle:
+#   <<: *default
+#   tags: ['threads']
+#   text: 'Thread Lifecycle'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSR1cZ0OOKgBSz2MkWKaWzBZJPsm33joCC9fX9zAmh23bhs6lPuO11TCPOs3gJzk2WvN92Uw69K7j1m/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/19WIE-aE_n2okfI-Evk7OMEtCUvzaCSwT/view?usp=sharing'
+
+# consistency:
+#   <<: *default
+#   tags: ['threads']
+#   text: 'Consistency'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTRAzhLDNE32VRqGC3dddI0pFxqiN_8DOihGJv6OuVj-3oiJEgBSGJQMIZBD0WwL5vMpfKuu95Q-tTa/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1XGxlAjAP10M77GLTy7mRquS6Miy9PTkh/view?usp=sharing'
+
+# liveness:
+#   <<: *default
+#   tags: ['threads']
+#   text: 'Liveness'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vS6RCZPY_h5NtvogQccLSEfTCAXz-Hqfmxgqkolqp6Cc41gCc8WWcb-aMXADAFvKwQ9HeKKjfjw6PmL/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1ZoPqrdm4e2exLo9djFJcoLKBRwNMOEII/view?usp=sharing'
+
+# synchronization:
+#   <<: *default
+#   tags: ['threads']
+#   text: 'Synchronization'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vQTud-UE2KhToUmELC4yO3Fp9VI_0YorUE0aMckdmrLN8K8-bemUSsVg5kHuCOGihsYoTkbsfVci3FN/pub?start=false&loop=false&delayms=3000'
+
+# locks:
+#   <<: *default
+#   tags: ['threads']
+#   text: 'Conditional Locks'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vQ141tZGTlSrULwdwSfhjaNU4N_c7VpfNNXE-3n2oLKF2nGzif3LZeQOgNNFJAj8iipx6bi2v10qvDE/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1M9bd401kt3RkjjcFw8jI92hMbhW4CtQP/view?usp=sharing'
+
+# coordination:
+#   <<: *default
+#   tags: ['threads']
+#   text: 'Coordination'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTMD7lRdye-5kptn3d68vQYzJq2OQpIKtGLHyPK_sPYRExA5DWv9arIsF0121CP8PO2lV5UkJA-dhlb/pub?start=false&loop=false&delayms=3000'
+
+# volatile:
+#   <<: *default
+#   tags: ['threads']
+#   text: 'Volatile Keyword'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRnhd4UbzvMq5UjxONPTslBI4gXqR-iwhlk3Uo8y3SGb1YOipeB4wBK-IVuwrI7rrp_jGtg1beYqeup/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1PtN8QKiJurwN1aIi0bruYMNnA7aJgnC8/view?usp=sharing'
+
+# pools:
+#   <<: *default
+#   tags: ['threads']
+#   text: 'Thread Pools and Work Queues'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSj0ekNLfD_w7tAqlBzOYHlwAF4m_5_PD6j_t47xT7-0qUz1lG9nvllKiDgcGBr-kTDBLy5jLSwgOFS/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1Nz47N4dqlnypm3HSvtOB0iMwmO35aMgR/view?usp=sharing'
+
+# web:
+#   <<: *default
+#   tags: ['web']
+#   text: 'Web Basics'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vR6qw7FOZ64KTgnn9HNMFcZxxbDJFNOywOj9eHIhK4MK5cEcmkNYp2xd7kK0iPygYLLlpwz2iaBm3tC/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1EjtB-Ikl7fpijJ9k5B1I0aSRc74g3pXQ/view?usp=sharing'
+
+# url:
+#   <<: *default
+#   tags: ['web']
+#   text: 'Uniform Resource Locator (URL)'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTMMCl3TqZwp_1PiKZuBoaPYhnFTv_4jS3PddLBB11Tr3iQYs_jAKzdzNqeSuK7KDwXrS7nqR2VZNf0/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1RmbX1-3Qqm5OyQJVZe8ugtqRUiO8THX-/view?usp=sharing'
+
+# http:
+#   <<: *default
+#   tags: ['web']
+#   text: 'Hypertext Transfer Protocol (HTTP)'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSEzRZio0k4FRdSRlxeauT0i_D54JWhi6ZcEEaYFBJcXFu7o7SL81zhwsot_jxAWCeCOolg8sQsr13K/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1L-JTuRZKalismoydzJUaSe2szdobX-L1/view?usp=sharing'
+
+# dynamic:
+#   <<: *default
+#   tags: ['web']
+#   text: 'Static vs Dynamic Web'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vT73FZwlsGn2UvuXfv37r6iokph2P2k7ZRn6qMB97UevKkttkrs-RaKn4Og-ndwjC0cLRcU1PyN4Q94/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1ix3i4i2eoHy-D9aTYgEkp9IPBBzgYxRw/view?usp=sharing'
+
+# jetty:
+#   <<: *default
+#   tags: ['servlets']
+#   text: 'Jetty and Servlets'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vT39ddllMZONA2_tbfEttwCvKAtUdKy5wiGZi9DM-3mCz7yL624y2SEEPsjHYFkQfLLsb4vUcv4FWhO/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1OtvslLGJB1FOhoQRYv1yTFMLE6OCQCCN/view?usp=sharing'
+
+# relational:
+#   <<: *default
+#   tags: ['sql']
+#   text: 'Relational Databases'
+#   save: true
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vS6PhZvk930AAO0SHo7uXY4c-gfAv3-xUFiEDPKqI1MIOptUkBXtj1BfAYVZyi5vv72f8g1qdzg6Wxr/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1L-CLDjzNTGVzZPds1CkaU9uGvHl7FtwW/view?usp=sharing'
+
+# sql:
+#   <<: *default
+#   tags: ['sql']
+#   text: 'Structured Query Language (SQL)'
+#   tube: 'https://drive.google.com/file/d/1jjVGe-4dbyefIr3k_5z2ZEjXL5cPL3MH/view?usp=sharing'
+#   save: true
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vREjA4w_CDftw9Gcl6Uwsxb2YxPckK9r7_3GoxYLbSbJF0aNbXPyVaJGAjz6JEFYRiciIL0nH9Hc9to/pub?start=false&loop=false&delayms=3000'
+
+# dbaccounts:
+#   icon: 'website'
+#   save: false
+#   text: 'Database Accounts'
+#   href: '/guides/sql/database-accounts.html'
+
+# sqlintro1:
+#   icon: 'website'
+#   save: false
+#   text: 'SQL Intro, Part 1'
+#   href: '/guides/sql/sql-intro-started.html'
+#   tube: 'https://drive.google.com/file/d/1W5pneWmLOXVkDrvxL9YWhRsZ8PwjM4vZ/view?usp=sharing'
+#   tags: ['sql']
+
+# sqlintro2:
+#   icon: 'website'
+#   save: false
+#   text: 'SQL Intro, Part 2'
+#   href: '/guides/sql/sql-intro-joining.html'
+#   tube: 'https://drive.google.com/file/d/1auHLPbiHxJq8tr_78HtNrKELu2Wi_zk4/view?usp=sharing'
+#   tags: ['sql']
+
+# sqlintro3:
+#   icon: 'website'
+#   save: false
+#   text: 'SQL Intro, Part 3'
+#   href: '/guides/sql/sql-intro-enforcing.html'
+#   tube: 'https://drive.google.com/file/d/1MOokzFUB8FXT2msoxU65PcqMlxYOsd0B/view?usp=sharing'
+#   tags: ['sql']
+
+# sqldemo:
+#   icon: 'website'
+#   save: false
+#   text: 'SQL Faculty Demo'
+#   href: '/guides/sql/sql-demo-intro.html'
+#   tags: ['sql']
+
+# jdbc:
+#   <<: *default
+#   text: 'Java Database Connectivity (JDBC)'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vQSTQGh8TMFe3Jn8oShnlC3mnWcyAixqbc9bZ-417tqPcvay0WFRactomEqoQLW-x2RHcA_8iSVHf2O/pub?start=false&loop=false&delayms=3000'
+#   tube: 'https://drive.google.com/file/d/1bgEAcSx7OhRRziOo8MsiP_DjcrOrhClG/view?usp=sharing'
+#   tags: ['jdbc']
+
+# recap:
+#   <<: *default
+#   text: 'Course Recap'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRWVK3jB5Ec0QJYLNd__v-6oz9FvnOMqTXGTCBPk0dE0k6bsqtqoEUIHXaUWwqKlkIuAshjf8IcXOdF/pub?start=false&loop=false&delayms=3000'

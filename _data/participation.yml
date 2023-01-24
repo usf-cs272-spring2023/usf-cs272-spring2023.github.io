@@ -1,0 +1,97 @@
+defaults: &default
+  text: 'Pending'
+  icon: 'participation'
+
+introduction_post:
+  <<: *default
+  text: 'Introductions'
+  href: 'https://usfca.instructure.com/courses/1611719/discussion_topics/8153493'
+  date: 2023-01-27
+
+forum_setup:
+  <<: *default
+  text: 'Forum Setup'
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286596/'
+  date: 2023-01-27
+
+# introduction_reply:
+#   <<: *default
+#   text: 'Introduction Reply'
+#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223897'
+#   date: 2022-09-02
+
+# assistants_reply:
+#   <<: *default
+#   text: 'TA Introductions'
+#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223885'
+#   date: 2022-09-02
+
+# homework_setup:
+#   <<: *default
+#   text: 'Homework Setup'
+#   date: 2022-09-02
+#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223894'
+
+# project_setup:
+#   <<: *default
+#   text: 'Project Setup'
+#   date: 2022-09-09
+#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223919'
+
+# lecture_setup:
+#   <<: *default
+#   text: 'Lecture Setup'
+#   date: 2022-09-09
+#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223898'
+
+# intake_review:
+#   <<: *default
+#   text: 'Code Review Intake'
+#   date: 2022-09-16
+#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223888'
+
+# # end of semester
+
+# ask_why:
+#   <<: *default
+#   text: 'Ask Why on Piazza'
+#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223901'
+#   date: 2022-10-14
+
+# ask_anything:
+#   <<: *default
+#   text: 'Ask Anything on Piazza'
+#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7234626'
+#   date: 2022-12-02
+
+# piazza_reply:
+#   <<: *default
+#   text: 'Reply on Piazza'
+#   date: 2022-12-02
+#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223902'
+
+# cs_event:
+#   <<: *default
+#   text: 'CS Event'
+#   date: 2022-12-09
+#   show: true
+#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409338'
+
+# midterm_survey:
+#   <<: *default
+#   text: 'Midterm Survey'
+#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409379'
+#   date: 2022-10-28
+
+# whatif:
+#   <<: *default
+#   text: 'What-If Check'
+#   date: 2022-11-18
+#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409365'
+
+# final_survey:
+#   <<: *default
+#   text: 'Final Survey'
+#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409385'
+#   date: 2022-12-09
+#   show: true

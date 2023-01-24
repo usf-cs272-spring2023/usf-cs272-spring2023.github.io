@@ -32,7 +32,21 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Introduction'
+              - text: 'Course Syllabus'
+                icon: 'website'
+                href: 'https://usfca.simplesyllabus.com/doc/bm0d2oi7l/Spring-2023-CS-272-01-Software-Development?mode=view'
+                save: 'https://usfca.simplesyllabus.com/api2/doc-pdf/bm0d2oi7l/Spring-2023-CS-272-01-Software-Development.pdf?locale=en-US'
+
+              - file: 'lectures'
+                name: 'course_intro'
+
+          - <<: *assignments
+            items:
+              - file: 'participation'
+                name: 'introduction_post'
+
+              - file: 'participation'
+                name: 'forum_setup'
 
       - date: 2023-01-26
         rows:
