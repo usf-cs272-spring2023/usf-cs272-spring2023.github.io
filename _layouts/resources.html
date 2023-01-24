@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<!-- head -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="{{ '/favicon.ico' | absolute_url }}" type="image/x-icon">
+<link rel="stylesheet" href="{{ '/css/main.css' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/css/all.min.css' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/css/style.css' | absolute_url }}">
+<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+<title>{{ site.title }}</title>
+</head>
+
+<!-- body -->
+<body>
+
+<script>
+  anchors.options.placement = 'left';
+  anchors.options.visible = 'hover';
+  anchors.options.icon = '\uf02e';
+</script>
+
+<!-- header-->
+<section class="hero is-primary is-bold noprint">
+<div class="hero-body">
+<div class="container">
+  <h1 class="title">{{ site.title }}</h1>
+  <h2 class="subtitle mb-2">{{ site.subtitle }}</h2>
+
+  <p class="tags">
+  {%- assign data = site.data.info.links | where: "type", "external" %}
+  {%- for item in data %}
+    <a class="tag is-primary" href="{{ item.href }}" title="{{ item.info }}">
+      <i class="{{ item.icon }} pr-1"></i> {{ item.text }}
+    </a>
+  {% endfor -%}
+  </p>
+</div>
+</div>
+</section>
+<!-- end header -->
+
+{% include navbar.html %}
+
+<!-- content -->
+<section class="section">
+<div class="container">
+
+<!-- breadcrumbs -->
+{%- unless page.hidecrumbs == true %}
+{%- assign category = site.collections | where: 'label', page.collection | first -%}
+<nav class="breadcrumb is-small" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="/resources/">Resources</a></li>
+    {%- unless category.title == page.title %}
+    <li><a href="/resources/{{ category.label }}/">{{ category.title }}</a></li>
+    {%- endunless %}
+    <li class="is-active"><a href="#" aria-current="page">{{ page.title }}</a></li>
+  </ul>
+</nav>
+{%- endunless %}
+
+<h2 class="title is-2">{{ page.title }}</h2>
+<div class="content">
+
+{%- if page.blurb %}
+{{ page.blurb }}
+{% endif -%}
+
+{%- if page.subsections %}
+<p>
+  <strong class="heading has-text-grey">Table of Contents</strong>
+  {%- for item in page.subsections %}
+  {%- if item.link %}
+  <a href="{{ item.link }}">{{ item.text }}</a> {{ item.info }}
+  {% else %}
+  <span class="has-text-grey">{{ item.text }} {{ item.info }}</span>
+  {% endif -%}
+  {%- unless forloop.last %}<br/>{% endunless -%}
+  {% endfor -%}
+</p>
+
+<hr>
+{% endif -%}
+
+{{ content }}
+
+</div>
+</div>
+</section>
+<!-- end content -->
+
+<!-- footer -->
+<footer class="footer noprint">
+<div class="content has-text-centered is-size-7">
+<p>
+  <a href="#top" class="has-text-weight-medium">
+    <i class="fas fa-arrow-up pr-1"></i> Back to Top
+  </a>
+</p>
+
+<p>
+  Website created with 
+  <a href="{{ site.github.repository_url }}">GitHub</a>,
+  <a href="https://jekyllrb.com/">Jekyll</a>,
+  <a href="https://fontawesome.com/v5/search">FontAwesome</a>, and
+  <a href="https://bulma.io/">Bulma</a> by
+  Professor <a href="https://sjengle.cs.usfca.edu/">Sophie Engle</a>.
+  Last generated on {{ "now" | date: "%A, %B %d, %Y" }}.
+</p>
+</div>
+</footer>
+<!-- end footer -->
+
+<script>
+anchors.add().remove('.no-anchor');
+</script>
+
+<!-- end body -->
+</body>
+</html>

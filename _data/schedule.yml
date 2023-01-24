@@ -40,6 +40,15 @@ weeks:
               - file: 'lectures'
                 name: 'course_intro'
 
+              - text: 'Java and Eclipse Setup'
+                icon: 'website'
+                href: '/resources/eclipse/java-and-eclipse-setup.html'
+                type: 'pt-2'
+
+              - text: 'Configuring Eclipse'
+                icon: 'website'
+                href: '/resources/eclipse/configuring-eclipse.html'
+
           - <<: *assignments
             items:
               - file: 'participation'

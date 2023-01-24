@@ -170,6 +170,38 @@ ul.icons > li > i {
   line-height: inherit;
 }
 
+img.is-300, img.is-400, img.is-600, img.is-800, .is-bordered {
+  background-color: $grey-lightest;
+  border: 1px solid $grey-light;
+  border-radius: 0.8rem;
+  padding: 0.4rem;
+}
+
+img.is-300, img.is-400, img.is-600, img.is-800, img.is-size {
+  max-width: 100%;
+  height: auto;
+}
+
+.is-300 {
+  width: 300px;
+}
+
+.is-400 {
+  width: 400px;
+}
+
+.is-600 {
+  width: 600px;
+}
+
+.is-800 {
+  width: 800px;
+}
+
+.is-auto, .content table.is-auto {
+  width: auto;
+}
+
 /* syntax highlighter styles */
 
 div.highlight {

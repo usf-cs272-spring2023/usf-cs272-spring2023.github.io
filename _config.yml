@@ -28,10 +28,10 @@ collections:
     output: true
     permalink: /resources/:collection/:name:output_ext
 
-  # eclipse:
-  #   title: 'Eclipse'
-  #   output: true
-  #   permalink: /resources/:collection/:name:output_ext
+  eclipse:
+    title: 'Eclipse'
+    output: true
+    permalink: /resources/:collection/:name:output_ext
 
   # homework:
   #   title: 'Homework'
