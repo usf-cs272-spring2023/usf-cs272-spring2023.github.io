@@ -43,6 +43,13 @@
         <i class="{{ item.icon }} fa-fw mr-1"></i> {{ item.text }}
       </a>
       {% endfor -%}
+      <hr class="navbar-divider">
+      {%- assign data = site.data.info.links | where: "type", "other" %}
+      {%- for item in data %}
+      <a class="navbar-item" href="{{ item.href }}" title="{{ item.info }}">
+        <i class="{{ item.icon }} fa-fw mr-1"></i> {{ item.text }}
+      </a>
+      {% endfor -%}
     </div>
   </div>
 </div> <!-- end navbar-end -->

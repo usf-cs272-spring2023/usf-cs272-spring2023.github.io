@@ -32,49 +32,54 @@ weeks:
         rows:
           - <<: *lectures
             items:
+              - file: 'lectures'
+                name: 'course_intro'
+
               - text: 'Course Syllabus'
                 icon: 'website'
                 href: 'https://usfca.simplesyllabus.com/doc/bm0d2oi7l/Spring-2023-CS-272-01-Software-Development?mode=view'
                 save: 'https://usfca.simplesyllabus.com/api2/doc-pdf/bm0d2oi7l/Spring-2023-CS-272-01-Software-Development.pdf?locale=en-US'
 
-              - file: 'lectures'
-                name: 'course_intro'
-
               - text: 'Java and Eclipse Setup'
                 icon: 'website'
                 href: '/resources/eclipse/java-and-eclipse-setup.html'
-                type: 'pt-2'
-
-              - text: 'Configuring Eclipse'
-                icon: 'website'
-                href: '/resources/eclipse/configuring-eclipse.html'
 
           - <<: *assignments
             items:
               - file: 'participation'
                 name: 'introduction_post'
 
+      - date: 2023-01-26
+        rows:
+          - <<: *videos
+            items:
+              - text: 'Exceptions'
+              - text: 'File IO'
+
+          - <<: *participation
+            items:
               - file: 'participation'
                 name: 'forum_setup'
 
               - file: 'quizzes'
                 name: 'syllabus'
 
-      - date: 2023-01-26
-        rows:
-          - <<: *videos
-            items:
-              - text: 'File IO'
-              - text: 'Exceptions'
+              - file: 'quizzes'
+                name: 'exceptions'
 
-          - <<: *participation
-            items:
-              - text: 'Pending'
+              - file: 'quizzes'
+                name: 'paths'
 
       - date: 2023-01-27
         rows:
           - <<: *labs
             items:
+              - text: 'Configuring Eclipse'
+                icon: 'website'
+                href: '/resources/eclipse/configuring-eclipse.html'
+
+              - text: 'Importing GitHub Code'
+
               - text: 'Homework Setup'
           
           - <<: *assignments

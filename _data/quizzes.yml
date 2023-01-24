@@ -5,16 +5,22 @@ defaults: &default
 syllabus:
   <<: *default
   text: 'Course Syllabus'
-  date: 2023-01-27
+  date: 2023-01-30
   href: 'https://usfca.instructure.com/courses/1611719/assignments/7286679'
 
-# paths:
-#   <<: *default
-#   text: 'Paths and Files'
-#   date: 2022-09-09
-#   tags: ['files']
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223878'
-#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413866'
+paths:
+  <<: *default
+  text: 'Paths and Files'
+  date: 2023-01-30
+  tags: ['files']
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286741'
+
+exceptions:
+  <<: *default
+  text: 'Exceptions'
+  date: 2023-01-30
+  tags: ['files']
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286778'
 
 # data:
 #   <<: *default

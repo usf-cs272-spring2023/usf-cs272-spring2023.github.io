@@ -78,15 +78,8 @@ links:
   #   type: 'video'
 
   instructor:
-    text: 'Office Hours (Sophie)'
+    text: '1:1 Meetings (Sophie)'
     icon: 'far fa-webcam'
     href: 'https://usfca.zoom.us/j/82316326953'
-    info: 'Zoom meeting for remote instructor office hours'
-    type: 'video'
-
-  reviews:
-    text: 'Code Reviews'
-    icon: 'far fa-laptop-code'
-    href: 'https://usfca.zoom.us/j/82316326953'
-    info: 'Zoom meeting for remote code reviews'
+    info: 'Zoom meeting for remote meetings with Sophie'
     type: 'video'

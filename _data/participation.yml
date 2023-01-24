@@ -6,13 +6,13 @@ introduction_post:
   <<: *default
   text: 'Introductions'
   href: 'https://usfca.instructure.com/courses/1611719/discussion_topics/8153493'
-  date: 2023-01-27
+  date: 2023-01-30
 
 forum_setup:
   <<: *default
   text: 'Forum Setup'
   href: 'https://usfca.instructure.com/courses/1611719/assignments/7286596/'
-  date: 2023-01-27
+  date: 2023-01-30
 
 # introduction_reply:
 #   <<: *default
