@@ -1,13 +1,12 @@
-example_quiz: &default
+defaults: &default
   text: 'Pending'
   icon: 'quiz'
-  tags: []
 
-# syllabus:
-#   <<: *default
-#   text: 'Course Syllabus'
-#   date: 2022-08-26
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223863'
+syllabus:
+  <<: *default
+  text: 'Course Syllabus'
+  date: 2023-01-27
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7286679'
 
 # paths:
 #   <<: *default

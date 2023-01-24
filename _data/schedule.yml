@@ -57,6 +57,9 @@ weeks:
               - file: 'participation'
                 name: 'forum_setup'
 
+              - file: 'quizzes'
+                name: 'syllabus'
+
       - date: 2023-01-26
         rows:
           - <<: *videos
