@@ -28,6 +28,7 @@
           {%- assign item_html = false %}
           {%- assign item_type = false %}
           {%- assign item_repo = false %}
+          {%- assign item_save = false %}
 
           {%- if found.file %}
           {%- assign item = site.data[found.file][found.name] %}
@@ -40,6 +41,7 @@
           {%- if item.html %}{% assign item_html = item.html %}{% endif %}
           {%- if item.type %}{% assign item_type = item.type %}{% endif %}
           {%- if item.repo %}{% assign item_repo = item.repo %}{% endif %}
+          {%- if item.save %}{% assign item_save = item.save %}{% endif %}
           {%- endif %}
 
           {%- if found.icon %}{% assign icon_type = site.data.icons[found.icon].type %}{% endif %}
@@ -51,6 +53,7 @@
           {%- if found.html %}{% assign item_html = found.html %}{% endif %}
           {%- if found.type %}{% assign item_type = found.type %}{% endif %}
           {%- if found.repo %}{% assign item_repo = found.repo %}{% endif %}
+          {%- if found.save %}{% assign item_save = found.save %}{% endif %}
 
           <li class="{{ item_type }}">
             <i class="{{ icon_type }}" title="{{ icon_text }}"></i>
@@ -61,6 +64,7 @@
             {%- endif %}
             {% if item_href %}<a href="{{ item_href }}">{{ item_text }}</a>{% else %}{{ item_text }}{% endif %}
             {% if item_repo %}<a href="{{ site.data.info.links.github.href }}/{{ item_repo }}" title="GitHub Repository"><i class="fab fa-github-square"></i></a>{% endif %}
+            {% if item_save %}<a href="{{ item_save | absolute_url }}" title="Download PDF"><i class="far fa-download"></i></a>{% endif %}
           </li>
         {% endfor %}
         </ul>
