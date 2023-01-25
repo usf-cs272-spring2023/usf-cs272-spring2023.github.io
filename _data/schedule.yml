@@ -53,8 +53,35 @@ weeks:
         rows:
           - <<: *videos
             items:
-              - text: 'Exceptions'
-              - text: 'File IO'
+              - text: 'Intro to Asynchronous'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8bddcddd-420e-4b53-a19e-af950157267e'
+                icon: 'video'
+                time: '1:09'
+
+              - text: 'Exception Handling'
+                icon: 'slides'
+
+              - text: 'Simple Grader'
+                icon: 'code'
+                repo: 'cs272-lectures/tree/main/ExceptionHandling/src/main/java/edu/usfca/cs272'
+
+              - text: 'Paths and Files'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fe6500fa-b0c9-458b-980e-af95015cf0c8'
+                icon: 'slides'
+                time: '20:29'
+                view: 'https://docs.google.com/presentation/d/e/2PACX-1vRjEUU0FIhBZIeMeU9O5L3Fc9WFAb9RvjA3dNANUjxupwWPH6Uw86tYEczVtrbfDzLFLub3je-pwGsg/pub?start=false&loop=false&delayms=3000'
+                save: 'Paths and Files.pdf'
+              
+              - text: 'Path Demo'
+                icon: 'code'
+                repo: 'cs272-lectures/blob/main/FileIO/src/main/java/edu/usfca/cs272/PathDemo.java'
+              
+              - text: 'DirectoryStream Demo'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aefe248e-f84b-496d-9c85-af95015cece4'
+                icon: 'code'
+                time: '11:30'
+                repo: 'cs272-lectures/blob/main/FileIO/src/main/java/edu/usfca/cs272/DirectoryStreamDemo.java'
+
 
           - <<: *participation
             items:

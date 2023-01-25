@@ -29,6 +29,8 @@
           {%- assign item_type = false %}
           {%- assign item_repo = false %}
           {%- assign item_save = false %}
+          {%- assign item_time = false %}
+          {%- assign item_view = false %}
 
           {%- if found.file %}
           {%- assign item = site.data[found.file][found.name] %}
@@ -42,6 +44,8 @@
           {%- if item.type %}{% assign item_type = item.type %}{% endif %}
           {%- if item.repo %}{% assign item_repo = item.repo %}{% endif %}
           {%- if item.save %}{% assign item_save = item.save %}{% endif %}
+          {%- if item.time %}{% assign item_time = item.save %}{% endif %}
+          {%- if item.view %}{% assign item_view = item.save %}{% endif %}
           {%- endif %}
 
           {%- if found.icon %}{% assign icon_type = site.data.icons[found.icon].type %}{% endif %}
@@ -54,6 +58,8 @@
           {%- if found.type %}{% assign item_type = found.type %}{% endif %}
           {%- if found.repo %}{% assign item_repo = found.repo %}{% endif %}
           {%- if found.save %}{% assign item_save = found.save %}{% endif %}
+          {%- if found.time %}{% assign item_time = found.time %}{% endif %}
+          {%- if found.view %}{% assign item_view = found.time %}{% endif %}
 
           <li class="{{ item_type }}">
             <i class="{{ icon_type }}" title="{{ icon_text }}"></i>
@@ -63,6 +69,8 @@
             </span>
             {%- endif %}
             {% if item_href %}<a href="{{ item_href }}">{{ item_text }}</a>{% else %}{{ item_text }}{% endif %}
+            {% if item_time %}<span class="tag is-light" style="height: unset; padding: 0.125rem 0.25rem;" title="Video Duration"><i class="far fa-stopwatch pr-1"></i> {{ item_time }}</span>{% endif %}
+            {% if item_view %}<a href="{{ item_view }}" title="Google Slides"><i class="fab fa-google-drive"></i></a>{% endif %}
             {% if item_repo %}<a href="{{ site.data.info.links.github.href }}/{{ item_repo }}" title="GitHub Repository"><i class="fab fa-github-square"></i></a>{% endif %}
             {% if item_save %}<a href="{{ item_save | absolute_url }}" title="Download PDF"><i class="far fa-download"></i></a>{% endif %}
           </li>
