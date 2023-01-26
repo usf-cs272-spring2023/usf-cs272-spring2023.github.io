@@ -67,7 +67,26 @@ weeks:
 
               - text: 'Simple Grader'
                 icon: 'code'
-                repo: 'cs272-lectures/tree/main/ExceptionHandling/src/main/java/edu/usfca/cs272'
+                href: 'cs272-lectures/tree/main/ExceptionHandling/src/main/java/edu/usfca/cs272'
+                type: 'pt-2'
+
+              - text: 'Part 1 Motivation'
+                icon: 'indented'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=91db4b55-77f9-45fe-a881-af96000f9365'
+                repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGrader.java'
+                time: '07:39'
+
+              - text: 'Part 2 Validation'
+                icon: 'indented'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=469874d6-1769-4460-a2f7-af960012ba3e'
+                repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGraderValidated.java'
+                time: '08:07'
+
+              - text: 'Part 3 Catching'
+                icon: 'indented'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c2647dc1-a2d0-45b2-8615-af960015b255'
+                repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGraderResourceful.java'
+                time: '15:46'
 
               - text: 'Paths and Files'
                 href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fe6500fa-b0c9-458b-980e-af95015cf0c8'
@@ -75,7 +94,8 @@ weeks:
                 time: '20:29'
                 view: 'https://docs.google.com/presentation/d/e/2PACX-1vRjEUU0FIhBZIeMeU9O5L3Fc9WFAb9RvjA3dNANUjxupwWPH6Uw86tYEczVtrbfDzLFLub3je-pwGsg/pub?start=false&loop=false&delayms=3000'
                 save: 'Paths and Files.pdf'
-              
+                type: 'pt-2'
+
               - text: 'Path Demo'
                 icon: 'code'
                 href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e0dbc0ef-c0d4-4d2d-be9a-af95016bf0c3'
