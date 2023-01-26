@@ -14,17 +14,7 @@ forum_setup:
   href: 'https://usfca.instructure.com/courses/1611719/assignments/7286596/'
   date: 2023-01-30
 
-# introduction_reply:
-#   <<: *default
-#   text: 'Introduction Reply'
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223897'
-#   date: 2022-09-02
 
-# assistants_reply:
-#   <<: *default
-#   text: 'TA Introductions'
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223885'
-#   date: 2022-09-02
 
 # homework_setup:
 #   <<: *default
@@ -50,32 +40,39 @@ forum_setup:
 #   date: 2022-09-16
 #   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223888'
 
-# # end of semester
+# end of semester
 
-# ask_why:
-#   <<: *default
-#   text: 'Ask Why on Piazza'
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223901'
-#   date: 2022-10-14
+ask_why:
+  <<: *default
+  text: 'Ask Why on Piazza'
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7289591'
+  date: 2023-03-10
 
-# ask_anything:
-#   <<: *default
-#   text: 'Ask Anything on Piazza'
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7234626'
-#   date: 2022-12-02
+ask_anything:
+  <<: *default
+  text: 'Post on Piazza'
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7289592'
+  date: 2023-05-12
 
-# piazza_reply:
-#   <<: *default
-#   text: 'Reply on Piazza'
-#   date: 2022-12-02
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223902'
+piazza_reply:
+  <<: *default
+  text: 'Reply on Piazza'
+  date: 2023-05-12
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7289593'
 
-# cs_event:
-#   <<: *default
-#   text: 'CS Event'
-#   date: 2022-12-09
-#   show: true
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409338'
+cs_event1:
+  <<: *default
+  text: 'CS Event 1'
+  date: 2023-03-10
+  show: true
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2420811'
+
+cs_event2:
+  <<: *default
+  text: 'CS Event 2'
+  date: 2023-05-12
+  show: true
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2420812'
 
 # midterm_survey:
 #   <<: *default

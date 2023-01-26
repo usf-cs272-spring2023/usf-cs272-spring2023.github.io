@@ -142,9 +142,28 @@ weeks:
               - file: 'homework'
                 name: 'ArgumentParser'
 
-          - <<: *deadlines
-            items:
-              - text: 'Pending'
+              - text: 'Due Mid-Semester'
+                type: 'has-text-weight-bold pt-2'
+                icon: 'date'
+
+              - file: 'participation'
+                name: 'ask_why'
+
+              - file: 'participation'
+                name: 'cs_event1'
+
+              - text: 'Due End Semester'
+                type: 'has-text-weight-bold pt-2'
+                icon: 'date'
+
+              - file: 'participation'
+                name: 'ask_anything'
+
+              - file: 'participation'
+                name: 'piazza_reply'
+
+              - file: 'participation'
+                name: 'cs_event2'
 
   - week: 'Week 02'
     days:
@@ -238,19 +257,23 @@ weeks:
 
           - <<: *deadlines
             items:
+              - text: 'Census Date'
+                icon: 'date'
+                type: 'has-text-grey pb-2'
+
               - file: 'projects'
                 name: 'tests_v10'
 
   - week: 'Week 04'
     days:
-      - date: 2023-02-07
+      - date: 2023-02-14
         rows:
           - <<: *lectures
             items:
               - text: 'Objects'
               - text: 'Mutability'
 
-      - date: 2023-02-09
+      - date: 2023-02-16
         rows:
           - <<: *videos
             items:
@@ -260,7 +283,7 @@ weeks:
             items:
               - text: 'Pending'
 
-      - date: 2023-02-10
+      - date: 2023-02-17
         rows:
           - <<: *labs
             items:
@@ -289,6 +312,7 @@ weeks:
 
               - file: 'projects'
                 name: 'tests_v11'
+
 
   - week: 'Week 05'
     days:
@@ -442,6 +466,12 @@ weeks:
             items:
               - file: 'projects'
                 name: 'tests_v20'
+
+              - file: 'participation'
+                name: 'ask_why'
+
+              - file: 'participation'
+                name: 'cs_event1'
 
   - week: 'Week 08'
     days:
@@ -635,6 +665,11 @@ weeks:
 
               - file: 'projects'
                 name: 'tests_v30'
+
+              - text: 'Withdraw Deadline'
+                icon: 'date'
+                type: 'has-text-weight-bold has-text-danger pt-2'
+                date: 2023-04-10
 
   - week: 'Week 12'
     days:
@@ -871,6 +906,16 @@ weeks:
           - <<: *deadlines
             text: 'Last Major Deadlines'
             items:
+              - file: 'participation'
+                name: 'ask_anything'
+
+              - file: 'participation'
+                name: 'piazza_reply'
+
+              - file: 'participation'
+                name: 'cs_event2'
+                type: 'pb-2'
+
               - text: 'Exam 2 Retake'
                 icon: 'exam'
                 type: 'has-text-weight-bold has-text-danger pb-2'
