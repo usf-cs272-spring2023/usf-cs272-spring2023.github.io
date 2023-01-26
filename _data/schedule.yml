@@ -60,6 +60,10 @@ weeks:
 
               - text: 'Exception Handling'
                 icon: 'slides'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63e36a07-eee2-4432-836c-af950186c08d'
+                view: 'https://docs.google.com/presentation/d/e/2PACX-1vRMqQrt0IaiwZL5Du1KcQIONLkNXtnS6VR2FnRXBn1c84dMSleUuH6jl0OJNLtSMS_WujxCSow9UXcI/pub?start=false&loop=false&delayms=3000'
+                save: 'Exception Handling.pdf'
+                time: '10:25'
 
               - text: 'Simple Grader'
                 icon: 'code'
@@ -74,6 +78,8 @@ weeks:
               
               - text: 'Path Demo'
                 icon: 'code'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e0dbc0ef-c0d4-4d2d-be9a-af95016bf0c3'
+                time: '13:12'
                 repo: 'cs272-lectures/blob/main/FileIO/src/main/java/edu/usfca/cs272/PathDemo.java'
               
               - text: 'DirectoryStream Demo'
@@ -81,7 +87,6 @@ weeks:
                 icon: 'code'
                 time: '11:30'
                 repo: 'cs272-lectures/blob/main/FileIO/src/main/java/edu/usfca/cs272/DirectoryStreamDemo.java'
-
 
           - <<: *participation
             items:
