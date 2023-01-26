@@ -70,12 +70,12 @@ links:
     info: 'lecture recordings for CS 272-01 and CS 272-02'
     type: 'video'
 
-  # assistants:
-  #   text: 'Office Hours (TA)'
-  #   icon: ''
-  #   href: ''
-  #   info: 'Zoom meeting for remote teacher assistant office hours'
-  #   type: 'video'
+  assistants:
+    text: 'Office Hours (TAs)'
+    icon: 'far fa-webcam'
+    href: 'https://usfca.zoom.us/j/81992071575'
+    info: 'Zoom meeting for remote teacher assistant office hours'
+    type: 'video'
 
   instructor:
     text: '1:1 Meetings (Sophie)'
