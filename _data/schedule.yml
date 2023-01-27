@@ -126,14 +126,23 @@ weeks:
         rows:
           - <<: *labs
             items:
+              - text: 'GitHub Setup'
+                icon: 'website'
+                href: '/resources/general/getting-started-with-github.html'
+
+              - text: 'Importing GitHub Code'
+                icon: 'website'
+                href: '/resources/eclipse/importing-eclipse-projects-from-github.html'
+
               - text: 'Configuring Eclipse'
                 icon: 'website'
                 href: '/resources/eclipse/configuring-eclipse.html'
 
-              - text: 'Importing GitHub Code'
+              - text: 'Homework Resources'
+                icon: 'website'
+                href: '/resources/homework/'
+                type: 'pt-2'
 
-              - text: 'Homework Setup'
-          
           - <<: *assignments
             items:
               - file: 'attendance'
