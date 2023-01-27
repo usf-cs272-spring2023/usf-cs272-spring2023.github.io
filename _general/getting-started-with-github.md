@@ -1,7 +1,7 @@
 ---
 title: Getting Started with GitHub
-navbar: Guides
-layout: guides
+navbar: Resources
+layout: resources
 key: 1.3
 # bump: true
 
