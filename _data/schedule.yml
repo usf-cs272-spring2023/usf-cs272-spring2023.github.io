@@ -145,6 +145,9 @@ weeks:
 
           - <<: *assignments
             items:
+              - file: 'participation'
+                name: 'homework_setup'
+
               - file: 'attendance'
                 name: 'week01'
 

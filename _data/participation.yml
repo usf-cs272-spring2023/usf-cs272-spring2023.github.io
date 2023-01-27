@@ -14,13 +14,11 @@ forum_setup:
   href: 'https://usfca.instructure.com/courses/1611719/assignments/7286596/'
   date: 2023-01-30
 
-
-
-# homework_setup:
-#   <<: *default
-#   text: 'Homework Setup'
-#   date: 2022-09-02
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223894'
+homework_setup:
+  <<: *default
+  text: 'Homework Setup'
+  date: 2023-02-03
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7289825'
 
 # project_setup:
 #   <<: *default
