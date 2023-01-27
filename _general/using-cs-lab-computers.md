@@ -1,13 +1,9 @@
 ---
 title: Using CS Lab Computers
-navbar: Guides
-layout: guides
+navbar: Resources
+layout: resources
 key: 1.5
-bump: true
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
 ---
 
 You must use your CS account and CS lab computers to connect to our MariaDB database on campus. If you are on campus, you may also want to physically log into a computer in one of the CS classrooms.

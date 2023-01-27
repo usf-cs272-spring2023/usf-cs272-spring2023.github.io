@@ -1,6 +1,6 @@
 ---
-layout: guides
-navbar: Guides
+layout: resources
+navbar: Resources
 title: Comparing Output in Eclipse
 key: 4
 

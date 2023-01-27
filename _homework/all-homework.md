@@ -2,8 +2,7 @@
 layout: resources
 navbar: Resources
 title: All Homework
-key: 4
-bump: true
+key: 0
 ---
 
 Here is a table of all the homework assignments for this semester:

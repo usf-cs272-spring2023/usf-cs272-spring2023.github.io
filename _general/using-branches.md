@@ -1,12 +1,9 @@
 ---
 title: Using Branches
-navbar: Guides
-layout: guides
+navbar: Resources
+layout: resources
 key: 1.4
-
-# tags:
-#  - text: 'New'
-#    type: 'is-primary'
+bump: true
 
 ---
 
