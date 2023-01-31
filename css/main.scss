@@ -138,9 +138,12 @@ a code {
 
 .page-header {
   border-bottom: 1px solid $grey-light;
-  text-transform: uppercase;
   letter-spacing: 0.01rem;
   padding-bottom: 0.125rem;
+}
+
+.sub-header {
+  text-transform: uppercase;
 }
 
 .invert pre {
