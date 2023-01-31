@@ -58,12 +58,8 @@ weeks:
                 icon: 'video'
                 time: '1:09'
 
-              - text: 'Exception Handling'
-                icon: 'slides'
-                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63e36a07-eee2-4432-836c-af950186c08d'
-                view: 'https://docs.google.com/presentation/d/e/2PACX-1vRMqQrt0IaiwZL5Du1KcQIONLkNXtnS6VR2FnRXBn1c84dMSleUuH6jl0OJNLtSMS_WujxCSow9UXcI/pub?start=false&loop=false&delayms=3000'
-                save: 'Exception Handling.pdf'
-                time: '10:25'
+              - file: 'lectures'
+                name: 'exceptions'
 
               - text: 'Simple Grader'
                 icon: 'code'
@@ -88,12 +84,8 @@ weeks:
                 repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGraderResourceful.java'
                 time: '15:46'
 
-              - text: 'Paths and Files'
-                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fe6500fa-b0c9-458b-980e-af95015cf0c8'
-                icon: 'slides'
-                time: '20:29'
-                view: 'https://docs.google.com/presentation/d/e/2PACX-1vRjEUU0FIhBZIeMeU9O5L3Fc9WFAb9RvjA3dNANUjxupwWPH6Uw86tYEczVtrbfDzLFLub3je-pwGsg/pub?start=false&loop=false&delayms=3000'
-                save: 'Paths and Files.pdf'
+              - file: 'lectures'
+                name: 'paths'
                 type: 'pt-2'
 
               - text: 'Path Demo'
@@ -183,12 +175,17 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - file: 'projects'
-                name: 'project1'
-                type: 'has-text-usf-plum pb-2'
-            
-              - text: 'File IO'
-              - text: 'Exceptions'
+              - file: 'lectures'
+                name: 'projects'
+
+              - text: 'Project Euler'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/ProjectEuler'
+                type: 'pt-2'
+
+              - text: 'Elite File Converter'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/FileIO/src/main/java/edu/usfca/cs272/EliteFileConverter.java'
 
       - date: 2023-02-02
         rows:

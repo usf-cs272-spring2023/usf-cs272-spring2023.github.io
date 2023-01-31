@@ -11,18 +11,30 @@ course_intro:
   href: 'https://docs.google.com/presentation/d/e/2PACX-1vS8sACyf9lrjGUTkS3TxSuq0v6As8POig4tSvkYseWYTaHtpYb9JEaFz8CWI6M2hNVJB8kEUQHHMaW5/pub?start=false&loop=false&delayms=3000'
   save: '/files/Course Introduction.pdf'
 
-# exceptions:
-#   <<: *default
-#   text: 'Exception Handling'
-#   tags: ['exceptions']
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vROu3FS53xFrjB_HQzBYEW16rhtulZgAlXrLr6V30Se60zvEo4_ryQb9tXRb5U9klMRkg4vXdqpOENp/pub?start=false&loop=false&delayms=3000'
+projects:
+  <<: *default
+  text: 'Project Overview'
+  href: 'https://docs.google.com/presentation/d/e/2PACX-1vS6DlWNE2SBOL_7TRoKEsIq9LwLhZXJvkTAxkO5drcCfSA80pnWt_jnOEQ3-nVqLW-L-S179iykHOj9/pub?start=false&loop=false&delayms=3000'
+  save: '/files/Project Overview.pdf'
 
-# paths:
-#   <<: *default
-#   text: 'Paths and Files'
-#   tags: ['files']
-#   tube: 'https://drive.google.com/file/d/1yff1jEPcLSrh0po2Wytc3k9PcLlGZ0xg/view?usp=sharing'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSMw70ffmHrJygS-g_bWOXUo2CsRMhaz1HotrCCYetM2YXIcB0plT_oLgrje18_U8X_cCrjb-d3W3-b/pub?start=false&loop=false&delayms=3000'
+exceptions:
+  <<: *default
+  text: 'Exception Handling'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63e36a07-eee2-4432-836c-af950186c08d'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vRMqQrt0IaiwZL5Du1KcQIONLkNXtnS6VR2FnRXBn1c84dMSleUuH6jl0OJNLtSMS_WujxCSow9UXcI/pub?start=false&loop=false&delayms=3000'
+  save: '/files/Exception Handling.pdf'
+  time: '10:25'
+  tags: ['exceptions']
+
+paths:
+  <<: *default
+  text: 'Paths and Files'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fe6500fa-b0c9-458b-980e-af95015cf0c8'
+  icon: 'slides'
+  time: '20:29'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vRjEUU0FIhBZIeMeU9O5L3Fc9WFAb9RvjA3dNANUjxupwWPH6Uw86tYEczVtrbfDzLFLub3je-pwGsg/pub?start=false&loop=false&delayms=3000'
+  save: '/files/Paths and Files.pdf'
+  tags: ['files']
 
 # data:
 #   <<: *default
