@@ -38,10 +38,10 @@ collections:
     output: true
     permalink: /resources/:collection/:name:output_ext
 
-  # projects:
-  #   title: 'Projects'
-  #   output: true
-  #   permalink: /resources/:collection/:name:output_ext
+  projects:
+    title: 'Projects'
+    output: true
+    permalink: /resources/:collection/:name:output_ext
 
   # exams:
   #   title: 'Exams'
