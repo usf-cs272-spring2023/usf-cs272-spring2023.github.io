@@ -1,35 +1,38 @@
 ---
-title: Project 2 Partial Search
-navbar: Guides
-layout: guides
+title: Project 2 Search
+navbar: Resources
+layout: resources
 key: 2.0
 bump: false
 project: 2
 
-# tags:
-#  - text: 'New'
-#    type: 'is-primary'
+tags:
+ - text: 'Pending'
+  #  type: 'is-primary'
 
-subsections:
-  - text: 'Requirements'
-    link: '#requirements'
+# subsections:
+#   - text: 'Requirements'
+#     link: '#requirements'
 
-  - text: 'Grading'
-    link: '#grading'
+#   - text: 'Grading'
+#     link: '#grading'
 
-  - text: 'Getting Started'
-    link: '#getting-started'
+#   - text: 'Getting Started'
+#     link: '#getting-started'
 
-tests: 'project2_tests'
-review1: 'project2_review1'
-review2: 'project2_review2'
-design: 'project2_design'
+# tests: 'project2_tests'
+# review1: 'project2_review1'
+# review2: 'project2_review2'
+# design: 'project2_design'
 
-review0: 'project1_review1'
-design0: 'project1_design'
+# review0: 'project1_review1'
+# design0: 'project1_design'
 
 ---
 
+Pending
+
+{% comment %}
 For this project, you will extend your [previous project](project-{{ page.project | minus: 1 }}.html) to support multi-word **exact search** and **partial search** queries. 
 
 To do this, your code must modify how input text files are processed to also **track the total word count of each file** when building the inverted index. Your code must be able to output these word counts to file in pretty JSON format.
@@ -327,3 +330,4 @@ It is important to **get started early** so you have plenty of time to think abo
 
 <i class="fas fa-info-circle"></i>&nbsp;These hints may or may not be useful depending on your approach. Do not be overly concerned if you do not find these hints helpful for your approach for this project.
 {: .notification }
+{% endcomment %}

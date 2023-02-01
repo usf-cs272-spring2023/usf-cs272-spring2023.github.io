@@ -4,8 +4,8 @@ navbar: Resources
 layout: resources
 key: 0.2
 
-tags:
- - text: 'Pending'
+# tags:
+#  - text: 'Pending'
 
 ---
 

@@ -1,35 +1,39 @@
 ---
-title: Project 3 Multithreading
-navbar: Guides
-layout: guides
-key: 3.0
+title: Project 5 Server
+navbar: Resources
+layout: resources
+key: 5.0
 bump: false
 
-project: 3
+project: 5
 
-# tags:
-#  - text: 'New'
+tags:
+ - text: 'Pending'
 #    type: 'is-primary'
 
-subsections:
-  - text: 'Requirements'
-    link: '#requirements'
+# subsections:
+#   - text: 'Requirements'
+#     link: '#requirements'
 
-  - text: 'Grading'
-    link: '#grading'
+#   - text: 'Grading'
+#     link: '#grading'
 
-  - text: 'Getting Started'
-    link: '#getting-started'
+#   - text: 'Getting Started'
+#     link: '#getting-started'
 
-tests: 'project3_tests'
-review1: 'project3_review1'
-review2: 'project3_review2'
-design: 'project3_design'
+# tests: 'project3_tests'
+# review1: 'project3_review1'
+# review2: 'project3_review2'
+# design: 'project3_design'
 
-review0: 'project2_review1'
-design0: 'project2_design'
+# review0: 'project2_review1'
+# design0: 'project2_design'
 
 ---
+
+Pending
+
+{% comment %}
 
 For this project, you will extend your [previous project](project-{{ page.project | minus: 1 }}.html) to support **multithreading**. In addition to meeting the previous project requirements, your code must use a **thread-safe inverted index** using a reentrant conditional read/write lock if multithreading is enabled. 
 
@@ -228,7 +232,7 @@ It is important to **get started early** so you have plenty of time to think abo
 <i class="fas fa-info-circle"></i>&nbsp;These hints may or may not be useful depending on your approach. Do not be overly concerned if you do not find these hints helpful for your approach for this project.
 {: .notification }
 
-{% comment %}
+{ comment }
 
 ### Hints
 

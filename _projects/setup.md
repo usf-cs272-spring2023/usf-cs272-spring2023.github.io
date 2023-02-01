@@ -5,7 +5,9 @@ layout: resources
 key: 0.1
 
 tags:
- - text: 'Pending'
+ - text: 'New'
+   type: 'is-primary'
+
 ---
 
 <i class="fas fa-video"></i>

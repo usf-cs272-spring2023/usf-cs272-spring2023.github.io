@@ -1,22 +1,26 @@
 ---
-title: Project 4 Final Project
-navbar: Guides
-layout: guides
+title: Project 4 Crawl
+navbar: Resources
+layout: resources
 key: 4.0
-bump: true
+# bump: true
 
 project: 4
 
 tags:
- - text: 'New'
-   type: 'is-primary'
+ - text: 'Pending'
+  #  type: 'is-primary'
 
-tests: 'project4_tests'
-review1: 'project4_review'
-review0: 'project3_review1'
-design0: 'project3_design'
+# tests: 'project4_tests'
+# review1: 'project4_review'
+# review0: 'project3_review1'
+# design0: 'project3_design'
 
 ---
+
+Pending
+
+{% comment %}
 
 For this project, you will extend your [previous project](project-{{ page.project | minus: 1 }}.html) to create a fully functional search engine. This is the **last project** for this course and is split into two main components:
 
@@ -51,3 +55,4 @@ Students must meet the requirements for the [{{ site.data.projects[page.review1]
 Students that are eligible for [{{ site.data.projects[page.review1].text }}]({{ site.data.projects[page.review1].canvas }}) during finals week may complete additional [search engine](project-4b.html) functionality to earn extra credit in the project category. Students that are not eligible for this project may complete [other extra credit](extra-credit.html) opportunities instead at the end of the semester.
 
 These extra credit opportunities can be completed to make up for points lost due to late penalties or other deductions in the projects category. These opportunities may not be used to earn over a 100% grade in this category. 
+{% endcomment %}

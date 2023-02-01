@@ -1,5 +1,5 @@
 ---
-title: Project 1 Inverted Index
+title: Project 1 Index
 navbar: Resources
 layout: resources
 key: 1.0
@@ -7,8 +7,8 @@ bump: true
 project: 1
 
 tags:
- - text: 'Pending'
-#    type: 'is-primary'
+ - text: 'New'
+   type: 'is-primary'
 
 subsections:
   - text: 'Requirements v1.0'

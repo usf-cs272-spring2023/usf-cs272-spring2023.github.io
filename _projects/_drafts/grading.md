@@ -38,7 +38,7 @@ You may request the "Project Tests" grade of a project once you have a release w
 
 ### Release Version
 
-You must have a release with the correct version number in the form `v[X].[Y].[Z]` where the major number `[X]` is the project number, the minor number `[Y]` starts at `0`, and the patch number `[Z]` starts at `0` and is incremented as necessary.
+You must have a release with the correct version number in the form `v[X].[Y].[Z]` where the **major** number `[X]` is the project number, the **minor** number `[Y]` starts at `0` and reflects the number of past code reviews for this project, and the **patch** number `[Z]` starts at `0` and is incremented as necessary.
 
 For example, the first release you create for project 1 should be numbered `v1.0.0`. If it does not pass the tests, then you can make fixes to the code and a new `v1.0.1` release. The patch number keeps incrementing until you have a release that passes the test checks.
 
@@ -46,11 +46,11 @@ For example, the first release you create for project 1 should be numbered `v1.0
 
 The following test checks must pass to be eligible for this grade:
 
-  1. Your release must pass the functionality tests found in the `Project[X]Test.java` group of JUnit tests when run on GitHub actions, where `[X]` is the current project number.
+  1. Your release must pass the functionality tests found in the `test-v1.x` group of JUnit tests when run on GitHub actions, where `x` is the minor version number.
 
   1. Your release must NOT pass the functionality tests for the future projects. The functionality for future projects must be in a separate branch until the design of the current project is approved through code review.
 
-  1. For projects 2, 3, and 4, you must have a non-zero grade for the "Project `[X-1]` Review 1" assignment in Canvas, where `[X-1]` is the previous project number.
+  1. For projects 2, 3, and 4, you must have a non-zero grade for the "Project vX.0 Review" assignment in Canvas, where `X` is the previous project number.
 
 <i class="fas fa-info-circle"></i>
 Even though your future releases of this project still need to pass the test checks for code review, you only need to request a test grade once. 
