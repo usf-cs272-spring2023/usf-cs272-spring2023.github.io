@@ -17,16 +17,17 @@ subsections:
   - text: 'Requirements v1.1 '
     link: '#requirements-v11'
 
-  - text: 'Grading'
-    link: '#grading'
+  - text: 'Assignments'
+    link: '#assignments'
 
   - text: 'Getting Started'
     link: '#getting-started'
 
-tests: 'project1_tests'
-review1: 'project1_review1'
-review2: 'project1_review2'
-design: 'project1_design'
+tests1:  'tests_v10'
+tests2:  'tests_v11'
+review1: 'review_v10'
+review2: 'review_v11'
+design:  'design_v1x'
 
 ---
 
@@ -35,6 +36,31 @@ For this project, you will write a Java program that processes all text files in
 The process of **[stemming](https://en.wikipedia.org/wiki/Stemming)** reduces a word to a base form (or "stem"), so that words like `interesting`, `interested`, and `interests` all map to the stem `interest`. Stemming is a common preprocessing step in many search engines.
 
 An **inverted index** is a nested data structure that stores the mapping from words to the documents and positions within those documents where those words were found. It is a common in-memory data structure used by many search engines.
+
+For example, suppose we have the following theoretical inverted index:
+
+```json
+{
+  "capybara": {
+    "input/mammals.txt": [
+      11
+    ]
+  },
+  "platypus": {
+    "input/dangerous/venomous.txt": [
+      2
+    ],
+    "input/mammals.txt": [
+      3,
+      8
+    ]
+  }
+}
+```
+
+This indicates that the word `capybara` is found in the file `input/mammals.html` in position `11`. The word `platypus` is found in two files, `input/mammals.html` and `input/dangerous/venomous.html`. In the file `input/mammals.html`, the word `platypus` appears twice in positions `3` and `8`. In file `input/dangerous/venomous.html`, the word `platypus` is in position `2` in the file. 
+
+This project is broken into two parts: `v1.0` focused on first building a data structure to store the word stem counts for each document, and `v1.1` focused on extending that functionality to also build the inverted index data structure.
 
 ## Requirements v1.0
 {: .page-header }
@@ -101,6 +127,10 @@ If the appropriate command-line arguments are provided, the contents of your wor
 
 Here is the expected output for the word count of all the text files associated with this project:
 
+<details>
+<p><summary class="pb-4">View Output</summary></p>
+
+<div markdown=1>
 ```json
 {
   "input/text/guten/1400-0.txt": 187368,
@@ -133,6 +163,11 @@ Here is the expected output for the word count of all the text files associated 
   "input/text/stems/stem-out.txt": 22275
 }
 ```
+
+<p>(The output above has syntax highlighting enabled for readability; the file output your code produces will not have colors.)</p>
+
+</div>
+</details>
 
 You can also find this output in the `expected-nix/counts` subdirectory in the [`project-tests`]({{ site.github.owner_url }}/project-tests) repository.
 
@@ -199,10 +234,20 @@ Output **user-friendly error messages** in the case of exceptions or invalid inp
 
 ### File Input v1.1
 
-The input text files must be cleaned and stemmed as before, however your code must now also create an in-memory **inverted index** data structure alongside the word counts. The inverted index must store a mapping from a word to the location(s) the word was found, and the position(s) in that file the word is located. The positions should start at 1. *This will require nesting multiple built-in data structures.* 
+The input text files must be cleaned and stemmed as before, however your code must now also create an in-memory **inverted index** data structure alongside the word counts. The inverted index must store a mapping from a word to the document location(s) the word was found, and the numeric position(s) in that document the word is located. The positions should start at 1. *This will require nesting multiple built-in data structures.* 
 
-For example, suppose we have the following mapping stored in our inverted index:
+An example inverted index is provided in the introduction of this writeup. In that inverted index, the word stem `capybara` is found in the document located at path `input/mammals.txt` in position `11` of that document (i.e. it is the 11th word stem in `mammals.txt`). 
 
+Each file should only be opened once; the word counts and inverted index should be built at the same time.
+
+### File Output v1.1
+
+The output of the inverted index data structure must use the "pretty" JSON format as the word counts. Since the inverted index is a nested data structure, the JSON output must also be nested. The inner-most word positions should be output as a JSON array of numbers (with square braces), whereas the other levels should be output as JSON objects (with curly braces). For example:
+
+<details>
+<p><summary class="pb-4">View Output</summary></p>
+
+<div markdown=1>
 ```json
 {
   "capybara": {
@@ -222,18 +267,14 @@ For example, suppose we have the following mapping stored in our inverted index:
 }
 ```
 
-This indicates that the word `capybara` is found in the file `input/mammals.html` in position `11`. The word `platypus` is found in two files, `input/mammals.html` and `input/dangerous/venomous.html`. In the file `input/mammals.html`, the word `platypus` appears twice in positions `3` and `8`. In file `input/dangerous/venomous.html`, the word `platypus` is in position `2` in the file. 
+<p>(The output above has syntax highlighting enabled for readability; the file output your code produces will not have colors.)</p>
 
-Each file should only be opened once; the word counts and inverted index should be built at the same time.
+</div>
+</details>
 
-### File Output v1.1
-
-The output of the inverted index data structure must use the "pretty" JSON format as the word counts. Since the inverted index is a nested data structure, the JSON output must also be nested. The inner-most word positions should be output as a JSON array of numbers (with square braces), whereas the other levels should be output as JSON objects (with curly braces). 
-
-The "File Input v1.1" section provides an example of the expected JSON output. You can find additional example output files in the `expected-nix/index` subdirectory in the [`project-tests`]({{ site.github.owner_url }}/project-tests) repository.
+You can find additional example output files in the `expected-nix/index` subdirectory in the [`project-tests`]({{ site.github.owner_url }}/project-tests) repository.
 
 ### Run Examples v1.1
-
 
 The following are a few non-comprehensive examples to illustrate the usage of the command-line arguments that can be passed to your `Driver` class via a "Run Configuration" in Eclipse, assuming you set the working directory to the `project-tests` directory.
 
@@ -270,10 +311,56 @@ The above arguments indicate that `Driver` should output the inverted index as J
 </div>
 </details>
 
-## Grading
+## Assignments
 {: .page-header }
 
-Pending
+<style>
+td:nth-child(4) {
+  white-space: nowrap;
+}
+</style>
+
+This project is broken into several assignments, including 2 test checkpoints, 2 review checkpoints, and a final design assignment:
+
+| Deadline | Assignment | Test File(s) | Tag(s) | Prerequisites | Requirements |
+|:--------:|:-----------|:-------------|:------------|:--------------|:-------------|
+| {{ site.data.projects.tests_v10.date | date: "%b %d" }} | [{{ site.data.projects.tests_v10.text }}]({{ site.data.projects.tests_v10.book }}) | BuildCount | test-v1.0 | None | Pass tests locally and remotely |
+| {{ site.data.projects.review_v10.date | date: "%b %d" }} | [{{ site.data.projects.review_v10.text }}]({{ site.data.projects.review_v10.book }}) | BuildCount | test-v1.0 | [{{ site.data.projects.tests_v10.text }}]({{ site.data.projects.tests_v10.book }}), pass review checks | Attend code review with instructor |
+| {{ site.data.projects.tests_v11.date | date: "%b %d" }} | [{{ site.data.projects.tests_v11.text }}]({{ site.data.projects.tests_v11.book }}) | BuildIndex | test-v1.1 | [{{ site.data.projects.tests_v10.text }}]({{ site.data.projects.tests_v10.book }}) | Pass tests locally and remotely |
+| {{ site.data.projects.review_v11.date | date: "%b %d" }} | [{{ site.data.projects.review_v11.text }}]({{ site.data.projects.review_v11.book }}) | BuildIndex | test-v1.1 | [{{ site.data.projects.tests_v11.text }}]({{ site.data.projects.tests_v11.book }}), [{{ site.data.projects.review_v10.text }}]({{ site.data.projects.review_v10.book }}), pass review checks | Attend code review with instructor |
+| {{ site.data.projects.design_v1x.date | date: "%b %d" }} | [{{ site.data.projects.design_v1x.text }}]({{ site.data.projects.design_v1x.book }}) | BuildIndex | test-v1.x | [{{ site.data.projects.tests_v11.text }}]({{ site.data.projects.tests_v11.book }}), [{{ site.data.projects.review_v10.text }}]({{ site.data.projects.review_v10.book }}), [{{ site.data.projects.review_v11.text }}]({{ site.data.projects.review_v11.book }}), pass review checks | Pass code review with instructor (may take several additional code reviews) |
+
+The "Test File(s)" column provides the prefix to the test files to focus on while developing locally. For example, "BuildCount" refers to the "BuildCountTests.java" file in the the [`project-tests`]({{ site.github.owner_url }}/project-tests) repository.
+
+#### Assignment Progression
+
+The following details the prerequisites and requirements for each assignment in detail. Most weeks you will be working on tests for the next release of your project, while also having the design of the latest release reviewed by the instructor. This progression will similar for future projects as well.
+
+<details>
+<p><summary>View Progression</summary></p>
+
+<div markdown=1>
+
+1. **Tests v1.0:** You should first focus on the [{{ site.data.projects.tests_v10.text }}]({{ site.data.projects.tests_v10.book }}) grade due on {{ site.data.projects.tests_v10.date | date: "%b %d, %Y" }}. To earn that grade, your code must pass the tests in the `BuildCountTests.java` file locally. 
+
+    Then, you must create a `v1.0.x` release on GitHub. That will trigger the autograder to run and verify if the tests with the `test-v1.0` tag are passing remotely. Once you have a release that passes those tests, you can use the "Request Project Tests Grade" issue to request your grade.
+
+2. **Review v1.0:** Once you have requested the test grade, you can move on to the review assignment. If necessary, you should clean up your code and create a new `v1.0.x` release that passes both the tests and review checks. Then, use the "Request Project Code Review" issue to sign up for a code review appointment with the instructor. 
+
+    After attending that code review appointment, use the "Request Project Review Grade" to get credit for the [{{ site.data.projects.review_v10.text }}]({{ site.data.projects.review_v10.book }}) assignment by {{ site.data.projects.review_v10.date | date: "%b %d, %Y" }}.
+
+2. **Tests v1.1:** While you wait for your first code review appointment, you should begin working on the next test assignment in a new branch in your project repository. This is the [{{ site.data.projects.tests_v11.text }}]({{ site.data.projects.tests_v11.book }}) assignment due by {{ site.data.projects.tests_v11.date | date: "%b %d, %Y" }} (the same deadline as your first code review). 
+
+    Your code will need to pass the `BuildIndexTests.java` file locally and the `test-v1.1` tag remotely. The remote tests will include some of the tests from the previous release too. When you create your `v1.1.x` release on GitHub to trigger the autograder, make sure you select the correct branch! Use the "Request Project Tests Grade" issue again to request your new test grade when ready.
+
+3. **Review v1.1:** Once you have your [{{ site.data.projects.review_v10.text }}]({{ site.data.projects.review_v10.book }}) and [{{ site.data.projects.tests_v11.text }}]({{ site.data.projects.tests_v11.book }}) grades, you need to prepare a `v1.1.x` release with *all* of the changes necessary from your `v1.0` code review and the new `v1.1` functionality for review by the instructor. Then, you can follow the same process as before to request your code review appointment and [{{ site.data.projects.review_v11.text }}]({{ site.data.projects.review_v11.book }}) grade.
+
+4. **Design v1.x:** After your first two code reviews, you need to continue to resubmit your project for review with the instructor until it passes the design requirements. Each code review increments the minor release number, so after your second code review you will create a `v1.2.x` release and after your third code review you will create a `v1.3.x` release.
+
+    Once the instructor informs you that you passed the code review process, you will need to create one more `v1.x` release and then use the "Request Project Design Grade" issue to request your grade. After this point, you can start on the code reviews for the next project!
+
+</div>
+</details>
 
 ## Getting Started
 {: .page-header }
