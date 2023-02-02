@@ -215,6 +215,12 @@ weeks:
 
           - <<: *participation
             items:
+              - file: 'quizzes'
+                name: 'data'
+
+              - file: 'quizzes'
+                name: 'maps'
+
               - text: 'Pending'
 
       - date: 2023-02-03

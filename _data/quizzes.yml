@@ -22,20 +22,20 @@ exceptions:
   tags: ['files']
   href: 'https://usfca.instructure.com/courses/1611719/assignments/7286778'
 
-# data:
-#   <<: *default
-#   text: 'Data Structures'
-#   date: 2022-09-09
-#   tags: ['data']
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223869'
+data:
+  <<: *default
+  text: 'Data Structures'
+  date: 2023-02-06
+  tags: ['data']
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2420989'
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413858'
 
-# maps:
-#   <<: *default
-#   text: 'Using Maps'
-#   date: 2022-09-09
-#   tags: ['data']
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223873'
+maps:
+  <<: *default
+  text: 'Using Maps'
+  date: 2023-02-06
+  tags: ['data']
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2420990'
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413863'
 
 # project1:
