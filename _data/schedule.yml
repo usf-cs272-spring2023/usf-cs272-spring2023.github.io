@@ -191,7 +191,12 @@ weeks:
         rows:
           - <<: *videos
             items:
-              - text: 'Data Structures'
+              - file: 'lectures'
+                name: 'data'
+
+              - file: 'lectures'
+                name: 'framework'
+
 
           - <<: *participation
             items:

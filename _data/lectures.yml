@@ -36,19 +36,24 @@ paths:
   save: '/files/Paths and Files.pdf'
   tags: ['files']
 
-# data:
-#   <<: *default
-#   tags: ['data']
-#   text: 'Abstract Data Types'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSsSJlcmoH-SWqcDhl6iFdVpS4EwFVUHfCNVtDCY3GSDhvtl_6XKYn3GHN7fW66-kTgqjpPFEnf04db/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1OvFMONm4PEYQ8LtR9P9BxkfxxJZrGNK4/view?usp=sharing'
+data:
+  <<: *default
+  tags: ['data']
+  text: 'Abstract Data Types'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=058caeb5-a7ed-4a4a-9bbe-af9a01511e7c'
+  icon: 'slides'
+  time: '12:25'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vTkWFYYWCAs5DHir-jf68Yd5BWa_u8ymf7Ez-gqRaAhgmzEbyI0WoThN9tWPoa7EzgrkJDyaI65vZL3/pub?start=false&loop=false&delayms=3000'
+  save: '/files/Abstract Data Types.pdf'
 
-# collections:
-#   <<: *default
-#   tags: ['data']
-#   text: 'Collections Framework'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSuurg3CcidG3_JCw68NOnSKep8DzY_e9ZtANCB8x1g0G8q79Oe7zwUxTSZQLmwjKsagv6Ygw1_i1VH/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1O2I-vvdaul1AEZ31PO6KrFakcw1ORlkJ/view?usp=sharing'
+framework:
+  <<: *default
+  tags: ['data']
+  text: 'Collections Framework'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d96842bd-a7fd-4470-8129-af9a01511ea9'
+  time: '20:26'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQ3tDfuttbeApPhgaOhsyxjHrUeIMub206X9HWbs2cORCCGD1b2o05jDBhtNPeK_GxuhsfSLM_RcLDT/pub?start=false&loop=false&delayms=3000'
+  save: '/files/Collections Framework.pdf'
 
 # oop:
 #   <<: *default
