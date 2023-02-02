@@ -215,6 +215,9 @@ weeks:
 
           - <<: *participation
             items:
+              - file: 'participation'
+                name: 'lecture_setup'
+
               - file: 'quizzes'
                 name: 'data'
 
@@ -230,6 +233,11 @@ weeks:
               - text: 'Project Setup'
                 icon: 'website'
                 href: '/resources/projects/setup.html'
+
+              - text: 'Project Testing'
+                icon: 'website'
+                href: '/resources/projects/testing.html'
+                type: 'pb-2'
 
               - file: 'projects'
                 name: 'project1'

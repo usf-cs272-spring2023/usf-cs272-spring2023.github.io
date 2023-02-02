@@ -26,11 +26,11 @@ homework_setup:
 #   date: 2022-09-09
 #   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223919'
 
-# lecture_setup:
-#   <<: *default
-#   text: 'Lecture Setup'
-#   date: 2022-09-09
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223898'
+lecture_setup:
+  <<: *default
+  text: 'Lecture Setup'
+  date: 2022-02-06
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7291337'
 
 # intake_review:
 #   <<: *default
