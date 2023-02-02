@@ -30,7 +30,6 @@ paths:
   <<: *default
   text: 'Paths and Files'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fe6500fa-b0c9-458b-980e-af95015cf0c8'
-  icon: 'slides'
   time: '20:29'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vRjEUU0FIhBZIeMeU9O5L3Fc9WFAb9RvjA3dNANUjxupwWPH6Uw86tYEczVtrbfDzLFLub3je-pwGsg/pub?start=false&loop=false&delayms=3000'
   save: '/files/Paths and Files.pdf'
@@ -41,7 +40,6 @@ data:
   tags: ['data']
   text: 'Abstract Data Types'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=058caeb5-a7ed-4a4a-9bbe-af9a01511e7c'
-  icon: 'slides'
   time: '12:25'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vTkWFYYWCAs5DHir-jf68Yd5BWa_u8ymf7Ez-gqRaAhgmzEbyI0WoThN9tWPoa7EzgrkJDyaI65vZL3/pub?start=false&loop=false&delayms=3000'
   save: '/files/Abstract Data Types.pdf'

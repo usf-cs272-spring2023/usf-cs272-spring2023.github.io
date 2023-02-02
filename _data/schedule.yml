@@ -197,6 +197,19 @@ weeks:
               - file: 'lectures'
                 name: 'framework'
 
+              - text: 'Collection Demo'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=50407ae4-8160-45f6-9a13-af9a01511e42'
+                time: '11:18'
+                icon: 'code'
+                type: 'pt-2'
+              
+              - text: 'Map Demo'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73ce7aff-7d86-4e79-847b-af9a01511ee6'
+                time: '21:22'
+                icon: 'code'
+
+              - text: 'Pending'
+                type: 'pt-2'
 
           - <<: *participation
             items:
