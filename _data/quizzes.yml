@@ -38,12 +38,12 @@ maps:
   href: 'https://usfca.instructure.com/courses/1611719/quizzes/2420990'
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413863'
 
-# project1:
-#   <<: *default
-#   text: 'Project 1 Guide'
-#   date: 2022-09-09
-#   tags: ['none']
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7242279'
+project1:
+  <<: *default
+  text: 'Project 1 Writeup'
+  date: 2022-02-10
+  tags: ['none']
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421002'
 
 # inheritance:
 #   <<: *default

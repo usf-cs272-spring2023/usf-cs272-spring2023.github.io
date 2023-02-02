@@ -244,17 +244,25 @@ weeks:
 
           - <<: *assignments
             items:
+              - file: 'participation'
+                name: 'project_setup'
+
+              - file: 'quizzes'
+                name: 'project1'
+                type: 'pb-2'
+
               - file: 'attendance'
                 name: 'week02'
 
               - file: 'homework'
                 name: 'FileStemmer'
-              
+
+              - file: 'homework'
+                name: 'JsonWriter'
+
               - file: 'projects'
                 name: 'tests_v10'
                 type: 'pt-2'
-
-              - text: 'Pending'
 
   - week: 'Week 03'
     days:
@@ -292,6 +300,9 @@ weeks:
 
               - file: 'homework'
                 name: 'JsonWriter'
+
+              - file: 'homework'
+                name: 'FileIndex'
 
               - file: 'projects'
                 name: 'review_v10'

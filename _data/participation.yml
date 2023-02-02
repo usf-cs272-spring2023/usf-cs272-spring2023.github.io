@@ -20,23 +20,17 @@ homework_setup:
   date: 2023-02-03
   href: 'https://usfca.instructure.com/courses/1611719/assignments/7289825'
 
-# project_setup:
-#   <<: *default
-#   text: 'Project Setup'
-#   date: 2022-09-09
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223919'
-
 lecture_setup:
   <<: *default
   text: 'Lecture Setup'
   date: 2022-02-06
   href: 'https://usfca.instructure.com/courses/1611719/assignments/7291337'
 
-# intake_review:
-#   <<: *default
-#   text: 'Code Review Intake'
-#   date: 2022-09-16
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223888'
+project_setup:
+  <<: *default
+  text: 'Project Setup'
+  date: 2023-02-10
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7291551'
 
 # end of semester
 
