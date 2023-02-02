@@ -210,8 +210,10 @@ weeks:
                 icon: 'code'
                 repo: 'cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/MapDemo.java'
 
-              - text: 'Pending'
-                type: 'pt-2'
+              - text: 'Nested Map Demo'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=467061a3-8c81-491c-8a8b-af9d00303e2e'
+                time: '22:56'
+                icon: 'code'
 
           - <<: *participation
             items:
@@ -223,8 +225,6 @@ weeks:
 
               - file: 'quizzes'
                 name: 'maps'
-
-              - text: 'Pending'
 
       - date: 2023-02-03
         rows:
@@ -254,8 +254,6 @@ weeks:
                 name: 'tests_v10'
                 type: 'pt-2'
 
-          - <<: *deadlines
-            items:
               - text: 'Pending'
 
   - week: 'Week 03'
