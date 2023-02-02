@@ -11,7 +11,7 @@ FileStemmer:
   text: 'FileStemmer'
   date: 2023-02-10
   href: 'https://usfca.instructure.com/courses/1611719/assignments/7268360'
-  repo: 'homework-WordCleaner-template'
+  repo: 'homework-FileStemmer-template'
   tags: ['files', 'data']
 
 JsonWriter:
