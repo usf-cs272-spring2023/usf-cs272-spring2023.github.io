@@ -6,6 +6,7 @@ project1: &project1
   <<: *default
   text: 'Project 1 Index'
   tags: ['project1']
+  href: '/resources/projects/project-1.html'
 
 tests_v10:
   <<: *project1

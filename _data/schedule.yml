@@ -228,7 +228,12 @@ weeks:
           - <<: *labs
             items:
               - text: 'Project Setup'
-          
+                icon: 'website'
+                href: '/resources/projects/setup.html'
+
+              - file: 'projects'
+                name: 'project1'
+
           - <<: *assignments
             items:
               - file: 'attendance'
