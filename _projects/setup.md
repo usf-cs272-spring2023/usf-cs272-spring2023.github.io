@@ -28,11 +28,11 @@ When we verify the functionality and review the design of your project, we will 
 
 Below is a quick summary of the **one-time setup** needed for the project:
 
-  1. Visit the ~~[Project Setup](#)~~ assignment in Canvas and click the GitHub Classroom link. This will setup a private repository named `project-username` where `username` is your GitHub username. You will use this same repository the *entire* semester for all of the projects.
+  1. Visit the [Project Setup]({{ site.data.participation.project_setup.href }}) assignment in Canvas and click the GitHub Classroom link. This will setup a private repository named `project-username` where `username` is your GitHub username. You will use this same repository the *entire* semester for all of the projects.
 
   1. Import the repository as a Java Project in Eclipse. See the [Importing Eclipse Projects from GitHub](/resources/eclipse/importing-eclipse-projects-from-github.html) guide for steps. This will create a "SearchEngine" project in Eclipse where you will add your own code for the project.
 
-  1. Import the `project-tests` repository at <{{ site.data.info.links.github.link }}/project-tests> as a Java Project in Eclipse. This will create a "SearchEngineTests" project in Eclipse where you will find all of the test code and data files.
+  1. Import the `project-tests` repository at <{{ site.data.info.links.github.href }}/project-tests> as a Java Project in Eclipse. This will create a "SearchEngineTests" project in Eclipse where you will find all of the test code and data files.
 
       <i class="fas fa-exclaimation-triangle"></i>&nbsp;**These two projects must be located in the same parent directory!** For example `cs272_github/project-username` and `cs272_github/project-tests` share the same parent directory `cs272_github`.
 
@@ -58,7 +58,7 @@ Once you have everything imported into Eclipse, try these steps to verify everyt
 
       ![Screenshot]({{ "/images/projects/github-create-release.png" | relative_url }}){: .is-400 }
 
-      There is an [example release]({{ site.data.info.links.github.link }}/project-template/releases/tag/v1.0.0) in the `project-template` repository.
+      There is an [example release]({{ site.data.info.links.github.href }}/project-template/releases/tag/v1.0.0) in the `project-template` repository.
 
       <i class="fas fa-info-circle"></i>
       In practice, we use [releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) and [semantic versioning](https://semver.org/) to deploy of software to its users. In this class, we will use releases and semantic versioning to (1) determine which project (and at what stage) you are submitting, and (2) make sure you have experience working with both of these practices before graduating. These are discussed further in the [Project Testing](testing.html) guide.
