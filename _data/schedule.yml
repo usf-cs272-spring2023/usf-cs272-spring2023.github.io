@@ -202,11 +202,13 @@ weeks:
                 time: '11:18'
                 icon: 'code'
                 type: 'pt-2'
+                repo: 'cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/CollectionDemo.java'
               
               - text: 'Map Demo'
                 href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73ce7aff-7d86-4e79-847b-af9a01511ee6'
                 time: '21:22'
                 icon: 'code'
+                repo: 'cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/MapDemo.java'
 
               - text: 'Pending'
                 type: 'pt-2'
