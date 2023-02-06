@@ -71,18 +71,21 @@ weeks:
                 href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=91db4b55-77f9-45fe-a881-af96000f9365'
                 repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGrader.java'
                 time: '07:39'
+                type: 'push'
 
               - text: 'Part 2 Validation'
                 icon: 'indented'
                 href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=469874d6-1769-4460-a2f7-af960012ba3e'
                 repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGraderValidated.java'
                 time: '08:07'
+                type: 'push'
 
               - text: 'Part 3 Catching'
                 icon: 'indented'
                 href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c2647dc1-a2d0-45b2-8615-af960015b255'
                 repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGraderResourceful.java'
                 time: '15:46'
+                type: 'push'
 
               - file: 'lectures'
                 name: 'paths'
@@ -197,23 +200,30 @@ weeks:
               - file: 'lectures'
                 name: 'framework'
 
+              - text: 'Data Structures'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/DataStructures'
+                type: 'pt-2'
+
               - text: 'Collection Demo'
                 href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=50407ae4-8160-45f6-9a13-af9a01511e42'
                 time: '11:18'
-                icon: 'code'
-                type: 'pt-2'
+                icon: 'indented'
+                type: 'push'
                 repo: 'cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/CollectionDemo.java'
               
               - text: 'Map Demo'
                 href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73ce7aff-7d86-4e79-847b-af9a01511ee6'
                 time: '21:22'
-                icon: 'code'
+                icon: 'indented'
+                type: 'push'
                 repo: 'cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/MapDemo.java'
 
               - text: 'Nested Map Demo'
                 href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=467061a3-8c81-491c-8a8b-af9d00303e2e'
                 time: '22:56'
-                icon: 'code'
+                icon: 'indented'
+                type: 'push'
 
           - <<: *participation
             items:
@@ -270,7 +280,35 @@ weeks:
         rows:
           - <<: *lectures
             items:
+              - file: 'lectures'
+                name: 'help'
+                type: 'pb-2'
+
               - text: 'Data Structures'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/DataStructures'
+                type: 'pt-2'
+
+              - text: 'Iteration Demo'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/IterationDemo.java'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'Find Demo'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/FindDemo.java'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'Remove Demo'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/RemoveDemo.java'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'Mutable Set Demo'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/MutableSetDemo.java'
+                icon: 'indented'
+                type: 'push'
+
 
       - date: 2023-02-09
         rows:

@@ -53,24 +53,19 @@ framework:
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vQ3tDfuttbeApPhgaOhsyxjHrUeIMub206X9HWbs2cORCCGD1b2o05jDBhtNPeK_GxuhsfSLM_RcLDT/pub?start=false&loop=false&delayms=3000'
   save: '/files/Collections Framework.pdf'
 
+help:
+  <<: *default
+  tags: ['none']
+  text: 'Getting Help'
+  href: 'https://docs.google.com/presentation/d/e/2PACX-1vSxGLWZBMDIPj7uV_8tB7Y2l9cgAoygX5dO9ip5vD3d_MdoSepNW7x2rRg7rmuR6G2O1eKCnVQrb6Xs/pub?start=false&loop=false&delayms=3000'
+  save: '/files/Getting Help.pdf'
+
 # oop:
 #   <<: *default
 #   tags: ['objects']
 #   text: 'Object Oriented Programming'
 #   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTHOQmSkbb8ey4RK0fV-S3ObZ2bK-AUltiRCRPK7xlca06fiOngxOn02rOQBwZ3Miv-WrDWZUD8NOqs/pub?start=false&loop=false&delayms=3000'
 #   tube: 'https://drive.google.com/file/d/14aTl6kRfuIptdA3T9kOx75FNUBXS7tGX/view?usp=sharing'
-
-# projects:
-#   <<: *default
-#   tags: ['none']
-#   text: 'Project Overview'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRG9FEXbAK_1mMZ6jIy4O_v7YJTCAwsr-a0Y19M3HiV8XsNOrkx7VwyrosOKvwPMxtwqiFRR2pd6euD/pub?start=false&loop=false&delayms=3000'
-
-# help:
-#   <<: *default
-#   tags: ['none']
-#   text: 'Getting Help'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTBG6IAT560dL4dnMpmHRxGhe6ZBk1w0r3axeih2WxRMNqRp0Vh9LmEtXKQrjzfYCkJ2owhGSRmZ33S/pub?start=false&loop=false&delayms=3000'
 
 # inheritance:
 #   <<: *default
