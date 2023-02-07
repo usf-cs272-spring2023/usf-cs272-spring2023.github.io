@@ -60,12 +60,14 @@ help:
   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSxGLWZBMDIPj7uV_8tB7Y2l9cgAoygX5dO9ip5vD3d_MdoSepNW7x2rRg7rmuR6G2O1eKCnVQrb6Xs/pub?start=false&loop=false&delayms=3000'
   save: '/files/Getting Help.pdf'
 
-# oop:
-#   <<: *default
-#   tags: ['objects']
-#   text: 'Object Oriented Programming'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTHOQmSkbb8ey4RK0fV-S3ObZ2bK-AUltiRCRPK7xlca06fiOngxOn02rOQBwZ3Miv-WrDWZUD8NOqs/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/14aTl6kRfuIptdA3T9kOx75FNUBXS7tGX/view?usp=sharing'
+oop:
+  <<: *default
+  tags: ['objects']
+  text: 'Object Oriented Programming'
+  time: '25:22'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=47838700-2052-4e68-b6f7-afa2012c87e3'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQkzEnVG9sFgjElR-K2xUi91wYtj3bC82mWk8XhaRaz3ihMJNqQbciSKSkAxJAw_UQW7TGo-Cevsp05/pub?start=false&loop=false&delayms=3000'
+  save: '/files/Object Oriented Programming.pdf'
 
 # inheritance:
 #   <<: *default

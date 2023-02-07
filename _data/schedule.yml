@@ -314,7 +314,9 @@ weeks:
         rows:
           - <<: *videos
             items:
-              - text: 'Objects'
+              - file: 'lectures'
+                name: 'oop'
+                
               - text: 'Mutability'
 
           - <<: *participation
