@@ -325,11 +325,26 @@ weeks:
         rows:
           - <<: *labs
             items:
+              - text: 'Comparing Output in Eclipse'
+                href: '/resources/eclipse/comparing-output.html'
+                icon: 'website'
+
+              - text: 'Submitting Late Homework'
+                href: '/resources/homework/complete-homework.html#submitting-late-homework'
+                icon: 'website'
+
               - text: 'Homework Help'
+                href: '/resources/homework/'
                 icon: 'homework'
+                type: 'pt-2'
 
               - text: 'Project Help'
                 icon: 'project'
+                href: '/resources/projects/'
+
+              - text: 'Speed Checkins'
+                icon: 'attendance'
+                type: 'pt-2'
           
           - <<: *assignments
             items:
