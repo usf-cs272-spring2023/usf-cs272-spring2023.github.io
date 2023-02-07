@@ -69,6 +69,14 @@ oop:
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vQkzEnVG9sFgjElR-K2xUi91wYtj3bC82mWk8XhaRaz3ihMJNqQbciSKSkAxJAw_UQW7TGo-Cevsp05/pub?start=false&loop=false&delayms=3000'
   save: '/files/Object Oriented Programming.pdf'
 
+object:
+  <<: *default
+  tags: ['inheritance', 'objects']
+  text: 'Object Class'
+  time: '06:59'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28c59363-2baa-4962-a6e6-af9e014dc841'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQgaY1m74u6_3ra6dibqslrvSKM4UIAyPHiljcs5mgbjBJyRf9k0NQsIRIGz-e9ICgYvZ4hjnURVoLY/pub?start=false&loop=false&delayms=3000'
+
 # inheritance:
 #   <<: *default
 #   tags: ['inheritance']
@@ -103,13 +111,6 @@ oop:
 #   text: 'Casting'
 #   href: 'https://docs.google.com/presentation/d/e/2PACX-1vScucSAwDq8dHVEu6tumqDjrcOOdYK0dha7hHCgloqdsVrr8VHYbPKwKGvML8Zwp1YRm839wOa3WEOV/pub?start=false&loop=false&delayms=3000'
 #   tube: 'https://drive.google.com/file/d/1Rdwp_kCYGd5lBt2NpD5-di9loJ05ZGyd/view?usp=sharing'
-
-# object:
-#   <<: *default
-#   tags: ['inheritance', 'objects']
-#   text: 'Object Class'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSDKDmvc3WVIl91sLPoHofAICQHPqpkUfvL_Vkl5_Q2wjyye4MgcizetqcBWb_4C4Jwt6dgmbwreLQ2/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1Ktagbp_14RRcvlbZrU7qp22qa8hH3pvi/view?usp=sharing'
 
 # final:
 #   <<: *default
