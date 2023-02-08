@@ -5,6 +5,10 @@ defaults:
     text: 'Sync Lecture' # text displayed as heading
     info: 'agenda for synchronous in-class lecture' # description of heading
 
+  content: &content
+    text: 'Additional Content' # text displayed as heading
+    info: 'additional content related to lecture to review asynchronously' # description of heading
+
   videos: &videos
     text: 'Async Videos'
     info: 'assigned videos for asynchronous remote lecture'
@@ -302,12 +306,19 @@ weeks:
               - text: 'Remove Demo'
                 href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/RemoveDemo.java'
                 icon: 'indented'
-                type: 'push'
+                type: 'push del'
 
               - text: 'Mutable Set Demo'
                 href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/MutableSetDemo.java'
                 icon: 'indented'
                 type: 'push'
+
+          - <<: *content
+            items:
+              - text: 'Remove Demo'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/RemoveDemo.java'
+                icon: 'code'
+                type: ''
 
 
       - date: 2023-02-09
