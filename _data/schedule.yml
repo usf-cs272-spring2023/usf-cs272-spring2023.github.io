@@ -358,10 +358,12 @@ weeks:
               - text: 'Widget'
                 icon: 'indented'
                 type: 'push'
+                repo: 'cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/Widget.java'
 
               - text: 'Widget Demo'
                 icon: 'indented'
                 type: 'push'
+                repo: 'cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/WidgetDemo.java'
 
           - <<: *participation
             items:
