@@ -325,14 +325,23 @@ weeks:
               - text: 'Static Demo'
                 icon: 'indented'
                 type: 'push'
+                repo: 'cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/StaticDemo.java'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=de999e3f-a828-4b27-9e3d-afa2012c8765'
+                time: '12:55'
 
               - text: 'Object Demo'
                 icon: 'indented'
                 type: 'push'
+                repo: 'cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/ObjectDemo.java'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=518aea80-c257-43a3-b3cf-afa2012c873c'
+                time: '14:45'
 
               - text: 'String Demo'
                 icon: 'indented'
                 type: 'push'
+                repo: 'cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/StringDemo.java'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a4f5cd95-d46d-4e97-abea-afa2012c87b9'
+                time: '13:09'
 
               - file: 'lectures'
                 name: 'object'
