@@ -41,9 +41,26 @@ maps:
 project1:
   <<: *default
   text: 'Project 1 Writeup'
-  date: 2022-02-10
+  date: 2023-02-10
   tags: ['none']
   href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421002'
+
+static:
+  <<: *default
+  text: 'Instance vs Static'
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421148'
+  date: 2023-02-13
+  tags: ['objects']
+#   test: 'https://usfca.instructure.com/courses/1611719/quizzes/2421148'
+
+identifier:
+  <<: *default
+  text: 'Instance vs Identifier'
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421154'
+  date: 2023-02-13
+  tags: ['objects']
+#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413864'
+
 
 # inheritance:
 #   <<: *default
@@ -61,21 +78,6 @@ project1:
 #   tags: ['inheritance']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413869'
 
-# static:
-#   <<: *default
-#   text: 'Instance vs Static'
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409339'
-#   date: 2022-09-23
-#   tags: ['objects']
-#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413857'
-
-# identifier:
-#   <<: *default
-#   text: 'Instance vs Identifier'
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409345'
-#   date: 2022-09-23
-#   tags: ['objects']
-#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413864'
 
 # mutability1:
 #   <<: *default

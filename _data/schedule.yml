@@ -384,7 +384,11 @@ weeks:
 
           - <<: *participation
             items:
-              - text: 'Pending'
+              - file: 'quizzes'
+                name: 'static'
+
+              - file: 'quizzes'
+                name: 'identifier'
 
       - date: 2023-02-10
         rows:
