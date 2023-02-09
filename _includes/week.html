@@ -45,7 +45,7 @@
           {%- if item.repo %}{% assign item_repo = item.repo %}{% endif %}
           {%- if item.save %}{% assign item_save = item.save %}{% endif %}
           {%- if item.time %}{% assign item_time = item.time %}{% endif %}
-          {%- if item.view %}{% assign item_view = item.save %}{% endif %}
+          {%- if item.view %}{% assign item_view = item.view %}{% endif %}
           {%- endif %}
 
           {%- if found.icon %}{% assign icon_type = site.data.icons[found.icon].type %}{% endif %}
@@ -59,7 +59,7 @@
           {%- if found.repo %}{% assign item_repo = found.repo %}{% endif %}
           {%- if found.save %}{% assign item_save = found.save %}{% endif %}
           {%- if found.time %}{% assign item_time = found.time %}{% endif %}
-          {%- if found.view %}{% assign item_view = found.time %}{% endif %}
+          {%- if found.view %}{% assign item_view = found.view %}{% endif %}
 
           <li class="{{ item_type }}">
             <i class="{{ icon_type }}" title="{{ icon_text }}"></i>
