@@ -354,10 +354,16 @@ weeks:
                 href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a4f5cd95-d46d-4e97-abea-afa2012c87b9'
                 time: '13:09'
 
-              - file: 'lectures'
-                name: 'object'
-                type: 'pt-2'
+              - text: 'Mutability Demo'
+                icon: 'indented'
+                type: 'push'
+                repo: 'cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/MutabilityDemo.java'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dbeb0c96-6f68-4688-9010-afa4000e2296'
+                time: '21:48'
 
+          - text: 'Async Optional Videos' # text displayed as heading
+            info: 'optional videos for asynchronous remote lecture'
+            items:
               - text: 'Widget Demo'
                 icon: 'code'
                 time: '42:08'
