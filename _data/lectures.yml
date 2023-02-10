@@ -77,6 +77,16 @@ object:
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28c59363-2baa-4962-a6e6-af9e014dc841'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vQgaY1m74u6_3ra6dibqslrvSKM4UIAyPHiljcs5mgbjBJyRf9k0NQsIRIGz-e9ICgYvZ4hjnURVoLY/pub?start=false&loop=false&delayms=3000'
 
+generics:
+  <<: *default
+  tags: ['inheritance']
+  text: 'Generic Types'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8f3be91f-6e33-4838-ae40-afa5012f761c'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vRczaRucL8_HpFU1hH8WY7TQr2XSplEUY78sBK9t-hTCIkDK9kDvAuVne569IHct2tDNG9724VeE92g/pub?start=false&loop=false&delayms=3000'
+  save: '/files/Generic Types.pdf'
+  time: '16:53'
+
+
 # inheritance:
 #   <<: *default
 #   tags: ['inheritance']
@@ -91,12 +101,6 @@ object:
 #   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRGzFfMR5DzWcEKtJbgKVaXvUjgRjjPg35S5fblIhJwbwaGY8MFLRjVHnt1YmsD71ep7qhvy7qWsKXN/pub?start=false&loop=false&delayms=3000'
 #   tube: 'https://drive.google.com/file/d/1PmAI01wb-SL5_ImzTJ_mfUiBo0Pxicfd/view?usp=sharing'
 
-# generics:
-#   <<: *default
-#   tags: ['inheritance']
-#   text: 'Generic Types'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTpTGgMPDYxADKD194mm3gk_OP2ws_eMoc_XcDOii9qBq40dYHUzas5eHPkUbLVJWFRztlOmyyEfpk4/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1nQgjWWZhPalu3bkcWzGkO2v_5_6rc9BF/view?usp=sharing'
 
 # revisited:
 #   <<: *default

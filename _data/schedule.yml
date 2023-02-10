@@ -456,7 +456,16 @@ weeks:
         rows:
           - <<: *videos
             items:
+              - file: 'lectures'
+                name: 'generics'
+
+              - text: 'Generics Demo'
+                time: '27:45'
+                icon: 'code'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0367dfce-a3db-4fab-8a01-afa5012f7643'
+
               - text: 'Inheritance'
+                type: 'pt-2'
 
           - <<: *participation
             items:
