@@ -119,3 +119,11 @@ generics:
   icon: 'code'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0367dfce-a3db-4fab-8a01-afa5012f7643'
   tags: ['inheritance']
+
+gadget:
+  <<: *default
+  text: 'Gadget Sort Demo'
+  time: '19:43'
+  icon: 'code'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0fa04900-834e-44f4-8d60-afa5013a6808'
+  tags: ['inheritance']

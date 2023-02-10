@@ -71,14 +71,6 @@ oop:
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vQkzEnVG9sFgjElR-K2xUi91wYtj3bC82mWk8XhaRaz3ihMJNqQbciSKSkAxJAw_UQW7TGo-Cevsp05/pub?start=false&loop=false&delayms=3000'
   save: '/files/Object Oriented Programming.pdf'
 
-object:
-  <<: *default
-  tags: ['inheritance', 'objects']
-  text: 'Object Class'
-  time: '06:59'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28c59363-2baa-4962-a6e6-af9e014dc841'
-  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQgaY1m74u6_3ra6dibqslrvSKM4UIAyPHiljcs5mgbjBJyRf9k0NQsIRIGz-e9ICgYvZ4hjnURVoLY/pub?start=false&loop=false&delayms=3000'
-
 generics:
   <<: *default
   tags: ['inheritance']
@@ -88,42 +80,48 @@ generics:
   save: '/files/Generic Types.pdf'
   time: '16:53'
 
+inheritance:
+  <<: *default
+  tags: ['inheritance']
+  text: 'Inheritance Relationships'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8dafbf27-1c7d-4a7c-aa2f-afa5013a6828'
+  time: '15:09'
 
-# inheritance:
-#   <<: *default
-#   tags: ['inheritance']
-#   text: 'Inheritance Relationships'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRERLodkAk1fbT4ViN7An3U2udLB30MAEzqf8POvrRXRgjX68uYtZpI0G_osB-KUJBTC7Wry6Mg6fax/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1eu_Co497YW-6vW6JpbtUkET75VZ3iFyw/view?usp=sharing'
+abstract:
+  <<: *default
+  tags: ['inheritance']
+  text: 'Abstract and Interfaces'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=217a9f63-2bcd-4869-b79c-afa5013a66f5'
+  time: '14:36'
 
-# abstract:
-#   <<: *default
-#   tags: ['inheritance']
-#   text: 'Abstract and Interfaces'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRGzFfMR5DzWcEKtJbgKVaXvUjgRjjPg35S5fblIhJwbwaGY8MFLRjVHnt1YmsD71ep7qhvy7qWsKXN/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1PmAI01wb-SL5_ImzTJ_mfUiBo0Pxicfd/view?usp=sharing'
+final:
+  <<: *default
+  tags: ['inheritance']
+  text: 'Final Keyword'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4e843b8f-0703-4199-ba76-afa5013a67b1'
+  time: '10:06'
 
+casting:
+  <<: *default
+  tags: ['inheritance']
+  text: 'Casting'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4eab4121-1dad-40c5-a5a1-afa5013a671f'
+  time: '10:42'
 
-# revisited:
-#   <<: *default
-#   tags: ['inheritance']
-#   text: 'Collections Revisited'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTplKJJQvcBbXh4ZOAPePKrXQnCYo0VL0MIeOSA_Ycq7TXNbSX2yEpP6PITOuIyReoCiLmMUwumV0p0/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1NO1gWoNzCMx4Rs5GkZe0ICK8OrI6uk2z/view?usp=sharing'
+object:
+  <<: *default
+  tags: ['inheritance', 'objects']
+  text: 'Object Class'
+  time: '06:59'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28c59363-2baa-4962-a6e6-af9e014dc841'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQgaY1m74u6_3ra6dibqslrvSKM4UIAyPHiljcs5mgbjBJyRf9k0NQsIRIGz-e9ICgYvZ4hjnURVoLY/pub?start=false&loop=false&delayms=3000'
 
-# casting:
-#   <<: *default
-#   tags: ['inheritance']
-#   text: 'Casting'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vScucSAwDq8dHVEu6tumqDjrcOOdYK0dha7hHCgloqdsVrr8VHYbPKwKGvML8Zwp1YRm839wOa3WEOV/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1Rdwp_kCYGd5lBt2NpD5-di9loJ05ZGyd/view?usp=sharing'
-
-# final:
-#   <<: *default
-#   tags: ['inheritance']
-#   text: 'Final Keyword'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRsnBGeqewLKwSgm2XIfplLk_D2O_SZH8fbI-buemxgycpPvVVcs03AbKEzux_WGT9P_ty1ZFt8lJ07/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1L61dJEpzn1yAwP7dizMCqGnhtSlyNFlP/view?usp=sharing'
+revisited:
+  <<: *default
+  tags: ['inheritance']
+  text: 'Collections Revisited'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=065fa21b-4c31-49d0-9e75-afa5013a6790'
+  time: '21:06'
 
 # nested:
 #   <<: *default
