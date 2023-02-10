@@ -1,9 +1,11 @@
 defaults: &default
   text: 'Pending'
   icon: 'slides'
-  save: true
-  tube: false
   tags: []
+  # href: 'video link'
+  # view: 'slide link'
+  # time: '00:00'
+  # save: '/files/????.pdf'
 
 course_intro:
   <<: *default

@@ -1,0 +1,121 @@
+defaults: &default
+  text: 'Pending'
+  icon: 'code'
+  tags: []
+  # href: 'video link'
+  # repo: 'cs272-lectures/tree/main/???'
+  # time: '00:00'
+
+grader1:
+  <<: *default
+  text: 'Part 1 Motivation'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=91db4b55-77f9-45fe-a881-af96000f9365'
+  repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGrader.java'
+  time: '07:39'
+  tags: ['exceptions']
+
+grader2:
+  <<: *default
+  text: 'Part 2 Validation'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=469874d6-1769-4460-a2f7-af960012ba3e'
+  repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGraderValidated.java'
+  time: '08:07'
+  tags: ['exceptions']
+
+grader3:
+  <<: *default
+  text: 'Part 3 Catching'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c2647dc1-a2d0-45b2-8615-af960015b255'
+  repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGraderResourceful.java'
+  time: '15:46'
+  tags: ['exceptions']
+
+path:
+  <<: *default
+  text: 'Path Demo'
+  icon: 'code'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e0dbc0ef-c0d4-4d2d-be9a-af95016bf0c3'
+  time: '13:12'
+  repo: 'cs272-lectures/blob/main/FileIO/src/main/java/edu/usfca/cs272/PathDemo.java'
+  tags: ['files']
+
+directory:
+  <<: *default
+  text: 'DirectoryStream Demo'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aefe248e-f84b-496d-9c85-af95015cece4'
+  icon: 'code'
+  time: '11:30'
+  repo: 'cs272-lectures/blob/main/FileIO/src/main/java/edu/usfca/cs272/DirectoryStreamDemo.java'
+  tags: ['files']
+
+collection:
+  <<: *default
+  text: 'Collection Demo'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=50407ae4-8160-45f6-9a13-af9a01511e42'
+  time: '11:18'
+  repo: 'cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/CollectionDemo.java'
+  tags: ['data']
+
+map:
+  <<: *default
+  text: 'Map Demo'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73ce7aff-7d86-4e79-847b-af9a01511ee6'
+  time: '21:22'
+  repo: 'cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/MapDemo.java'
+  tags: ['data']
+
+nested:
+  <<: *default
+  text: 'Nested Map Demo'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=467061a3-8c81-491c-8a8b-af9d00303e2e'
+  time: '22:56'
+  repo: 'cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/NestedMapDemo.java'
+  tags: ['data']
+
+static:
+  <<: *default
+  text: 'Static Demo'
+  repo: 'cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/StaticDemo.java'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=de999e3f-a828-4b27-9e3d-afa2012c8765'
+  time: '12:55'
+  tags: ['objects']
+
+object:
+  <<: *default
+  text: 'Object Demo'
+  repo: 'cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/ObjectDemo.java'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=518aea80-c257-43a3-b3cf-afa2012c873c'
+  time: '14:45'
+  tags: ['objects']
+
+string:
+  <<: *default
+  text: 'String Demo'
+  repo: 'cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/StringDemo.java'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a4f5cd95-d46d-4e97-abea-afa2012c87b9'
+  time: '13:09'
+  tags: ['objects']
+
+mutability:
+  <<: *default
+  text: 'Mutability Demo'
+  repo: 'cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/MutabilityDemo.java'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dbeb0c96-6f68-4688-9010-afa4000e2296'
+  time: '21:48'
+  tags: ['objects']
+
+widget:
+  <<: *default
+  text: 'Widget Demo'
+  time: '42:08'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=de154268-48b5-43aa-ae4c-afa2012c8843'
+  repo: 'cs272-lectures/tree/main/ExploringObjects'
+  tags: ['objects']
+
+generics:
+  <<: *default
+  text: 'Generics Demo'
+  time: '27:45'
+  icon: 'code'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0367dfce-a3db-4fab-8a01-afa5012f7643'
+  tags: ['inheritance']
