@@ -93,6 +93,8 @@ abstract:
   text: 'Abstract and Interfaces'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=217a9f63-2bcd-4869-b79c-afa5013a66f5'
   time: '14:36'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vRARVHCO1k8XhC-yjANvl89WX91qKPJ9e3f2Em8ITBihWDf0Xym01x38Bz8DdigBFHHMfrgtuwgCFGE/pub?start=false&loop=false&delayms=3000'
+  save: '/files/Abstract and Interfaces.pdf'
 
 final:
   <<: *default
@@ -107,6 +109,8 @@ casting:
   text: 'Casting'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4eab4121-1dad-40c5-a5a1-afa5013a671f'
   time: '10:42'
+  save: '/files/Casting.pdf'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQKZWkx3KuWfriEUZx8n3VWwWJwqq1MyiMoJwWqXPQ-B8HdsaaOZgMPQ3cwDhuBcahLrDz3jtNKoeH-/pub?start=false&loop=false&delayms=3000'
 
 object:
   <<: *default

@@ -13,6 +13,10 @@ defaults:
     text: 'Async Videos'
     info: 'assigned videos for asynchronous remote lecture'
 
+  optional: &optional
+    text: 'Async Optional Videos'
+    info: 'optional videos for asynchronous remote lecture'
+
   participation: &participation
     text: 'Async Assignments'
     info: 'assigned quizzes and participation assignments for asynchronous remote lecture'
@@ -341,8 +345,7 @@ weeks:
                 icon: 'indented'
                 type: 'push'
 
-          - text: 'Async Optional Videos' # text displayed as heading
-            info: 'optional videos for asynchronous remote lecture'
+          - <<: *optional
             items:
               - file: 'code'
                 name: 'widget'
@@ -436,11 +439,30 @@ weeks:
               - file: 'lectures'
                 name: 'generics'
 
+              - file: 'lectures'
+                name: 'inheritance'
+                type: 'pt-2'
+
+              - file: 'lectures'
+                name: 'abstract'
+
+              - file: 'lectures'
+                name: 'final'
+
+              - file: 'lectures'
+                name: 'casting'
+
+              - file: 'lectures'
+                name: 'object'
+                type: 'pt-2'
+
+              - file: 'lectures'
+                name: 'revisited'
+
+          - <<: *optional
+            items:
               - file: 'code'
                 name: 'generics'
-
-              - text: 'Inheritance'
-                type: 'pt-2'
 
           - <<: *participation
             items:
