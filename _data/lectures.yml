@@ -103,6 +103,8 @@ final:
   text: 'Final Keyword'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4e843b8f-0703-4199-ba76-afa5013a67b1'
   time: '10:06'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQ1ZQfSwdQPikCJFXVf5YbWHAMh95r84nAr5Ply5DeYYY0OqU0EqJA0wsSFiX49Eh9qjyZhsFkGNZzs/pub?start=false&loop=false&delayms=3000'
+  save: '/files/Final Keyword.pdf'
 
 casting:
   <<: *default
