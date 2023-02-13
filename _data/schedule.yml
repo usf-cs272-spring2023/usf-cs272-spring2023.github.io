@@ -435,32 +435,36 @@ weeks:
 
               - text: 'Hash Code Demo'
                 icon: 'indented'
-                href: ''
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/HashCodeDemo.java'
                 type: 'push'
               
               - text: 'Concatenation Demo'
                 icon: 'indented'
-                href: ''
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/ConcatenationDemo.java'
                 type: 'push'
 
               - text: 'Map Mutability Demo'
                 icon: 'indented'
-                href: ''
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/MapMutabilityDemo.java'
                 type: 'push'
 
               - text: 'Prefix Map'
                 icon: 'indented'
-                href: ''
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/PrefixMap.java'
                 type: 'push pt-2'
 
               - text: 'Prefix Map Demo'
                 icon: 'indented'
-                href: ''
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/ExploringObjects/src/main/java/edu/usfca/cs272/PrefixDemo.java'
                 type: 'push'
 
           - <<: *assignments
             items:
-              - text: 'Pending'
+              - file: 'quizzes'
+                name: 'mutability1'
+
+              - file: 'quizzes'
+                name: 'mutability2'
 
       - date: 2023-02-16
         rows:

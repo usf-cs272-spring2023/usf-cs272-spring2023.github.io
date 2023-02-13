@@ -61,6 +61,22 @@ identifier:
   tags: ['objects']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413864'
 
+mutability1:
+  <<: *default
+  text: 'Mutability Part 1'
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421162'
+  date: 2023-02-20
+  tags: ['objects']
+#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413855'
+
+mutability2:
+  <<: *default
+  text: 'Mutability Part 2'
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421150'
+  date: 2023-02-20
+  tags: ['objects']
+#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413860'
+
 
 # inheritance:
 #   <<: *default
@@ -79,21 +95,6 @@ identifier:
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413869'
 
 
-# mutability1:
-#   <<: *default
-#   text: 'Mutability Part 1'
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7244526'
-#   date: 2022-09-23
-#   tags: ['objects']
-#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413855'
-
-# mutability2:
-#   <<: *default
-#   text: 'Mutability Part 2'
-#   link: 'https://usfca.instructure.com/courses/1608197/assignments/7223879'
-#   date: 2022-09-23
-#   tags: ['objects']
-#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413860'
 
 # casting:
 #   <<: *default
