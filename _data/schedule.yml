@@ -429,8 +429,38 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Objects'
-              - text: 'Mutability'
+              - text: 'Exploring Objects'
+                icon: 'code'
+                href: ''
+
+              - text: 'Hash Code Demo'
+                icon: 'indented'
+                href: ''
+                type: 'push'
+              
+              - text: 'Concatenation Demo'
+                icon: 'indented'
+                href: ''
+                type: 'push'
+
+              - text: 'Map Mutability Demo'
+                icon: 'indented'
+                href: ''
+                type: 'push'
+
+              - text: 'Prefix Map'
+                icon: 'indented'
+                href: ''
+                type: 'push pt-2'
+
+              - text: 'Prefix Map Demo'
+                icon: 'indented'
+                href: ''
+                type: 'push'
+
+          - <<: *assignments
+            items:
+              - text: 'Pending'
 
       - date: 2023-02-16
         rows:
