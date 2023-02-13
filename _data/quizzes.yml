@@ -77,24 +77,21 @@ mutability2:
   tags: ['objects']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413860'
 
-
-# inheritance:
-#   <<: *default
-#   text: 'Inheritance Keywords'
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409342'
-#   date: 2022-09-16
-#   tags: ['inheritance']
+inheritance:
+  <<: *default
+  text: 'Inheritance Keywords'
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421158'
+  date: 2023-02-20
+  tags: ['inheritance']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413867'
 
-# collections:
-#   <<: *default
-#   text: 'Collections Revisited'
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409376'
-#   date: 2022-09-16
-#   tags: ['inheritance']
+collections:
+  <<: *default
+  text: 'Collections Revisited'
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421164'
+  date: 2023-02-20
+  tags: ['inheritance']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413869'
-
-
 
 # casting:
 #   <<: *default

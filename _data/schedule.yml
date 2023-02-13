@@ -500,7 +500,11 @@ weeks:
 
           - <<: *participation
             items:
-              - text: 'Pending'
+              - file: 'quizzes'
+                name: 'inheritance'
+
+              - file: 'quizzes'
+                name: 'collections'
 
       - date: 2023-02-17
         rows:
