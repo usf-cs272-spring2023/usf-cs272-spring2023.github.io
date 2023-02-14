@@ -24,7 +24,7 @@ It is important to work and test the projects iteratively, as well as attempt to
 
 ### Running JUnit Tests
 
-You must use the [JUnit 5](https://junit.org/junit5/) tests provided with the [project-tests]({{ site.data.info.links.github.link }}/project-tests) repository to determine if your project is meeting the required functionality. The suite of tests for each project are given by the `*Tests.java` files in the [src]({{ site.data.info.links.github.link }}/project-tests/tree/main/src/test/java/edu/usfca/cs272) subdirectory. For example, the `v1.0.0` tests for [Project 1](project-1.html) are provided by the [BuildCountTests.java]({{ site.data.info.links.github.link }}/project-tests/blob/main/src/test/java/edu/usfca/cs272/BuildCountTests.java) file.
+You must use the [JUnit 5](https://junit.org/junit5/) tests provided with the [project-tests]({{ site.data.info.links.github.href }}/project-tests) repository to determine if your project is meeting the required functionality. The suite of tests for each project are given by the `*Tests.java` files in the [src]({{ site.data.info.links.github.href }}/project-tests/tree/main/src/test/java/edu/usfca/cs272) subdirectory. For example, the `v1.0.0` tests for [Project 1](project-1.html) are provided by the [BuildCountTests.java]({{ site.data.info.links.github.href }}/project-tests/blob/main/src/test/java/edu/usfca/cs272/BuildCountTests.java) file.
 
 While you are initially working on the project, **focus on individual tests** or individual groups of tests. There is no need to run all of the tests every time; in fact this can make debugging harder! See the [Homework Testing](/resources/homework/test-homework.html#running-individual-tests) guide for different ways you can run individual JUnit tests. Here is an example run configuration:
 
@@ -125,7 +125,7 @@ Creating releases will familiarize you with [**versioning**](https://en.wikipedi
 
   4. Click the "Publish release" button. You can leave the title and description blank. You *should* click the "This is a pre-release" checkbox unless you have passed code review, but it is not something we enforce currently.
 
-You can see a [sample release]({{ site.data.info.links.github.link }}/project-template/releases) on the template repository.
+You can see a [sample release]({{ site.data.info.links.github.href }}/project-template/releases) on the template repository.
 
 ### Deleting Releases
 
@@ -160,7 +160,7 @@ Creating or editing a release triggers the "Project Release" action in the "Acti
 
 To view details, click on the run title. The yellow circle <i class="fas fa-circle has-text-warning"></i> icon indicates the run or step is still in progress and has not yet completed. The red circle <i class="fas fa-times-circle has-text-danger"></i> indicates the run or step failed (either because of setup issues or the tests failed). The green circle <i class="fas fa-check-circle has-text-success"></i> icon indicates the run or step completed and was successful (i.e. all tests passed).
 
-You can see an [example run]({{ site.data.info.links.github.link }}/project-template/actions/workflows/project-release.yml) in the template repository. You can still request a "Project Tests" grade from this release if the action fails, as long as the "Run / ... / Tests" step passes. In the summary, you will see a messages similar to:
+You can see an [example run]({{ site.data.info.links.github.href }}/project-template/actions/workflows/project-release.yml) in the template repository. You can still request a "Project Tests" grade from this release if the action fails, as long as the "Run / ... / Tests" step passes. In the summary, you will see a messages similar to:
 
 > ✅ The release v1.0.x may be used to request a project 1 tests grade. This grade only needs to be requested once.
 
