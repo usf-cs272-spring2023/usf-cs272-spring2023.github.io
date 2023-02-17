@@ -66,6 +66,12 @@ cs_event2:
   show: true
   href: 'https://usfca.instructure.com/courses/1611719/quizzes/2420812'
 
+eclipse_github:
+  <<: *default
+  text: 'Share Resources'
+  date: 2023-03-10
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7295210'
+
 # midterm_survey:
 #   <<: *default
 #   text: 'Midterm Survey'

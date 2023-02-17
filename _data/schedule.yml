@@ -549,6 +549,11 @@ weeks:
 
               - text: 'Inheritance'
 
+          - <<: *assignments
+            items:
+              - file: 'participation'
+                name: 'eclipse_github'
+
       - date: 2023-02-23
         rows:
           - <<: *videos
@@ -695,6 +700,9 @@ weeks:
 
               - file: 'participation'
                 name: 'cs_event1'
+
+              - file: 'participation'
+                name: 'eclipse_github'
 
   - week: 'Week 08'
     days:
