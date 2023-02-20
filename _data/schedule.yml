@@ -638,6 +638,7 @@ weeks:
               
               - text: 'Stream Pipelines'
                 icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/StreamPipelines'
               
               - file: 'code'
                 name: 'streams'
