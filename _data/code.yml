@@ -9,7 +9,7 @@ defaults: &default
 grader1:
   <<: *default
   text: 'Part 1 Motivation'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=91db4b55-77f9-45fe-a881-af96000f9365'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9004839f-b625-44fa-b98b-afaf01509852'
   repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGrader.java'
   time: '07:39'
   tags: ['exceptions']
@@ -17,7 +17,7 @@ grader1:
 grader2:
   <<: *default
   text: 'Part 2 Validation'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=469874d6-1769-4460-a2f7-af960012ba3e'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=870f037f-9dc3-4c3c-a121-afaf0150987c'
   repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGraderValidated.java'
   time: '08:07'
   tags: ['exceptions']
@@ -25,7 +25,7 @@ grader2:
 grader3:
   <<: *default
   text: 'Part 3 Catching'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c2647dc1-a2d0-45b2-8615-af960015b255'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=faac5f4e-c347-4915-b1d8-afaf015098ec'
   repo: 'cs272-lectures/blob/main/ExceptionHandling/src/main/java/edu/usfca/cs272/SimpleGraderResourceful.java'
   time: '15:46'
   tags: ['exceptions']
@@ -34,7 +34,7 @@ path:
   <<: *default
   text: 'Path Demo'
   icon: 'code'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e0dbc0ef-c0d4-4d2d-be9a-af95016bf0c3'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ac30d0c7-7802-4108-b194-afaf0150997f'
   time: '13:12'
   repo: 'cs272-lectures/blob/main/FileIO/src/main/java/edu/usfca/cs272/PathDemo.java'
   tags: ['files']
@@ -42,7 +42,7 @@ path:
 directory:
   <<: *default
   text: 'DirectoryStream Demo'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aefe248e-f84b-496d-9c85-af95015cece4'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cfd9fab6-3855-435b-922b-afaf01509918'
   icon: 'code'
   time: '11:30'
   repo: 'cs272-lectures/blob/main/FileIO/src/main/java/edu/usfca/cs272/DirectoryStreamDemo.java'
@@ -51,7 +51,7 @@ directory:
 collection:
   <<: *default
   text: 'Collection Demo'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=50407ae4-8160-45f6-9a13-af9a01511e42'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a6eaafe4-ae6b-4d80-ba5f-afaf015096f3'
   time: '11:18'
   repo: 'cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/CollectionDemo.java'
   tags: ['data']
@@ -59,7 +59,7 @@ collection:
 map:
   <<: *default
   text: 'Map Demo'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73ce7aff-7d86-4e79-847b-af9a01511ee6'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b5745df-61b9-4f8d-bf93-afaf01509754'
   time: '21:22'
   repo: 'cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/MapDemo.java'
   tags: ['data']
@@ -67,7 +67,7 @@ map:
 nested:
   <<: *default
   text: 'Nested Map Demo'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=467061a3-8c81-491c-8a8b-af9d00303e2e'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4f73972d-1ece-4d1a-9b27-afaf01509777'
   time: '22:56'
   repo: 'cs272-lectures/blob/main/DataStructures/src/main/java/edu/usfca/cs272/NestedMapDemo.java'
   tags: ['data']
