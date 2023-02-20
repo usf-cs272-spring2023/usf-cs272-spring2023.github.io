@@ -93,36 +93,36 @@ collections:
   tags: ['inheritance']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413869'
 
-# casting:
-#   <<: *default
-#   text: 'Casting'
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409346'
+casting:
+  <<: *default
+  text: 'Casting'
+  tags: ['inheritance']
 #   date: 2022-09-23
-#   tags: ['inheritance']
+#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409346'
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413868'
 
-# nesting:
-#   <<: *default
-#   text: 'Nested Classes'
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409348'
+nesting:
+  <<: *default
+  text: 'Nested Classes'
+  tags: ['inheritance']
 #   date: 2022-09-23
-#   tags: ['inheritance']
+#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409348'
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413865'
 
-# java:
-#   <<: *default
-#   text: 'Java Features'
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409344'
+java:
+  <<: *default
+  text: 'Java Features'
+  tags: ['none']
 #   date: 2022-09-30
-#   tags: ['none']
+#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409344'
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413862'
 
-# lambdas:
-#   <<: *default
-#   text: 'Lambda Expressions'
+lambdas:
+  <<: *default
+  text: 'Lambda Expressions'
+  tags: ['lambdas']
 #   date: 2022-09-30
 #   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409336'
-#   tags: ['lambdas']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413861'
 
 streams:

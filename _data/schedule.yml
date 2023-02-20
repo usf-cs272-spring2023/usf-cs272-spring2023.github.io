@@ -552,17 +552,41 @@ weeks:
             items:
               - file: 'participation'
                 name: 'eclipse_github'
+                type: 'pb-2'
+
+              - file: 'quizzes'
+                name: 'casting'
+              
+              - file: 'quizzes'
+                name: 'nesting'
 
       - date: 2023-02-23
         rows:
           - <<: *videos
             items:
-              - text: 'Lambda Expressions'
-              - text: 'Stream Pipelines'
+              - file: 'lectures'
+                name: 'java'
+                type: 'pb-2'
+              
+              - file: 'lectures'
+                name: 'lambdas'
+              
+              - text: 'Path Matcher'
+
+              - file: 'lectures'
+                name: 'streams'
+                type: 'pt-2'
+              
+              - file: 'code'
+                name: 'euler'
 
           - <<: *participation
             items:
-              - text: 'Pending'
+              - file: 'quizzes'
+                name: 'java'
+              
+              - file: 'quizzes'
+                name: 'lambdas'
 
       - date: 2023-02-24
         rows:
