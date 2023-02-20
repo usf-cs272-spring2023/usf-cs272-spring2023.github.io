@@ -120,6 +120,7 @@ object:
   <<: *default
   tags: ['inheritance', 'objects']
   text: 'Object Class'
+  save: '/files/Object Class.pdf'
   time: '06:59'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8c2e483d-a4a3-4691-b8b1-afa201317dd4'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vQgaY1m74u6_3ra6dibqslrvSKM4UIAyPHiljcs5mgbjBJyRf9k0NQsIRIGz-e9ICgYvZ4hjnURVoLY/pub?start=false&loop=false&delayms=3000'
