@@ -125,51 +125,54 @@ object:
 
 revisited:
   <<: *default
-  tags: ['inheritance']
   text: 'Collections Revisited'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=065fa21b-4c31-49d0-9e75-afa5013a6790'
+  tags: ['inheritance']
   time: '21:06'
+  save: '/files/Collections Revisited.pdf'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=065fa21b-4c31-49d0-9e75-afa5013a6790'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vRc2JPUgSGi0Qv-WNE6tyFebba4xi10C1sr1TqlKXhF7CeNgciA15B4Rp1er0PU5ACwgUqzQYVO5nLU/pub?start=false&loop=false&delayms=3000'
 
 nested:
   <<: *default
   tags: ['inheritance']
   text: 'Nested Classes'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSeqg3U6O_VkZfdI434cdgk0G5TVkTkJ4AzjqQB1GuG1Ti-eKnY_mom9TyYk3_DBLJ5yDSHIkGMo_kr/pub?start=false&loop=false&delayms=3000'
+  save: '/files/Nested Classes.pdf'
+  href: 'https://docs.google.com/presentation/d/e/2PACX-1vQGU98zYWhimyRP15CrqUGU3tCGrbD_HZyrgoO7plH9Bip026Qt6lBfMB4upYTsbbbA9zsAfUy2_762/pub?start=false&loop=false&delayms=3000'
 
 java:
   <<: *default
   text: 'Java Features'
+  save: '/files/Java Features.pdf'
   time: '17:45'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=afafe125-83ba-4a06-9acd-afaf01584b44'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vQgwh-Ed-cHJac54JsmOnFAAwXsApcUzkqJZeQsf1IS36NYlxcSAa1VjQc0qEYvjK2AGXZQ70C8ldfC/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1WNk4AG9zWdC-n58sLeCEkgVA8VEgFUji/view?usp=sharing'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQyNW1eQU1VEzG4zkXLfWSzUMmeephSRac5SgxMPhYDrGHu4tSiRCZ8BC5Asr5cMiOArSOefQd296q-/pub?start=false&loop=false&delayms=3000'
 
 lambdas:
   <<: *default
   tags: ['lambdas']
   text: 'Lambda Expressions'
+  save: '/files/Lambda Expressions.pdf'
   time: '35:58'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=92c594f2-7825-4b47-99b8-afaf01584b69'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTmBu1XB3WYKH1KXyLtUqQyV40Lh2ceGW5G8beU-XlSGfbKCLPVRh8Lfmn6DGzfOUi85g7qVsEATXvd/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1H2_A1qYec7PtvSPi_9TiC-nI51dpAlG-/view?usp=sharing'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vSfcsz5hcR8nM0AMwkn38IBfF51QQIGFv9B0z522Fz5QkOy_gZ4HNBvJiEU5Nre7ptzG0yCcUgwzAPQ/pub?start=false&loop=false&delayms=3000'
 
 streams:
   <<: *default
   tags: ['streams']
   text: 'Stream Basics'
+  save: '/files/Stream Basics.pdf'
   time: '17:36'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=75c5ed9b-3fc4-4b74-9154-afaf01584bd1'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRl3Ev_VVDJC4aEEE5APaLREdbgdI71Ly_iVqLI4zY1gOt8abiV0WPQRLrKvabBwVQzR2Xz36nuc0Tt/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/10MCP3wTHYPQ5LGL6rP3sH7kYiF3OAIhh/view?usp=sharing'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vTHslFp-CrVA0Lg2aKZoczqUpVvGQcfrmbi-wRp4_gEyqPOsuJ_haBi7JKIDi01Qyyrv4ft5a2KsXio/pub?start=false&loop=false&delayms=3000'
 
 pipelines:
   <<: *default
   tags: ['streams']
   text: 'Stream Pipelines'
+  save: '/files/Stream Pipelines.pdf'
   time: '20:37'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c5134ea0-52e1-467c-8d81-afaf01584c60'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTjQo-LxI9hY2OwOZtF9MYqm2uzAB3voPgcpR3Sufzx6s8QEj-sIitaeOMVst8wanFt0iVM3kxjG0XD/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1vWdlCE8eOt3HzVGa04zO1jJiWP1mJJ3z/view?usp=sharing'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vSiGw5EXngr3WKMKWvcn0jnYpSP6AcaxT-eMIUNcywqIc-bLmUPvp1zwKlu5AvZ_m-k_z0wGRMG9zy4/pub?start=false&loop=false&delayms=3000'
 
 # regex:
 #   <<: *default
