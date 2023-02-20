@@ -139,6 +139,7 @@ nested:
 java:
   <<: *default
   text: 'Java Features'
+  time: '17:45'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=afafe125-83ba-4a06-9acd-afaf01584b44'
 #   href: 'https://docs.google.com/presentation/d/e/2PACX-1vQgwh-Ed-cHJac54JsmOnFAAwXsApcUzkqJZeQsf1IS36NYlxcSAa1VjQc0qEYvjK2AGXZQ70C8ldfC/pub?start=false&loop=false&delayms=3000'
 #   tube: 'https://drive.google.com/file/d/1WNk4AG9zWdC-n58sLeCEkgVA8VEgFUji/view?usp=sharing'
@@ -147,6 +148,7 @@ lambdas:
   <<: *default
   tags: ['lambdas']
   text: 'Lambda Expressions'
+  time: '35:58'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=92c594f2-7825-4b47-99b8-afaf01584b69'
 #   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTmBu1XB3WYKH1KXyLtUqQyV40Lh2ceGW5G8beU-XlSGfbKCLPVRh8Lfmn6DGzfOUi85g7qVsEATXvd/pub?start=false&loop=false&delayms=3000'
 #   tube: 'https://drive.google.com/file/d/1H2_A1qYec7PtvSPi_9TiC-nI51dpAlG-/view?usp=sharing'
@@ -155,6 +157,7 @@ streams:
   <<: *default
   tags: ['streams']
   text: 'Stream Basics'
+  time: '17:36'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=75c5ed9b-3fc4-4b74-9154-afaf01584bd1'
 #   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRl3Ev_VVDJC4aEEE5APaLREdbgdI71Ly_iVqLI4zY1gOt8abiV0WPQRLrKvabBwVQzR2Xz36nuc0Tt/pub?start=false&loop=false&delayms=3000'
 #   tube: 'https://drive.google.com/file/d/10MCP3wTHYPQ5LGL6rP3sH7kYiF3OAIhh/view?usp=sharing'
@@ -163,6 +166,7 @@ pipelines:
   <<: *default
   tags: ['streams']
   text: 'Stream Pipelines'
+  time: '20:37'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c5134ea0-52e1-467c-8d81-afaf01584c60'
 #   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTjQo-LxI9hY2OwOZtF9MYqm2uzAB3voPgcpR3Sufzx6s8QEj-sIitaeOMVst8wanFt0iVM3kxjG0XD/pub?start=false&loop=false&delayms=3000'
 #   tube: 'https://drive.google.com/file/d/1vWdlCE8eOt3HzVGa04zO1jJiWP1mJJ3z/view?usp=sharing'

@@ -127,3 +127,39 @@ gadget:
   icon: 'code'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0fa04900-834e-44f4-8d60-afa5013a6808'
   tags: ['inheritance']
+
+euler:
+  <<: *default
+  text: 'Project Euler 1 Revisited'
+  tags: ['streams']
+  time: '13:25'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e515adeb-e7af-4478-8ec3-afaf01584cc7'
+
+streams:
+  <<: *default
+  text: 'Stream Demo'
+  tags: ['streams']
+  time: '32:01'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7a438f11-9ac7-417c-a87d-afaf01584cf3'
+
+infinite:
+  <<: *default
+  text: 'Infinite Stream Demo'
+  tags: ['streams']
+  time: '09:16'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=97a88096-359f-4e90-9ad4-afaf01584c31'
+
+parser:
+  <<: *default
+  text: 'Text File Parser'
+  tags: ['lambdas']
+  time: '18:31'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d8df8a87-362f-42de-9627-afaf01584bb4'
+
+streamer:
+  <<: *default
+  text: 'Text File Streamer'
+  tags: ['streams']
+  time: '21:04'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=19ac7723-df6f-429c-bc46-afaf01584d54'
+
