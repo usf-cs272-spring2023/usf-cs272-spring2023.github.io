@@ -10,119 +10,50 @@ tags:
  - text: 'Pending'
   #  type: 'is-primary'
 
-# subsections:
-#   - text: 'Requirements'
-#     link: '#requirements'
+subsections:
+  - text: 'Functionality'
+    link: '#functionality'
+  
+  - text: 'Requirements v2.0'
+    link: '#requirements-v20'
 
-#   - text: 'Grading'
-#     link: '#grading'
+  - text: 'Requirements v2.1 '
+    link: '#requirements-v21'
 
-#   - text: 'Getting Started'
-#     link: '#getting-started'
+  - text: 'Assignments'
+    link: '#assignments'
 
-# tests: 'project2_tests'
-# review1: 'project2_review1'
-# review2: 'project2_review2'
-# design: 'project2_design'
+  - text: 'Getting Started'
+    link: '#getting-started'
 
-# review0: 'project1_review1'
-# design0: 'project1_design'
+tests1:  'tests_v20'
+tests2:  'tests_v21'
+review1: 'review_v20'
+review2: 'review_v21'
+design:  'design_v2x'
 
 ---
 
-Pending
+For this project, you will extend your [previous project](project-{{ page.project | minus: 1 }}.html) to support conducting an **exact search** or **partial search** of multi-word queries through the inverted index data structure.
 
-{% comment %}
-For this project, you will extend your [previous project](project-{{ page.project | minus: 1 }}.html) to support multi-word **exact search** and **partial search** queries. 
-
-To do this, your code must modify how input text files are processed to also **track the total word count of each file** when building the inverted index. Your code must be able to output these word counts to file in pretty JSON format.
-
-Your code must be able to process a query file line-by-line into a **normalized and optimized multiple-word queries** matching the processing used to build the inverted index. Then, it must conduct either an exact or partial search for those queries. An **exact search** will only return exact matches from the inverted index for any of the word stems in the multi-word query line. A **partial search** will return matches that **start with** any of the word stems instead.
-
-Finally, your code must sort the search results using a simple **term frequency metric** to determine the most "useful" search results to output first. Your code must be able to output these sorted search results to file in a pretty JSON format.
-
-## Requirements
+## Functionality
 {: .page-header }
 
-The following detail the functionality requirements that must be implemented for this project.
+The functionality for this project can be broken up until the following subproblems:
 
-### Input Requirements
+  1. **Process** a file of multi-word search queries into an optimized and normalized form that is consistent with how the inverted index was built.
 
-Your `main` method must be placed in a class named `Driver` and must process the following command-line arguments:
+  2. **Find** exact or partial search results from the inverted index data structure for each multi-word search query.
 
-  - `-counts [path]` where the flag `-counts` indicates the next argument `[path]` is the path to use to output all of the locations and their word count. 
-  
-      If the `[path]` argument is not provided, use `counts.json` as the default output filename. If the `-counts` flag is not provided, your could should **still calculate the word counts** but should not produce an output file of those counts.
+  3. **Rank** (or sort) search results so the most relevant results are first using a simple term frequency metric.
 
-  - `-query [path]` where the flag `-query` indicates the next argument `[path]` is a path to a text file of queries to be used for search. If this flag is not provided, then no search should be performed.
+  4. **Output** the search results using a pretty JSON format to file.
 
-  - `-exact` where the flag `-exact` indicates all search operations performed should be exact search. If the flag is *not* present, any search operations should use partial search instead.
-
-  - `-results [path]` where the flag `-results` indicates the next argument `[path]` is the path to use for the search results output file. This may include partial or exact search results! 
-  
-      If the `[path]` argument is not provided, use `results.json` as the default output filename. If the `-results` flag is not provided, do not produce an output file of search results but **still perform the search** operation.
-
-The command-line flag/value pairs may be provided in any order or not at all. Do not convert paths to absolute form when processing command-line input!
-
-Output **user-friendly error messages** in the case of exceptions or invalid input. Under no circumstance should your `main()` method output a stack trace to the user!
-
-Your code should support all of the command-line arguments from the [previous project](project-1.html) as well.
-
-### Calculating Word Count
-
-Before you can calculate search results, you need to know how many word stems were stored in your inverted index for each text file.
-
-**Avoid opening up any file more than once!** Your code should store this information alongside the inverted index, as the files are first processed.
-
-These word counts will be output to file using the same pretty JSON format as the inverted index. Here is the expected output for the word count of all the text files associated with this project:
-
-```json
-{
-  "input/text/guten/1400-0.txt": 187368,
-  "input/text/guten/2701-0.txt": 215398,
-  "input/text/guten/50468-0.txt": 10969,
-  "input/text/guten/pg1322.txt": 124370,
-  "input/text/guten/pg1661.txt": 107396,
-  "input/text/guten/pg22577.txt": 63630,
-  "input/text/guten/pg37134.txt": 16696,
-  "input/text/rfcs/rfc3629.txt": 4294,
-  "input/text/rfcs/rfc475.txt": 3228,
-  "input/text/rfcs/rfc5646.txt": 27075,
-  "input/text/rfcs/rfc6805.txt": 9785,
-  "input/text/rfcs/rfc6838.txt": 9367,
-  "input/text/rfcs/rfc7231.txt": 28811,
-  "input/text/simple/.txt/hidden.txt": 1,
-  "input/text/simple/a/b/c/d/subdir.txt": 1,
-  "input/text/simple/animals.text": 11,
-  "input/text/simple/animals_copy.text": 11,
-  "input/text/simple/animals_double.text": 22,
-  "input/text/simple/capital_extension.TXT": 1,
-  "input/text/simple/capitals.txt": 4,
-  "input/text/simple/digits.tXt": 2,
-  "input/text/simple/dir.txt/findme.Txt": 17,
-  "input/text/simple/hello.txt": 6,
-  "input/text/simple/position.teXt": 20,
-  "input/text/simple/symbols.txt": 10,
-  "input/text/simple/words.tExT": 36,
-  "input/text/stems/stem-in.txt": 22275,
-  "input/text/stems/stem-out.txt": 22275
-}
-```
-
-...and for the stand-alone `sentences.md` file:
-
-```json
-{
-  "input/text/simple/sentences.md": 77
-}
-```
-You can also find this output in the `expected/counts` subdirectory in the [`project-tests`]({{ site.github.owner_url }}/project-tests) repository.
+The first `v2.0` minor release of this project must support **exact search**. The second `v2.1` and following releases must also support **partial search** as well. See below for additional details. 
 
 ### Processing Search Queries
 
-Search queries will be provided in a text file with one **multi-word** search query per line. Eventually, these queries will come from a search box on a webpage instead.
-
-When processing this file, your query parsing code must normalize and optimize the queries as follows:
+Search queries will be provided in a text file with one **multi-word** search query per line. When processing this file, your query parsing code must normalize and optimize the queries as follows:
 
   - **Clean and parse each query line.** Perform the same transformations to each line of query words as used when populating your inverted index. This includes cleaning the line of any non-alphabetic characters, converting the remaining characters to lowercase, splitting the cleaned line into words by whitespace, and stemming each word. For example, the query line:
 
@@ -150,7 +81,19 @@ When processing this file, your query parsing code must normalize and optimize t
 
 At this stage, the normalized words from the original query line can be used by your inverted index data structure to generate search results and to produce the expected JSON file output.
 
-### Calculating Search Results
+### Finding Search Results
+
+For each unique multi-word query line, your code must find **search results** from the inverted index data structure. A search result is primarily a location or file path that the query or queries were found, with additional metadata that allows for the ranking of that search result (discussed later). 
+
+There are two search modes that determine which locations should be included in the search results for each query line:
+
+  - An **exact search** must include results (file locations) from the inverted index that exactly match *any* of the word stems from the processed multi-word query line.
+
+  - A **partial search** will return matches that **start with** any of the word stems instead.
+
+Finally, your code must sort the search results using a simple **term frequency metric** to determine the most "useful" search results to output first. Your code must be able to output these sorted search results to file in a pretty JSON format.
+
+### Ranking Search Results
 
 Search engines rank their search results such that the most useful results are provided first. For example, [PageRank](https://en.wikipedia.org/wiki/PageRank) is the well-known algorithm initially used by Google to rank results by estimating the importance of a website by its incoming links.
 
@@ -192,9 +135,7 @@ If you calculate the score using `float` instead of `double` objects, or sort us
 Remember, mutable objects do not behave well when used in sets or as keys in maps. Use lists and <a href="https://www.cs.usfca.edu/~cs272/javadoc/api/java.base/java/util/Collections.html#sort(java.util.List)">Collections.sort(List)</a> to sort search results instead, not a <a href="https://www.cs.usfca.edu/~cs272/javadoc/api/java.base/java/util/TreeSet.html">TreeSet</a> data structure. 
 {: .notification .is-warning }
 
-### Output Requirements
-
-The output of your inverted index should be the same from the previous project. See the "Calculating Word Count" section for the desired output.
+### Outputting Search Results
 
 The search results should be output as a JSON array of JSON objects, where each object represents a single line from the original query file (e.g. one search). The query objects should have the cleaned, sorted query as its key and the results as its value. Specifically:
 
@@ -220,7 +161,6 @@ The search results should be output as a JSON array of JSON objects, where each 
 
       - The key `where` with a quoted text value that is the relative path to the text file matching one or more of the query words.
 
-
 The use of spaces, newline characters, and spaces are the same as before for “pretty” JSON output. Here is an example output snippet of a single search query with a single search result:
 
 ```json
@@ -234,6 +174,44 @@ The use of spaces, newline characters, and spaces are the same as before for “
 ```
 
 You can also find this output in the `search-exact-simple-simple.json` file in the [`project-tests`]({{ site.github.owner_url }}/project-tests) repository. See the other expected output files for more examples.
+
+## Requirements v2.0
+{: .page-header }
+
+For the first minor release of this project, your project must support query file processing, **exact search**, and search result ranking.
+
+### Arguments v2.0
+
+Your `main` method must be placed in a class named `Driver` and must process the following command-line arguments:
+
+  - `-query [path]` where the flag `-query` indicates the next argument `[path]` is a path to a text file of queries to be used for **exact** search. If this flag is not provided, then no search should be performed.
+
+  - `-results [path]` where the flag `-results` indicates the next argument `[path]` is the path to use for the search results output file.
+  
+      If the `[path]` argument is not provided, use `results.json` as the default output filename. If the `-results` flag is not provided, do not produce an output file of search results but **still perform the search** operation.
+
+The command-line flag/value pairs may be provided in any order or not at all. Do not convert paths to absolute form when processing command-line input!
+
+Output **user-friendly error messages** in the case of exceptions or invalid input. Under no circumstance should your `main()` method output a stack trace to the user!
+
+Your code should support all of the command-line arguments from the [previous project](project-1.html) as well.
+
+### File Input v2.0
+
+Pending
+
+### File Output v2.0
+
+{% comment %}
+
+
+
+
+
+
+
+
+
 
 ### Run Examples
 

@@ -536,7 +536,6 @@ weeks:
               - file: 'projects'
                 name: 'tests_v11'
 
-
   - week: 'Week 05'
     days:
       - date: 2023-02-21
@@ -605,11 +604,36 @@ weeks:
         rows:
           - <<: *videos
             items:
+              - file: 'code'
+                name: 'parser'
+                type: 'pb-2'
+
+              - file: 'lectures'
+                name: 'pipelines'
+                type: 'pb-2'
+              
               - text: 'Stream Pipelines'
+                icon: 'code'
+              
+              - file: 'code'
+                name: 'streams'
+                icon: 'indented'
+                type: 'push'
+
+              - file: 'code'
+                name: 'infinite'
+                icon: 'indented'
+                type: 'push'
+
+              - file: 'code'
+                name: 'streamer'
+                icon: 'indented'
+                type: 'push'
 
           - <<: *participation
             items:
-              - text: 'Pending'
+              - file: 'quizzes'
+                name: 'streams'
 
       - date: 2023-03-03
         rows:
