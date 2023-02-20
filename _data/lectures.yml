@@ -87,6 +87,7 @@ inheritance:
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8dafbf27-1c7d-4a7c-aa2f-afa5013a6828'
   time: '15:09'
   save: '/files/Inheritance Relationships.pdf'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQLIWhawaa54n5rjvtPsfTb4WyrQ_TdGUobkSssetDUpRopHK43W5P16lic_0aerDoWtentZhhshsGJ/pub?start=false&loop=false&delayms=3000'
 
 abstract:
   <<: *default
