@@ -118,6 +118,7 @@ generics:
   time: '27:45'
   icon: 'code'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0367dfce-a3db-4fab-8a01-afa5012f7643'
+  repo: 'cs272-lectures/blob/main/InheritanceDemos/src/main/java/edu/usfca/cs272/GenericTypesDemo.java'
   tags: ['inheritance']
 
 gadget:
@@ -126,6 +127,7 @@ gadget:
   time: '19:43'
   icon: 'code'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0fa04900-834e-44f4-8d60-afa5013a6808'
+  repo: 'cs272-lectures/blob/main/InheritanceDemos'
   tags: ['inheritance']
 
 euler:

@@ -546,7 +546,60 @@ weeks:
                 name: 'project2'
                 type: 'has-text-usf-plum pb-2'
 
-              - text: 'Inheritance'
+              - file: 'lectures'
+                name: 'nested'
+                type: 'pb-2'
+
+              - text: 'Inheritance Basics'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/InheritanceBasics'
+
+              - text: 'Shape'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/InheritanceBasics/src/main/java/edu/usfca/cs272/Shape.java'
+                html: ', <a href="https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/InheritanceBasics/src/main/java/edu/usfca/cs272/Rectangle.java">Rectangle</a>, <a href="https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/InheritanceBasics/src/main/java/edu/usfca/cs272/Square.java">Square</a>'
+
+              - text: 'Shape Demo'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/InheritanceBasics/src/main/java/edu/usfca/cs272/ShapeDemo.java'
+
+              - text: 'Inheritance Demos'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/InheritanceDemos'
+                type: 'pt-2'
+
+              - text: 'Word Group'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/InheritanceDemos/src/main/java/edu/usfca/cs272/WordGroup.java'
+                html: ', <a href="https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/InheritanceDemos/src/main/java/edu/usfca/cs272/WordPrefix.java">Prefix</a>, <a href="https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/InheritanceDemos/src/main/java/edu/usfca/cs272/WordLength.java">Length</a>'
+
+              - text: 'Word Group Demo'
+                icon: 'indented'
+                type: 'push pb-2'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/InheritanceDemos/src/main/java/edu/usfca/cs272/WordGroupDemo.java'
+
+              - file: 'code'
+                name: 'gadget'
+
+              - text: 'Gadget'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/InheritanceDemos/src/main/java/edu/usfca/cs272/Gadget.java'
+                html: ', <a href="https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/InheritanceDemos/src/main/java/edu/usfca/cs272/GadgetComparator.java">Gadget Comparator</a>'
+
+              - text: 'Gadget Sort Demo'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/InheritanceDemos/src/main/java/edu/usfca/cs272/GadgetSortDemo.java'
+
+          - <<: *content
+            items:
+              - text: 'Cast Demo'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/InheritanceBasics/src/main/java/edu/usfca/cs272/CastDemo.java'
 
           - <<: *assignments
             items:
