@@ -6,9 +6,9 @@ key: 1.0
 bump: true
 project: 1
 
-tags:
- - text: 'New'
-   type: 'is-primary'
+# tags:
+#  - text: 'New'
+  #  type: 'is-primary'
 
 subsections:
   - text: 'Requirements v1.0'

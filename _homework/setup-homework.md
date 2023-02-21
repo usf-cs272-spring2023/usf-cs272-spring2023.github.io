@@ -8,9 +8,9 @@ bump: true
 run_summary: 'https://github.com/usf-cs272-spring2023/homework-ArgumentParser-template/actions/runs/4026248931'
 run_detail: 'https://github.com/usf-cs272-spring2023/homework-ArgumentParser-template/actions/runs/4026248931/jobs/6920518568#step:3:91'
 
-tags:
- - text: 'New'
-   type: 'is-primary'
+# tags:
+#  - text: 'New'
+#    type: 'is-primary'
 
 ---
 

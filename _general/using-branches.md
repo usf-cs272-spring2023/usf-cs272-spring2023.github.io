@@ -5,6 +5,10 @@ layout: resources
 key: 1.4
 bump: true
 
+tags:
+ - text: 'Useful'
+   type: 'is-info'
+
 ---
 
 Using branches in `git` will be *extremely helpful* for both homework and projects in this class. It will also come in handy outside of class; branching is [used](https://github.com/atom/atom/branches) [heavily](https://github.com/facebook/react/branches) [in](https://github.com/scikit-learn/scikit-learn/branches) [any](https://github.com/elastic/elasticsearch/branches) [major](https://github.com/eclipse/jetty.project/branches) [software](https://github.com/apple/swift/branches) [development](https://github.com/nodejs/node/branches) [project](https://github.com/tensorflow/tensorflow/branches).
