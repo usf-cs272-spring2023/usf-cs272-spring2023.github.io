@@ -542,10 +542,6 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - file: 'projects'
-                name: 'project2'
-                type: 'has-text-usf-plum pb-2'
-
               - file: 'lectures'
                 name: 'nested'
                 type: 'pb-2'
@@ -645,6 +641,10 @@ weeks:
         rows:
           - <<: *labs
             items:
+              - file: 'projects'
+                name: 'project2'
+                type: 'has-text-usf-plum pb-2'
+
               - text: 'Homework Help'
                 icon: 'homework'
 
@@ -658,6 +658,9 @@ weeks:
 
               - file: 'homework'
                 name: 'FileSorter'
+
+              - file: 'quizzes'
+                name: 'project2'
 
               - file: 'projects'
                 name: 'design_v1x'

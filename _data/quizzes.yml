@@ -97,49 +97,48 @@ casting:
   <<: *default
   text: 'Casting'
   tags: ['inheritance']
-#   date: 2022-09-23
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409346'
+  date: 2023-02-27
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421167'
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413868'
 
 nesting:
   <<: *default
   text: 'Nested Classes'
   tags: ['inheritance']
-#   date: 2022-09-23
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409348'
+  date: 2023-02-27
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421163'
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413865'
 
 java:
   <<: *default
   text: 'Java Features'
   tags: ['none']
-#   date: 2022-09-30
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409344'
+  date: 2023-02-27
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421168'
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413862'
 
 lambdas:
   <<: *default
   text: 'Lambda Expressions'
   tags: ['lambdas']
-#   date: 2022-09-30
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409336'
+  date: 2023-02-27
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421156'
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413861'
 
 streams:
   <<: *default
   text: 'Stream Pipelines'
-  tags: ['streams']  
-#   date: 2022-09-30
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409358'
-
+  tags: ['streams']
+  date: 2023-03-06
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421161'
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413859'
 
-# project2:
-#   <<: *default
-#   text: 'Project 2 Guide'
+project2:
+  <<: *default
+  text: 'Project 2 Writeup'
+  tags: ['none']
+  date: 2023-03-03
 #   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409368'
-#   date: 2022-09-30
-#   tags: ['none']
 
 # regex:
 #   <<: *default
