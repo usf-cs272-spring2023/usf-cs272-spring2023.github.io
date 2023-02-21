@@ -42,6 +42,7 @@ project2: &project2
   <<: *default
   text: 'Project 2 Search'
   tags: ['project2']
+  href: '/resources/projects/project-2.html'
 
 tests_v20:
   <<: *project2
