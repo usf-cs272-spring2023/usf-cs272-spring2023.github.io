@@ -138,7 +138,7 @@ project2:
   text: 'Project 2 Writeup'
   tags: ['none']
   date: 2023-03-03
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409368'
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421677'
 
 # regex:
 #   <<: *default
