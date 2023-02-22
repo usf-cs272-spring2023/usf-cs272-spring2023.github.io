@@ -130,12 +130,21 @@ gadget:
   repo: 'cs272-lectures/blob/main/InheritanceDemos'
   tags: ['inheritance']
 
+matcher:
+  <<: *default
+  text: 'Path Matcher'
+  tags: ['lambdas']
+  time: '14:09'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c7384c8b-d2c4-4617-9e84-afb101593285'
+  repo: 'cs272-lectures/blob/main/LambdaExpressions/src/main/java/edu/usfca/cs272/PathMatcherDemo.java'
+
 euler:
   <<: *default
   text: 'Project Euler 1 Revisited'
   tags: ['streams']
   time: '13:25'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e515adeb-e7af-4478-8ec3-afaf01584cc7'
+  repo: 'usf-cs272-spring2023/cs272-lectures/blob/main/StreamPipelines/src/main/java/edu/usfca/cs272/Problem1Revisited.java'
 
 streams:
   <<: *default

@@ -620,7 +620,8 @@ weeks:
               - file: 'lectures'
                 name: 'lambdas'
               
-              - text: 'Path Matcher'
+              - file: 'code'
+                name: 'matcher'
 
               - file: 'lectures'
                 name: 'streams'
