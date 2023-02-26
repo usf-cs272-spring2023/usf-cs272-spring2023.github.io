@@ -43,10 +43,10 @@ collections:
     output: true
     permalink: /resources/:collection/:name:output_ext
 
-  # exams:
-  #   title: 'Exams'
-  #   output: true
-  #   permalink: /resources/:collection/:name:output_ext
+  exams:
+    title: 'Exams'
+    output: true
+    permalink: /resources/:collection/:name:output_ext
 
   # sql:
   #   title: 'Databases'
