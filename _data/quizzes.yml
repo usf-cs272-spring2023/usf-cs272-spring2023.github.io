@@ -20,7 +20,7 @@ exceptions:
   <<: *default
   text: 'Exceptions'
   date: 2023-01-30
-  tags: ['files']
+  tags: ['exceptions']
   href: 'https://usfca.instructure.com/courses/1611719/quizzes/2420432'
   test: 'https://usfca.instructure.com/courses/1611719/quizzes/2421684'
 

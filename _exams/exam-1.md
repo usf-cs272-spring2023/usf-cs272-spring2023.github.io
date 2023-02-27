@@ -1,7 +1,7 @@
 ---
 title: Exam 1 Review
-navbar: Guides
-layout: default
+navbar: Resources
+layout: resources
 key: 1.1
 bump: true
 
@@ -24,11 +24,11 @@ topics:
 
   - text: 'Object Oriented Programming'
     tags: 'objects'
-    code: 'ObjectOrientedProgramming'
+    code: 'ExploringObjects'
 
   - text: 'Inheritance'
     tags: 'inheritance'
-    code: 'Inheritance'
+    code: ['InheritanceBasics', 'InheritanceDemos']
 
   - text: 'Lambda Expressions'
     tags: 'lambdas'
@@ -40,6 +40,26 @@ topics:
 
 ---
 
+<style>
+ul.icons {
+  list-style-type: none;
+  margin-left: 1.5em;
+  margin-top: 0em;
+}
+
+ul.icons > li {
+  position: relative;
+}
+
+ul.icons > li > i {
+  width: 1.25em;
+  left: -1.5em;
+  position: absolute;
+  text-align: center;
+  line-height: inherit;
+}
+</style>
+
 The exam will cover topics on the lecture content, homework assignments, and quizzes covered up thus far in class. This includes the following topics:
 
 {% for topic in page.topics -%}
@@ -50,7 +70,8 @@ See below for resources and additional details.
 
 ## Resources
 
-{% assign columns = 'slides,quizzes,homework' | split: ',' %}
+
+{% assign columns = 'lectures,quizzes,homework' | split: ',' %}
 <table class="table is-hoverable">
 <thead>
   <tr>
@@ -66,29 +87,54 @@ See below for resources and additional details.
 {% for topic in page.topics %}
 <tr>
   <td>
-    {%-if topic.code -%}
-    <a href="{{ site.data.info.links.github.link }}/lectures/tree/main/{{ topic.code }}">{{ topic.text }}</a>
-    {%- else %}
-    <span>{{ topic.text }}</span>
-    {%-endif -%}
+    <ul class="icons">
+      {% if topic.code %}
+      {% for repo in topic.code %}
+      <li><i class="{{ site.data.icons.code.type }}"></i> <a href="{{ site.data.info.links.github.href }}/cs272-lectures/tree/main/{{ repo }}">{{ repo }}</a></li>
+      {% endfor %}
+      {% else %}
+      <li><i class="{{ site.data.icons.pending.type }}"></i> {{ topic.text }}</li>
+      {% endif %}
+      {% assign data = site.data.code %}
+      {% assign filtered = data | where_exp:"item", "item.tags contains topic.tags" %}
+      {% for repo in filtered %}
+      <li>
+        <i class="{{ site.data.icons.code.type }}"></i>
+        {% if repo.repo %}
+        <a href="{{ site.data.info.links.github.href }}/{{ repo.repo }}">{{ repo.text }}</a>
+        <a href="{{ repo.href }}"><i class="{{ site.data.icons.video.type }}"></i></a>
+        {% else %}
+        <a href="{{ repo.href }}">{{ repo.text }}</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
   </td>
 
   {% for column in columns %}
   {% assign data = site.data[column] %}
   {% assign filtered = data | where_exp:"item", "item.tags contains topic.tags" %}
   <td>
-    <ul style="margin-top: 0ex;">
+    <ul class="icons">
       {% for item in filtered -%}
       <li>
+        <i class="{{ site.data.icons[item.icon].type }}"></i>
         {% if column == "homework" %}
-        <a href="{{ site.data.info.links.github.link }}/homework-{{ item.text }}-template/">{{ item.text }}</a>
+        <a href="{{ site.data.info.links.github.href }}/homework-{{ item.text }}-template/">{{ item.text }}</a>
         {% elsif column == "quizzes" %}
         <a href="{{ item.test }}">{{ item.text }}</a>
+        {% elsif column == "lectures" %}
+        {% if item.view -%}
+        <a href="{{ item.view }}">{{ item.text }}</a>
+        <a href="{{ item.href }}"><i class="{{ site.data.icons.video.type }}"></i></a>
         {% else %}
-        <a href="{{ item.link }}">{{ item.text }}</a>
+        <a href="{{ item.href }}">{{ item.text }}</a>
+        {%- endif %}
+        {% else %}
+        <a href="{{ item.href }}">{{ item.text }}</a>
         {% endif %}
         {% if item.save -%}
-        <a href="/files/{{ item.text }}.pdf"><i class="fas fa-download"></i></a>
+        <a href="{{ item.save }}"><i class="fas fa-download"></i></a>
         {%- endif %}
         {% if item.tube -%}
         <a href="{{ item.tube }}"><i class="fab fa-youtube"></i></a>
