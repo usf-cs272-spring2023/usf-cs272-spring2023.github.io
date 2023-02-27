@@ -678,8 +678,31 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Lambda Expressions'
               - text: 'Exam Review'
+                icon: 'website'
+                href: '/resources/exams'
+                type: 'pb-2'
+
+              - text: 'Lambda Expressions'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/LambdaExpressions'
+              
+              - text: 'Simple Interface'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/LambdaExpressions/src/main/java/edu/usfca/cs272/SimpleInterface.java'
+                html: ', <a href="https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/LambdaExpressions/src/main/java/edu/usfca/cs272/SimpleClass.java">Class</a>'
+              
+              - text: 'Lambda Demo'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/LambdaExpressions/src/main/java/edu/usfca/cs272/LambdaDemo.java'
+
+              - text: 'String Sorter'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/LambdaExpressions/src/main/java/edu/usfca/cs272/StringSorter.java'
+
 
       - date: 2023-03-02
         rows:

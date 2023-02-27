@@ -166,6 +166,7 @@ parser:
   tags: ['lambdas']
   time: '18:31'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d8df8a87-362f-42de-9627-afaf01584bb4'
+  repo: '/cs272-lectures/blob/main/LambdaExpressions/src/main/java/edu/usfca/cs272/TextFileParser.java'
 
 streamer:
   <<: *default
