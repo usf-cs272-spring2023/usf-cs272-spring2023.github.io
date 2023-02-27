@@ -703,6 +703,20 @@ weeks:
                 type: 'push'
                 href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/LambdaExpressions/src/main/java/edu/usfca/cs272/StringSorter.java'
 
+              - text: 'Stream Pipelines'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/StreamPipelines'
+                type: 'pt-2'
+
+              - text: 'Pipeline Demo'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/StreamPipelines/src/main/java/edu/usfca/cs272/PipelineDemo.java'
+
+              - text: 'Parallel Stream Benchmark'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/StreamPipelines/src/main/java/edu/usfca/cs272/ParallelStreamBenchmark.java'
 
       - date: 2023-03-02
         rows:
