@@ -4,6 +4,10 @@ navbar: Resources
 layout: resources
 key: 0.0
 
+tags:
+ - text: 'New'
+   type: 'is-primary'
+
 ---
 
 There will be two non-comprehensive exams to assess concept comprehension. The exam dates are provided on the [course schedule]({{ "/schedule.html" | relative_url }}) and the [course syllabus]({{ site.data.info.links.syllabus.href }}). This guide will discuss how the exams affect the course grade and how exams themselves are graded.
@@ -20,9 +24,9 @@ To earn an A+ or B+ letter grade, students must either **pass both** exam catego
 
 Each exam category includes the following assignments:
 
-  - **Original Exam:** This is the original exam attempt, which is completed synchronously during lecture. See the [exam logistics]({{ exam-logistics.html | relative_url }}) guide for details.
+  - **Original Exam:** This is the original exam attempt, which is completed synchronously during lecture. See the [exam logistics](exam-logistics.html) guide for details.
 
-  - **Retake Exam:** This is the retake attempt(s), which is completed asynchronously before the deadline. Students may attempt the retake multiple times; the *highest* score earned on any attempt completed before the deadline will be used. See the [retake logistics]({{ retake-logistics.html | relative_url }}) guide for details.
+  - **Retake Exam:** This is the retake attempt(s), which is completed asynchronously before the deadline. Students may attempt the retake multiple times; the *highest* score earned on any attempt completed before the deadline will be used. See the [retake logistics](retake-logistics.html) guide for details.
 
 The category grade is the average of the above assignments. The instructor usually does not curve the exam grades beyond offering the retake opportunities.
 
