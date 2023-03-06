@@ -176,43 +176,23 @@ pipelines:
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c5134ea0-52e1-467c-8d81-afaf01584c60'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vSiGw5EXngr3WKMKWvcn0jnYpSP6AcaxT-eMIUNcywqIc-bLmUPvp1zwKlu5AvZ_m-k_z0wGRMG9zy4/pub?start=false&loop=false&delayms=3000'
 
-# regex:
-#   <<: *default
-#   tags: ['regexes']
-#   text: 'Regular Expressions'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTO88-l6I37jTV3eM1QGEPbsZ9XsYM5YCascMfUqjzYPXSQnJG1elC0Hx0oUw9MT9z781i8ApW3nYmh/pub?start=false&loop=false&delayms=3000'
+assertions:
+  <<: *default
+  tags: ['debugging']
+  text: 'Assertions'
+  save: '/files/Assertions.pdf'
+  time: '11:41'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fbd3d265-a920-4e12-8617-afbd011e56f2'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vRP_rOtKQng1tAPlB5v02saggZvacdEZeZYfkX1F6catEEhpe3UGw4iiPmexovQhh6N4opD0NxyvsN_/pub?start=false&loop=false&delayms=3000'
 
-# testing_bugs:
-#   <<: *default
-#   tags: ['testing']
-#   text: 'Software Bugs'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRx3Celd7paeP5-TbE-LEU-1f1UzcoG93-PlqwrmTsW76tMXlyOH3qxlJB067TaeUWEznDGa7CsDcwN/pub?start=false&loop=false&delayms=3000'
-
-# testing_intro:
-#   <<: *default
-#   tags: ['testing']
-#   text: 'Software Testing'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSBCRFRsHERFo9gqwW8TsusCW63wgsBDXs5k2SBuphtbigsZplHkiQB6sxesTaNFcKPHDU8u2f7ZpbD/pub?start=false&loop=false&delayms=3000'
-
-# testing_unit:
-#   <<: *default
-#   tags: ['testing']
-#   text: 'Unit Testing'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRRfeHE_j03Wl4zQRnubmZBztMMC94gUt4Gs2FnN7Ka31KuO7GMK8bQjmEzSHnoZZeqrnRQNCAZTDNU/pub?start=false&loop=false&delayms=3000'
-
-# assertions:
-#   <<: *default
-#   tags: ['debugging']
-#   text: 'Assertions'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRLXyc0T98b27UmaNg-jZONLb-CIRy_TFAL5sGendDFbFFc2MmV6ZOURlEwZhE6WBDr8Q36Degsx9vA/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1mSAPW69YHYzl-Uqz-FyZY3Eg8j7StxiP/view?usp=sharing'
-
-# logging:
-#   <<: *default
-#   tags: ['debugging']
-#   text: 'Logging'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSW62BhOpFZQzghSV5fkrmZCGQ3udhK-myxFmh9Cf1WfsiP6PK0h4PFx02DUhidksERTk1Ou4_QQ8nh/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1ZJnvRK56Zj43E8pkby_YVPfQm7rwM_PT/view?usp=sharing'
+logging:
+  <<: *default
+  tags: ['debugging']
+  text: 'Logging'
+  save: '/files/Logging.pdf'
+  time: '24:00'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0fa38f02-d5b7-49b1-9645-afbd011e5726'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQJagxSE1XCK3rMcN_08iQdXO18CJyY2Mnww2_1bf1TbbioXf5g7jlq1PHZhX0CUJCJiTe724gRbcVZ/pub?start=false&loop=false&delayms=3000'
 
 # multithreading:
 #   <<: *default
@@ -374,3 +354,28 @@ pipelines:
 #   <<: *default
 #   text: 'Course Recap'
 #   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRWVK3jB5Ec0QJYLNd__v-6oz9FvnOMqTXGTCBPk0dE0k6bsqtqoEUIHXaUWwqKlkIuAshjf8IcXOdF/pub?start=false&loop=false&delayms=3000'
+
+
+# regex:
+#   <<: *default
+#   tags: ['regexes']
+#   text: 'Regular Expressions'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTO88-l6I37jTV3eM1QGEPbsZ9XsYM5YCascMfUqjzYPXSQnJG1elC0Hx0oUw9MT9z781i8ApW3nYmh/pub?start=false&loop=false&delayms=3000'
+
+# testing_bugs:
+#   <<: *default
+#   tags: ['testing']
+#   text: 'Software Bugs'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRx3Celd7paeP5-TbE-LEU-1f1UzcoG93-PlqwrmTsW76tMXlyOH3qxlJB067TaeUWEznDGa7CsDcwN/pub?start=false&loop=false&delayms=3000'
+
+# testing_intro:
+#   <<: *default
+#   tags: ['testing']
+#   text: 'Software Testing'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSBCRFRsHERFo9gqwW8TsusCW63wgsBDXs5k2SBuphtbigsZplHkiQB6sxesTaNFcKPHDU8u2f7ZpbD/pub?start=false&loop=false&delayms=3000'
+
+# testing_unit:
+#   <<: *default
+#   tags: ['testing']
+#   text: 'Unit Testing'
+#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRRfeHE_j03Wl4zQRnubmZBztMMC94gUt4Gs2FnN7Ka31KuO7GMK8bQjmEzSHnoZZeqrnRQNCAZTDNU/pub?start=false&loop=false&delayms=3000'
