@@ -141,6 +141,23 @@ project2:
   date: 2023-03-03
   href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421677'
 
+assertions:
+  <<: *default
+  text: 'Assert Statements'
+  date: 2023-03-20
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421151'
+  tags: ['debugging']
+#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415037'
+
+logging:
+  <<: *default
+  text: 'Logging'
+  date: 2023-03-20
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421149'
+  tags: ['debugging']
+#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415039'
+
+
 # regex:
 #   <<: *default
 #   text: 'Regular Expressions'
@@ -156,22 +173,6 @@ project2:
 # # #   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392935'
 # # #   tags: ['testing']
 # # #   test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394175'
-
-# asserts:
-#   <<: *default
-#   text: 'Assert Statements'
-#   date: 2022-10-28
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409381'
-#   tags: ['debugging']
-#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415037'
-
-# logging:
-#   <<: *default
-#   text: 'Logging'
-#   date: 2022-10-28
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409374'
-#   tags: ['debugging']
-#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415039'
 
 # threads:
 #   <<: *default
