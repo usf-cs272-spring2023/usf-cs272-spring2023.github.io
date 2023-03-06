@@ -795,8 +795,11 @@ weeks:
         rows:
           - <<: *videos
             items:
-              - text: 'Assertions'
-              - text: 'Logging'
+              - file: 'lectures'
+                name: 'assertions'
+
+              - file: 'lectures'
+                name: 'logging'
 
           - <<: *participation
             items:
