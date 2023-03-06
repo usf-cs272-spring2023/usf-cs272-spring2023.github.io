@@ -790,6 +790,7 @@ weeks:
               - text: 'Exam 1'
                 icon: 'exam'
                 type: 'has-text-weight-bold has-text-danger'
+                href: 'https://usfca.instructure.com/courses/1611719/assignments/7297866'
 
       - date: 2023-03-09
         rows:
