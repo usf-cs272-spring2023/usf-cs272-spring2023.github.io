@@ -801,6 +801,12 @@ weeks:
 
               - file: 'lectures'
                 name: 'logging'
+              
+              - file: 'code'
+                name: 'log4j2'
+
+              - file: 'code'
+                name: 'counter'
 
           - <<: *participation
             items:

@@ -177,3 +177,19 @@ streamer:
   time: '21:04'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=19ac7723-df6f-429c-bc46-afaf01584d54'
   repo: '/cs272-lectures/blob/main/StreamPipelines/src/main/java/edu/usfca/cs272/TextFileStreamer.java'
+
+log4j2:
+  <<: *default
+  text: 'Log4j2 Demo'
+  tags: ['debugging']
+  time: '11:11'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ab00a048-bd73-40fb-b29d-afbd01488b25'
+  repo: '/cs272-lectures/blob/main/Logging/src/main/java/edu/usfca/cs272/Log4jDemo.java'
+
+counter:
+  <<: *default
+  text: 'Character Counter'
+  tags: ['debugging']
+  time: '20:03'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7f3519e8-0e07-42b7-9127-afbd015259dc'
+  repo: '/cs272-lectures/blob/main/Logging/src/main/java/edu/usfca/cs272/CharacterCounter.java'
