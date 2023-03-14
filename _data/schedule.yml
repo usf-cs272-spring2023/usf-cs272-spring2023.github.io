@@ -913,7 +913,11 @@ weeks:
 
           - <<: *participation
             items:
-              - text: 'Pending'
+              - file: 'participation'
+                name: 'midterm_survey'
+
+              - file: 'quizzes'
+                name: 'threads'
 
       - date: 2023-03-24
         rows:

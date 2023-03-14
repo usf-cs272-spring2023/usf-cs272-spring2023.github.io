@@ -72,11 +72,11 @@ eclipse_github:
   date: 2023-03-10
   href: 'https://usfca.instructure.com/courses/1611719/assignments/7295210'
 
-# midterm_survey:
-#   <<: *default
-#   text: 'Midterm Survey'
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409379'
-#   date: 2022-10-28
+midterm_survey:
+  <<: *default
+  text: 'Midterm Survey'
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7299254/'
+  date: 2023-03-27
 
 # whatif:
 #   <<: *default
