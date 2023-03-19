@@ -157,23 +157,6 @@ logging:
   tags: ['debugging']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415039'
 
-
-# regex:
-#   <<: *default
-#   text: 'Regular Expressions'
-#   date: 2022-10-14
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409343'
-#   tags: ['regexes']
-#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413856'
-
-# # # unit:
-# # #   <<: *default
-# # #   text: 'Unit Testing'
-# # #   date: 2021-10-22
-# # #   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392935'
-# # #   tags: ['testing']
-# # #   test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394175'
-
 threads:
   <<: *default
   text: 'Thread Basics'
@@ -186,9 +169,17 @@ synchronization:
   <<: *default
   text: 'Synchronization'
   date: 2023-03-27
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409393'
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421153'
   tags: ['threads']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415035'
+
+workers:
+  <<: *default
+  text: 'Work Queues'
+  date: 2023-04-03
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421152'
+  tags: ['threads']
+#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415036'
 
 project3:
   <<: *default
@@ -197,13 +188,13 @@ project3:
 #   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409356'
   tags: ['none']
 
-workers:
-  <<: *default
-  text: 'Work Queues'
-#   date: 2022-11-11
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409392'
-  tags: ['threads']
-#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415036'
+# regex:
+#   <<: *default
+#   text: 'Regular Expressions'
+#   date: 2022-10-14
+#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409343'
+#   tags: ['regexes']
+#   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2413856'
 
 # http:
 #   <<: *default
@@ -251,3 +242,11 @@ workers:
 #   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409377'
 #   tags: ['sql']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415038'
+
+# unit:
+#   <<: *default
+#   text: 'Unit Testing'
+#   date: 2021-10-22
+#   link: 'https://usfca.instructure.com/courses/1602551/quizzes/2392935'
+#   tags: ['testing']
+#   test: 'https://usfca.instructure.com/courses/1602551/quizzes/2394175'
