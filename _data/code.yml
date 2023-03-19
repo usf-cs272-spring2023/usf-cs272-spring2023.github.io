@@ -193,3 +193,19 @@ counter:
   time: '20:03'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7f3519e8-0e07-42b7-9127-afbd015259dc'
   repo: '/cs272-lectures/blob/main/Logging/src/main/java/edu/usfca/cs272/CharacterCounter.java'
+
+randomarray:
+  <<: *default
+  text: 'Random Array Demo'
+  tags: ['threads']
+  time: '20:13'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c99e4e92-d495-424b-a6d5-afca015f0331'
+  # repo: 
+
+threadstate:
+  <<: *default
+  text: 'Thread State Demo'
+  tags: ['threads']
+  time: '11:01'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=89d6b47d-67fa-4de7-b1a5-afca015f03db'
+  # repo: 

@@ -194,26 +194,47 @@ logging:
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0fa38f02-d5b7-49b1-9645-afbd011e5726'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vQJagxSE1XCK3rMcN_08iQdXO18CJyY2Mnww2_1bf1TbbioXf5g7jlq1PHZhX0CUJCJiTe724gRbcVZ/pub?start=false&loop=false&delayms=3000'
 
-# multithreading:
-#   <<: *default
-#   tags: ['threads']
-#   text: 'Multithreading'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRX6RCeUBV4oY2pE3PwPR11oV0CbXnJYDQg6fupgT6b1w44qmzsCsRfWyhd_kIdZjtqECwITRfm-X-L/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1bDx_QfV8uXgxBnMuGW1BifaOkcHuVsxU/view?usp=sharing'
+multithreading:
+  <<: *default
+  tags: ['threads']
+  text: 'Multithreading'
+  save: '/files/Multithreading.pdf'
+  time: '13:35'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=856db121-0783-4dfd-b8b5-afca015f0304'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQg0FB_osCG1aL4vjPPp1HRMKTJm9_HIzs__izf7DaWkZ70ys4B14CPK1gyzZOBTvqCQJHHbqw4Ud41/pub?start=false&loop=false&delayms=3000'
 
-# lifecycle:
-#   <<: *default
-#   tags: ['threads']
-#   text: 'Thread Lifecycle'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSR1cZ0OOKgBSz2MkWKaWzBZJPsm33joCC9fX9zAmh23bhs6lPuO11TCPOs3gJzk2WvN92Uw69K7j1m/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/19WIE-aE_n2okfI-Evk7OMEtCUvzaCSwT/view?usp=sharing'
+lifecycle:
+  <<: *default
+  tags: ['threads']
+  text: 'Thread Lifecycle'
+  save: '/files/Thread Lifecycle.pdf'
+  time: '15:40'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2dd95a28-0250-42bb-9dae-afca015f03ab'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQycbWXlLYNVmOZaOHNQnuUZodavorlJEcsuJa69tOlfvSLQPpr39DcPvandPeQgKqOOg7TZuq_Ngi5/pub?start=false&loop=false&delayms=3000'
 
-# consistency:
-#   <<: *default
-#   tags: ['threads']
-#   text: 'Consistency'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTRAzhLDNE32VRqGC3dddI0pFxqiN_8DOihGJv6OuVj-3oiJEgBSGJQMIZBD0WwL5vMpfKuu95Q-tTa/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1XGxlAjAP10M77GLTy7mRquS6Miy9PTkh/view?usp=sharing'
+consistency:
+  <<: *default
+  tags: ['threads']
+  text: 'Consistency'
+  save: '/files/Consistency.pdf'
+  href: 'https://docs.google.com/presentation/d/e/2PACX-1vSfpJpKez0wGz8A-ueNtIQXg8y3ptCTELGU8ES2_oeuAwt9295LRAq5ffWfwCScjmsrkLGnPhhTUxSe/pub?start=false&loop=false&delayms=3000'
+
+synchronization:
+  <<: *default
+  tags: ['threads']
+  text: 'Synchronization'
+  save: '/files/Synchronization.pdf'
+  time: '20:46'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b1c553a1-4ce7-4762-82f4-afca0166a784'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQHjH1aVQIbQKBXtLAMNHRa-qS2TZie-w8YYr9P4lXs_vcUcApAeLIxI0kSz2GF4CyADd8azxhbcdwE/pub?start=false&loop=false&delayms=3000'
+
+coordination:
+  <<: *default
+  tags: ['threads']
+  text: 'Coordination'
+  save: '/files/Coordination.pdf'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQkX8lY88RA_BDHWz4nM9JoVuB4fLvXmxOKKv6LWvXIA8Xgq17dE6y2V4dZhc4D3csyszbDbECz5ntC/pub?start=false&loop=false&delayms=3000'
+
 
 # liveness:
 #   <<: *default
@@ -222,11 +243,6 @@ logging:
 #   href: 'https://docs.google.com/presentation/d/e/2PACX-1vS6RCZPY_h5NtvogQccLSEfTCAXz-Hqfmxgqkolqp6Cc41gCc8WWcb-aMXADAFvKwQ9HeKKjfjw6PmL/pub?start=false&loop=false&delayms=3000'
 #   tube: 'https://drive.google.com/file/d/1ZoPqrdm4e2exLo9djFJcoLKBRwNMOEII/view?usp=sharing'
 
-# synchronization:
-#   <<: *default
-#   tags: ['threads']
-#   text: 'Synchronization'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vQTud-UE2KhToUmELC4yO3Fp9VI_0YorUE0aMckdmrLN8K8-bemUSsVg5kHuCOGihsYoTkbsfVci3FN/pub?start=false&loop=false&delayms=3000'
 
 # locks:
 #   <<: *default
@@ -234,12 +250,6 @@ logging:
 #   text: 'Conditional Locks'
 #   href: 'https://docs.google.com/presentation/d/e/2PACX-1vQ141tZGTlSrULwdwSfhjaNU4N_c7VpfNNXE-3n2oLKF2nGzif3LZeQOgNNFJAj8iipx6bi2v10qvDE/pub?start=false&loop=false&delayms=3000'
 #   tube: 'https://drive.google.com/file/d/1M9bd401kt3RkjjcFw8jI92hMbhW4CtQP/view?usp=sharing'
-
-# coordination:
-#   <<: *default
-#   tags: ['threads']
-#   text: 'Coordination'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vTMD7lRdye-5kptn3d68vQYzJq2OQpIKtGLHyPK_sPYRExA5DWv9arIsF0121CP8PO2lV5UkJA-dhlb/pub?start=false&loop=false&delayms=3000'
 
 # volatile:
 #   <<: *default

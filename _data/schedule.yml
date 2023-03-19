@@ -896,7 +896,25 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Multithreading'
+              - file: 'lectures'
+                name: 'multithreading'
+              
+              - file: 'code'
+                name: 'randomarray'
+                type: 'pb-2'
+              
+              - file: 'lectures'
+                name: 'lifecycle'
+
+              - file: 'code'
+                name: 'threadstate'
+
+              - file: 'lectures'
+                name: 'consistency'
+                type: 'pt-2'
+
+              - file: 'lectures'
+                name: 'synchronization'
 
           - <<: *deadlines
             items:
