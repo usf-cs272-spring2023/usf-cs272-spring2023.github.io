@@ -212,6 +212,15 @@ lifecycle:
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2dd95a28-0250-42bb-9dae-afca015f03ab'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vQycbWXlLYNVmOZaOHNQnuUZodavorlJEcsuJa69tOlfvSLQPpr39DcPvandPeQgKqOOg7TZuq_Ngi5/pub?start=false&loop=false&delayms=3000'
 
+liveness:
+  <<: *default
+  tags: ['threads']
+  text: 'Liveness'
+  save: '/files/Liveness.pdf'
+  time: '11:13'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ecfa716e-7e15-4ec0-8bfb-afca0169fd19'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vTPdD96yklO8duuHgVDN81G_xP6xqQaRM8eaA2e75-s4uCZxAekRmkS2JijgDJ67kHkiovXQLd7HlXy/pub?start=false&loop=false&delayms=3000'
+
 consistency:
   <<: *default
   tags: ['threads']
@@ -235,35 +244,32 @@ coordination:
   save: '/files/Coordination.pdf'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vQkX8lY88RA_BDHWz4nM9JoVuB4fLvXmxOKKv6LWvXIA8Xgq17dE6y2V4dZhc4D3csyszbDbECz5ntC/pub?start=false&loop=false&delayms=3000'
 
+locks:
+  <<: *default
+  tags: ['threads']
+  text: 'Conditional Locks'
+  save: '/files/Conditional Locks.pdf'
+  time: '12:49'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e47edbae-5fc3-4d2a-bec4-afca0169fa70'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vTo6KJSvdr_PWmaunL6LkyTdzMsgWnjQU_VfqWOGEPaG2XfYvpkgJWvbDhbhzYgO-dnR8nmbp9wSPRz/pub?start=false&loop=false&delayms=3000'
 
-# liveness:
-#   <<: *default
-#   tags: ['threads']
-#   text: 'Liveness'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vS6RCZPY_h5NtvogQccLSEfTCAXz-Hqfmxgqkolqp6Cc41gCc8WWcb-aMXADAFvKwQ9HeKKjfjw6PmL/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1ZoPqrdm4e2exLo9djFJcoLKBRwNMOEII/view?usp=sharing'
+volatile:
+  <<: *default
+  tags: ['threads']
+  text: 'Volatile Keyword'
+  save: '/files/Volatile Keyword.pdf'
+  time: '10:31'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ee504e4e-65e6-494f-b64a-afca0169fc11'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQf8Exzc0l1hR4rA2932_MzScdml8OA1fYIdWgW5yOXPHtZIRY7S9B-koCzUI7HEe6MdBLfJXY6bQZf/pub?start=false&loop=false&delayms=3000'
 
-
-# locks:
-#   <<: *default
-#   tags: ['threads']
-#   text: 'Conditional Locks'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vQ141tZGTlSrULwdwSfhjaNU4N_c7VpfNNXE-3n2oLKF2nGzif3LZeQOgNNFJAj8iipx6bi2v10qvDE/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1M9bd401kt3RkjjcFw8jI92hMbhW4CtQP/view?usp=sharing'
-
-# volatile:
-#   <<: *default
-#   tags: ['threads']
-#   text: 'Volatile Keyword'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRnhd4UbzvMq5UjxONPTslBI4gXqR-iwhlk3Uo8y3SGb1YOipeB4wBK-IVuwrI7rrp_jGtg1beYqeup/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1PtN8QKiJurwN1aIi0bruYMNnA7aJgnC8/view?usp=sharing'
-
-# pools:
-#   <<: *default
-#   tags: ['threads']
-#   text: 'Thread Pools and Work Queues'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSj0ekNLfD_w7tAqlBzOYHlwAF4m_5_PD6j_t47xT7-0qUz1lG9nvllKiDgcGBr-kTDBLy5jLSwgOFS/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1Nz47N4dqlnypm3HSvtOB0iMwmO35aMgR/view?usp=sharing'
+pools:
+  <<: *default
+  tags: ['threads']
+  text: 'Thread Pools and Work Queues'
+  save: '/files/Thread Pools and Work Queues.pdf'
+  time: '10:02'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e729af8-d9f0-4537-92da-afca0169fbb0'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vS19DIgUp8W95_ChgGpM7ve2ItWmaWY6YFP8tyE-k3gA3tQ9cbj0vd6ZmP-gCi7fXhFaQdoh6BWU_0f/pub?start=false&loop=false&delayms=3000'
 
 # web:
 #   <<: *default

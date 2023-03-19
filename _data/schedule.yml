@@ -916,6 +916,11 @@ weeks:
               - file: 'lectures'
                 name: 'synchronization'
 
+          - <<: *content
+            items:
+              - file: 'lectures'
+                name: 'liveness'
+
           - <<: *deadlines
             items:
               - text: 'Exam 1 Retake'
