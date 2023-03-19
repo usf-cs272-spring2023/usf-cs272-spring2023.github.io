@@ -985,6 +985,9 @@ weeks:
               - file: 'quizzes'
                 name: 'threads'
 
+              - file: 'quizzes'
+                name: 'synchronization'
+
       - date: 2023-03-24
         rows:
           - <<: *labs
@@ -1025,17 +1028,58 @@ weeks:
                 name: 'project3'
                 type: 'has-text-usf-plum pb-2'
 
-              - text: 'Multithreading'
+              - text: 'Lock Demo'
+                icon: 'code'
+                type: 'pb-2'
+              
+              - text: 'Threaded Directory Listing'
+                icon: 'code'
+            
+              - text: 'Serial Listing'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'Blocking Listing'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'Threaded Listing'
+                icon: 'indented'
+                type: 'push'
 
       - date: 2023-03-30
         rows:
           - <<: *videos
             items:
-              - text: 'Multithreading'
+              - file: 'lectures'
+                name: 'volatile'
+
+              - file: 'lectures'
+                name: 'pools'
+
+              - file: 'code'
+                name: 'queue'
+                type: 'pb-2'
+
+              - text: 'Threaded Directory Listing'
+                icon: 'code'
+                html: ' <em>(Continued)</em>'
+            
+              - text: 'Queue Listing'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'Listing Benchmark'
+                icon: 'indented'
+                type: 'push'
 
           - <<: *participation
             items:
-              - text: 'Pending'
+              - file: 'quizzes'
+                name: 'project3'
+
+              - file: 'quizzes'
+                name: 'workers'
 
       - date: 2023-03-31
         rows:

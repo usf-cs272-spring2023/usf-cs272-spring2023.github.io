@@ -244,3 +244,10 @@ setdemo:
   tags: ['threads']
   time: '05:11'
   # href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d3f81ee7-c5d9-488c-8441-afca0169fb89'
+
+queue:
+  <<: *default
+  text: 'Work Queue'
+  tags: ['threads']
+  time: '19:43'
+  # href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=521bad64-9bc7-49e2-a781-afca0169fc98'
