@@ -932,7 +932,50 @@ weeks:
         rows:
           - <<: *videos
             items:
-              - text: 'Multithreading'
+              # - file: 'lectures'
+              #   name: 'synchronization'
+              #   type: 'pb-2'
+
+              - file: 'lectures'
+                name: 'coordination'
+
+              - file: 'code'
+                name: 'boundedbuffer'
+              
+              - text: 'Bounded Buffer'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'Mirror Driver'
+                icon: 'indented'
+                type: 'push'
+
+              - file: 'lectures'
+                name: 'locks'
+                type: 'pt-2'
+
+              - text: 'Thread-Safe Indexed Set'
+                icon: 'code'
+              
+              - file: 'code'
+                name: 'indexedset'
+                icon: 'indented'
+                type: 'push'
+
+              - file: 'code'
+                name: 'synchronizedset'
+                icon: 'indented'
+                type: 'push'
+
+              - file: 'code'
+                name: 'concurrentset'
+                icon: 'indented'
+                type: 'push'
+
+              - file: 'code'
+                name: 'setdemo'
+                icon: 'indented'
+                type: 'push'
 
           - <<: *participation
             items:

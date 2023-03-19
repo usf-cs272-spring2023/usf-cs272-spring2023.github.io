@@ -199,7 +199,7 @@ randomarray:
   text: 'Random Array Demo'
   tags: ['threads']
   time: '20:13'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c99e4e92-d495-424b-a6d5-afca015f0331'
+  # href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c99e4e92-d495-424b-a6d5-afca015f0331'
   # repo: 
 
 threadstate:
@@ -207,5 +207,40 @@ threadstate:
   text: 'Thread State Demo'
   tags: ['threads']
   time: '11:01'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=89d6b47d-67fa-4de7-b1a5-afca015f03db'
+  # href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=89d6b47d-67fa-4de7-b1a5-afca015f03db'
   # repo: 
+
+boundedbuffer:
+  <<: *default
+  text: 'Bounded Buffer'
+  tags: ['threads']
+  time: '34:23'
+  # href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=996f2e8b-da25-4d59-bf0e-afca0169fcbc'
+
+indexedset:
+  <<: *default
+  text: 'Indexed Set'
+  tags: ['threads']
+  time: '07:46'
+  # href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=61b90982-9bf2-49de-a05e-afca0169fa95'
+
+synchronizedset:
+  <<: *default
+  text: 'Synchronized Set'
+  tags: ['threads']
+  time: '05:49'
+  # href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eeabbc9b-ac4f-4fbe-9b28-afca0169fb0f'
+
+concurrentset:
+  <<: *default
+  text: 'Concurrent Set'
+  tags: ['threads']
+  time: '06:52'
+  # href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=42aee162-ec18-4c50-b66c-afca0169fb2b'
+
+setdemo:
+  <<: *default
+  text: 'Set Demo'
+  tags: ['threads']
+  time: '05:11'
+  # href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d3f81ee7-c5d9-488c-8441-afca0169fb89'
