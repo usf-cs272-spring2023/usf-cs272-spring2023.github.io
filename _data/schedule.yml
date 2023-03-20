@@ -945,10 +945,12 @@ weeks:
               - text: 'Bounded Buffer'
                 icon: 'indented'
                 type: 'push'
+                repo: '/usf-cs272-spring2023/cs272-lectures/blob/main/Multithreading/src/main/java/edu/usfca/cs272/BoundedBuffer.java'
 
               - text: 'Mirror Driver'
                 icon: 'indented'
                 type: 'push'
+                repo: '/usf-cs272-spring2023/cs272-lectures/blob/main/Multithreading/src/main/java/edu/usfca/cs272/MirrorDriver.java'
 
               - file: 'lectures'
                 name: 'locks'
@@ -956,6 +958,7 @@ weeks:
 
               - text: 'Thread-Safe Indexed Set'
                 icon: 'code'
+                repo: '/usf-cs272-spring2023/cs272-lectures/tree/main/Synchronization'
               
               - file: 'code'
                 name: 'indexedset'
@@ -1030,22 +1033,27 @@ weeks:
 
               - text: 'Lock Demo'
                 icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/Synchronization/src/main/java/edu/usfca/cs272/LockDemo.java'
                 type: 'pb-2'
               
               - text: 'Threaded Directory Listing'
                 icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/WorkQueues'
             
               - text: 'Serial Listing'
                 icon: 'indented'
                 type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/WorkQueues/src/main/java/edu/usfca/cs272/SerialDirectoryListing.java'
 
               - text: 'Blocking Listing'
                 icon: 'indented'
                 type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/WorkQueues/src/main/java/edu/usfca/cs272/BlockingDirectoryListing.java'
 
               - text: 'Threaded Listing'
                 icon: 'indented'
                 type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/WorkQueues/src/main/java/edu/usfca/cs272/ThreadedDirectoryListing.java'
 
       - date: 2023-03-30
         rows:
@@ -1064,6 +1072,7 @@ weeks:
               - text: 'Threaded Directory Listing'
                 icon: 'code'
                 html: ' <em>(Continued)</em>'
+                repo: '/usf-cs272-spring2023/cs272-lectures/tree/main/WorkQueues'
             
               - text: 'Queue Listing'
                 icon: 'indented'
