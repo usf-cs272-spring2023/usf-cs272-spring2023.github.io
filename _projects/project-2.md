@@ -230,7 +230,7 @@ Output **user-friendly error messages** in the case of exceptions or invalid inp
 
 Your code should support all of the command-line arguments from the [previous release](#arguments-v20) and [previous project](project-1.html) as well.
 
-### Run Examples v2.0
+### Run Examples v2.1
 
 The following are a few examples (non-comprehensive) to illustrate the usage of the command-line arguments that can be passed to your `Driver` class via a "Run Configuration" in Eclipse, assuming you set the working directory to the `project-tests` directory.
 
