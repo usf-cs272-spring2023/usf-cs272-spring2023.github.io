@@ -242,6 +242,8 @@ coordination:
   tags: ['threads']
   text: 'Coordination'
   save: '/files/Coordination.pdf'
+  time: '14:46'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41f8f064-f109-4e6d-b62b-afcd0138d2e5'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vQkX8lY88RA_BDHWz4nM9JoVuB4fLvXmxOKKv6LWvXIA8Xgq17dE6y2V4dZhc4D3csyszbDbECz5ntC/pub?start=false&loop=false&delayms=3000'
 
 locks:

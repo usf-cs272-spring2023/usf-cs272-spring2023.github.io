@@ -920,6 +920,7 @@ weeks:
             items:
               - file: 'lectures'
                 name: 'liveness'
+                type: 'del'
 
           - <<: *deadlines
             items:
@@ -935,6 +936,10 @@ weeks:
               # - file: 'lectures'
               #   name: 'synchronization'
               #   type: 'pb-2'
+
+              - file: 'lectures'
+                name: 'liveness'
+                type: 'pb-2'
 
               - file: 'lectures'
                 name: 'coordination'
