@@ -56,10 +56,10 @@ LoggerSetup:
 
 ReadWriteLock:
   <<: *default
-  text: 'ReadWriteLock'
+  text: 'MultiReaderLock'
   date: 2023-03-31
   href: 'https://usfca.instructure.com/courses/1611719/assignments/7268366'
-  repo: 'homework-ReadWriteLock-template'
+  repo: 'homework-MultiReaderLock-template'
   tags: ['threads']
 
 PrimeFinder:
