@@ -1,0 +1,49 @@
+{% assign this_release = include.release %}
+{% assign split_prereqs = include.prereqs | split: "," %}
+
+<div class="field is-grouped is-grouped-multiline">
+  {% if site.data.projects[this_release].date %}
+  <div class="control">
+    <div class="tags has-addons">
+      <span class="tag is-dark">Due</span>
+      <span class="tag is-light"><a href="{{ site.data.projects[this_release].book }}" class="has-text-dark">{{ site.data.projects[this_release].date | date: "%B %d, %Y" }}</a></span>
+    </div>
+  </div>
+  {% endif %}
+
+  {% for item in split_prereqs %}
+  <div class="control">
+    <div class="tags has-addons">
+      <span class="tag is-link">Prereq</span>
+      <span class="tag is-light"><a href="{{ site.data.projects[item].book }}" class="has-text-dark">{{ site.data.projects[item].text }}</a></span>
+    </div>
+  </div>
+  {% endfor %}
+
+  {% for item in site.data.projects[this_release].java %}
+  <div class="control">
+    <div class="tags has-addons">
+      <span class="tag is-success">Tests</span>
+      <span class="tag is-light"><a href="{{ site.data.info.links.github.href }}/project-tests/blob/main/src/test/java/edu/usfca/cs272/{{ item }}" class="has-text-dark">{{ item }}</a></span>
+    </div>
+  </div>
+  {% endfor %}
+
+  {% if site.data.projects[this_release].tags %}
+  <div class="control">
+    <div class="tags has-addons">
+      <span class="tag is-info">Tags</span>
+      <span class="tag is-light">{{ site.data.projects[this_release].tags }}</span>
+    </div>
+  </div>
+  {% endif %}
+
+  {% if site.data.projects[this_release].time %}
+  <div class="control">
+    <div class="tags has-addons">
+      <span class="tag is-danger">Speedup</span>
+      <span class="tag is-light">{{ site.data.projects[this_release].time }}x</span>
+    </div>
+  </div>
+  {% endif %}
+</div>

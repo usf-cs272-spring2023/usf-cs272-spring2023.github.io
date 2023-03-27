@@ -78,6 +78,7 @@ project3: &project3
   <<: *default
   text: 'Project 3 Threads'
   tags: ['project3']
+  href: '/resources/projects/project-3.html'
 
 tests_v30:
   <<: *project3
