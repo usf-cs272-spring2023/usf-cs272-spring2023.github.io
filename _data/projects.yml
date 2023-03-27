@@ -84,30 +84,50 @@ tests_v30:
   text: 'Project v3.0 Tests'
   date: 2023-04-10
   book: 'https://usfca.instructure.com/courses/1611719/assignments/7285955'
+  java: 'ThreadBuildTests.java'
+  tags: 'test-v3.0'
 
 review_v30:
   <<: *project3
   text: 'Project v3.0 Review'
   date: 2023-04-14
   book: 'https://usfca.instructure.com/courses/1611719/assignments/7285956'
+  java: 'ThreadBuildTests.java'
+  tags: 'test-v3.0'
 
 tests_v31:
   <<: *project3
   text: 'Project v3.1 Tests'
   date: 2023-04-14
   book: 'https://usfca.instructure.com/courses/1611719/assignments/7285957'
+  java: ['ThreadSearchTests.java', 'ThreadBenchTests.java']
+  tags: 'test-v3.1'
+  time: '1.1'
 
 review_v31:
   <<: *project3
   text: 'Project v3.1 Review'
   date: 2023-04-21
   book: 'https://usfca.instructure.com/courses/1611719/assignments/7285958'
+  java: ['ThreadSearchTests.java', 'ThreadBenchTests.java']
+  tags: 'test-v3.1'
+  time: '1.1'
+
+review_v32:
+  <<: *project3
+  text: 'Project v3.2 Review'
+  java: 'ThreadBenchTests.java'
+  tags: 'test-v3.2'
+  time: '1.5'
 
 design_v3x:
   <<: *project3
   text: 'Project v3.x Design'
   date: 2023-04-28
   book: 'https://usfca.instructure.com/courses/1611719/assignments/7285959'
+  java: 'ThreadBenchTests.java'
+  tags: 'test-v3.x'
+  time: '1.7'
 
 project4: &project4
   <<: *default
