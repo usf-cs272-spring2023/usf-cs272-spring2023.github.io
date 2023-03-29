@@ -1077,6 +1077,11 @@ weeks:
               - file: 'code'
                 name: 'queuelist'
 
+          - <<: *optional
+            items:
+              - file: 'code'
+                name: 'dirlist'
+
           - <<: *participation
             items:
               - file: 'quizzes'

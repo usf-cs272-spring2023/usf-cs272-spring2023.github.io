@@ -265,3 +265,12 @@ queuelist:
   time: '15:25'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=585c944e-dfc0-478e-8777-afd40145ce43'
   repo: '/cs272-lectures/blob/main/WorkQueues/src/main/java/edu/usfca/cs272/QueuedDirectoryListing.java'
+
+dirlist:
+  <<: *default
+  text: 'Threaded Directory Listing'
+  html: ' (All Versions)'
+  tags: ['threads']
+  time: '59:01'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=68400d8f-82a9-448e-9755-afca0169fc2a'
+  repo: '/cs272-lectures/tree/main/WorkQueues'
