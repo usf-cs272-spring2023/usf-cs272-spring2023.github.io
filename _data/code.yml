@@ -200,7 +200,7 @@ randomarray:
   tags: ['threads']
   time: '20:13'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c99e4e92-d495-424b-a6d5-afca015f0331'
-  repo: '/usf-cs272-spring2023/cs272-lectures/blob/main/Multithreading/src/main/java/edu/usfca/cs272/RandomArrayTotal.java'
+  repo: '/cs272-lectures/blob/main/Multithreading/src/main/java/edu/usfca/cs272/RandomArrayTotal.java'
 
 threadstate:
   <<: *default
@@ -208,7 +208,7 @@ threadstate:
   tags: ['threads']
   time: '11:01'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=89d6b47d-67fa-4de7-b1a5-afca015f03db'
-  repo: '/usf-cs272-spring2023/cs272-lectures/blob/main/Multithreading/src/main/java/edu/usfca/cs272/ThreadStateDemo.java'
+  repo: '/cs272-lectures/blob/main/Multithreading/src/main/java/edu/usfca/cs272/ThreadStateDemo.java'
 
 boundedbuffer:
   <<: *default
@@ -216,7 +216,7 @@ boundedbuffer:
   tags: ['threads']
   time: '34:23'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=996f2e8b-da25-4d59-bf0e-afca0169fcbc'
-  repo: '/usf-cs272-spring2023/cs272-lectures/tree/main/Multithreading/src/main/java/edu/usfca/cs272'
+  repo: '/cs272-lectures/tree/main/Multithreading/src/main/java/edu/usfca/cs272'
 
 indexedset:
   <<: *default
@@ -224,7 +224,7 @@ indexedset:
   tags: ['threads']
   time: '07:46'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=61b90982-9bf2-49de-a05e-afca0169fa95'
-  repo: '/usf-cs272-spring2023/cs272-lectures/blob/main/Synchronization/src/main/java/edu/usfca/cs272/IndexedSet.java'
+  repo: '/cs272-lectures/blob/main/Synchronization/src/main/java/edu/usfca/cs272/IndexedSet.java'
 
 synchronizedset:
   <<: *default
@@ -232,7 +232,7 @@ synchronizedset:
   tags: ['threads']
   time: '05:49'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eeabbc9b-ac4f-4fbe-9b28-afca0169fb0f'
-  repo: '/usf-cs272-spring2023/cs272-lectures/blob/main/Synchronization/src/main/java/edu/usfca/cs272/SynchronizedSet.java'
+  repo: '/cs272-lectures/blob/main/Synchronization/src/main/java/edu/usfca/cs272/SynchronizedSet.java'
 
 concurrentset:
   <<: *default
@@ -240,7 +240,7 @@ concurrentset:
   tags: ['threads']
   time: '06:52'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=42aee162-ec18-4c50-b66c-afca0169fb2b'
-  repo: '/usf-cs272-spring2023/cs272-lectures/blob/main/Synchronization/src/main/java/edu/usfca/cs272/ConcurrentSet.java'
+  repo: '/cs272-lectures/blob/main/Synchronization/src/main/java/edu/usfca/cs272/ConcurrentSet.java'
 
 setdemo:
   <<: *default
@@ -248,7 +248,7 @@ setdemo:
   tags: ['threads']
   time: '05:11'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d3f81ee7-c5d9-488c-8441-afca0169fb89'
-  repo: '/usf-cs272-spring2023/cs272-lectures/blob/main/Synchronization/src/main/java/edu/usfca/cs272/SetDemo.java'
+  repo: '/cs272-lectures/blob/main/Synchronization/src/main/java/edu/usfca/cs272/SetDemo.java'
 
 queue:
   <<: *default
@@ -256,4 +256,12 @@ queue:
   tags: ['threads']
   time: '19:43'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=521bad64-9bc7-49e2-a781-afca0169fc98'
-  repo: '/usf-cs272-spring2023/cs272-lectures/blob/main/WorkQueues/src/main/java/edu/usfca/cs272/WorkQueue.java'
+  repo: '/cs272-lectures/blob/main/WorkQueues/src/main/java/edu/usfca/cs272/WorkQueue.java'
+
+queuelist:
+  <<: *default
+  text: 'Queued Directory Listing'
+  tags: ['threads']
+  time: '15:25'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=585c944e-dfc0-478e-8777-afd40145ce43'
+  repo: '/cs272-lectures/blob/main/WorkQueues/src/main/java/edu/usfca/cs272/QueuedDirectoryListing.java'

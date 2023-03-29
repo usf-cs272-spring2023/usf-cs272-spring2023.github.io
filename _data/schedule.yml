@@ -1069,23 +1069,13 @@ weeks:
 
               - file: 'lectures'
                 name: 'pools'
+                type: 'pb-2'
 
               - file: 'code'
                 name: 'queue'
-                type: 'pb-2'
-
-              - text: 'Threaded Directory Listing'
-                icon: 'code'
-                html: ' <em>(Continued)</em>'
-                repo: '/usf-cs272-spring2023/cs272-lectures/tree/main/WorkQueues'
-            
-              - text: 'Queue Listing'
-                icon: 'indented'
-                type: 'push'
-
-              - text: 'Listing Benchmark'
-                icon: 'indented'
-                type: 'push'
+       
+              - file: 'code'
+                name: 'queuelist'
 
           - <<: *participation
             items:
