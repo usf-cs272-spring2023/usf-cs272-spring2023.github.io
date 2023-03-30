@@ -1077,6 +1077,13 @@ weeks:
               - file: 'code'
                 name: 'queuelist'
 
+              - text: 'PrimeFinder Intro'
+                icon: 'homework'
+                href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=61667c80-00a3-4d69-b784-afd5000e8166'
+                time: '4:25'
+                repo: 'homework-PrimeFinder-template'
+                type: 'pt-2'
+
           - <<: *optional
             items:
               - file: 'code'
