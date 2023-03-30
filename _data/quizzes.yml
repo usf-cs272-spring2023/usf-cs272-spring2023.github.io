@@ -184,8 +184,8 @@ workers:
 project3:
   <<: *default
   text: 'Project 3 Writeup'
-#   date: 2022-11-04
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409356'
+  date: 2023-04-03
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2422846'
   tags: ['none']
 
 # regex:
