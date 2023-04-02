@@ -1140,11 +1140,34 @@ weeks:
             items:
               - text: 'Regular Expressions'
 
+              - file: 'code'
+                name: 'classes'
+
+              - file: 'code'
+                name: 'quantifiers'
+
+              - file: 'code'
+                name: 'parsing'
+
       - date: 2023-04-06
         rows:
           - <<: *videos
             items:
-              - text: 'Regular Expressions'
+              - file: 'lectures'
+                name: 'regex'
+                type: 'pb-2'
+
+              - file: 'lectures'
+                name: 'web'
+
+              - file: 'lectures'
+                name: 'url'
+
+              - file: 'lectures'
+                name: 'html'
+
+              - file: 'lectures'
+                name: 'http'
 
           - <<: *participation
             items:

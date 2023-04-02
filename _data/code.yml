@@ -274,3 +274,25 @@ dirlist:
   time: '59:01'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=68400d8f-82a9-448e-9755-afca0169fc2a'
   repo: '/cs272-lectures/tree/main/WorkQueues'
+
+classes:
+  <<: *default
+  text: 'Character Classes'
+  tags: ['regexes']
+  time: '15:09'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=426e29e9-f3d4-43df-812c-afd80183f512'
+
+quantifiers:
+  <<: *default
+  text: 'Quantifiers'
+  tags: ['regexes']
+  time: '15:45'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4032892c-7e4e-49db-9abc-afd80183f544'
+
+parsing:
+  <<: *default
+  text: 'Word Parsing'
+  tags: ['regexes']
+  time: '13:03'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b54acd37-f92c-4556-ad5d-afd80183f5ba'
+
