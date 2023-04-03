@@ -1204,7 +1204,11 @@ weeks:
 
           - <<: *participation
             items:
-              - text: 'Pending'
+              - file: 'quizzes'
+                name: 'regex'
+
+              - file: 'quizzes'
+                name: 'http'
 
       - date: 2023-04-07
         rows:
