@@ -277,7 +277,7 @@ regex:
   <<: *default
   tags: ['regexes']
   text: 'Regular Expressions'
-  safe: '/files/Regular Expressions.pdf'
+  save: '/files/Regular Expressions.pdf'
   time: '14:08'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=efcf18e0-1fc0-4595-96da-afd80183d261'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vSLVGeiqwzi3b8xtD0ZpnEsKDJl9M7kO2BI0GsszcHChNEhUtx6AJgeRopxBHIeJ-Bn4soKUrtZZicw/pub?start=false&loop=false&delayms=3000'
@@ -286,15 +286,19 @@ web:
   <<: *default
   tags: ['web']
   text: 'Web Basics'
+  save: '/files/Web Basics.pdf'
   time: '06:34'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8e402979-8beb-4dc9-a82f-afd801860e7e'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQyx-0sbMzXbqWjoKW9fEIoLMgvO42cIT4m04nxRx1LYK7F_0nNjN4Vy1jptzaQFlWazEXL97UBkgex/pub?start=false&loop=false&delayms=3000'
 
 url:
   <<: *default
   tags: ['web']
   text: 'Uniform Resource Locator (URL)'
+  save: '/files/Uniform Resource Locator (URL).pdf'
   time: '05:54'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e38f08f9-f625-4cb5-b1bb-afd801860f14'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vSho31BZkNLMgEujPcWbKmqNG2ZY9hhYvZOgsqGdE52vTD_VRKos10FLVkcNV3v1Y1SFPlkSbkNAwn8/pub?start=false&loop=false&delayms=3000'
 
 html:
   <<: *default
@@ -307,9 +311,10 @@ http:
   <<: *default
   tags: ['web']
   text: 'Hypertext Transfer Protocol (HTTP)'
+  save: '/files/Hypertext Transfer Protocol (HTTP).pdf'
   time: '10:09'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8c78b0c6-68ba-49f2-8b00-afd801860ef0'
-
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vRFNQNP4jwQk9p7BrrPkTKiUMOJteNJ99MPodgafcvGoYib8s_T83PuSRyOEs2WE8EhB8nNAXR1op91/pub?start=false&loop=false&delayms=3000'
 
 # dynamic:
 #   <<: *default

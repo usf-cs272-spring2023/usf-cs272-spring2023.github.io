@@ -1139,15 +1139,48 @@ weeks:
           - <<: *lectures
             items:
               - text: 'Regular Expressions'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/RegularExpressions'
 
               - file: 'code'
                 name: 'classes'
+                icon: 'indented'
+                type: 'push'
 
               - file: 'code'
                 name: 'quantifiers'
+                icon: 'indented'
+                type: 'push'
 
               - file: 'code'
                 name: 'parsing'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'Boundaries'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/RegularExpressions/src/main/java/edu/usfca/cs272/RegexBoundaries.java'
+
+              - text: 'Groups'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/RegularExpressions/src/main/java/edu/usfca/cs272/RegexGroups.java'
+                html: ' (<a href="https://regex101.com/r/Dusf9V/">Try It</a>)'
+
+          - <<: *content
+            items:
+              - text: 'Regex Challenge'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/RegularExpressions/src/main/java/edu/usfca/cs272/RegexChallenge.java'
+                
+              - text: 'Regex Streams'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/RegularExpressions/src/main/java/edu/usfca/cs272/RegexStreams.java'
+
+              - text: 'Regex Helper'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/RegularExpressions/src/main/java/edu/usfca/cs272/RegexHelper.java'
 
       - date: 2023-04-06
         rows:

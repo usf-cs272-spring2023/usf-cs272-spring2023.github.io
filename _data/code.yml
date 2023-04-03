@@ -281,6 +281,7 @@ classes:
   tags: ['regexes']
   time: '15:09'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=426e29e9-f3d4-43df-812c-afd80183f512'
+  repo: '/cs272-lectures/blob/main/RegularExpressions/src/main/java/edu/usfca/cs272/RegexClasses.java'
 
 quantifiers:
   <<: *default
@@ -288,6 +289,7 @@ quantifiers:
   tags: ['regexes']
   time: '15:45'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4032892c-7e4e-49db-9abc-afd80183f544'
+  repo: '/cs272-lectures/blob/main/RegularExpressions/src/main/java/edu/usfca/cs272/RegexQuantifiers.java'
 
 parsing:
   <<: *default
@@ -295,4 +297,4 @@ parsing:
   tags: ['regexes']
   time: '13:03'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b54acd37-f92c-4556-ad5d-afd80183f5ba'
-
+  repo: '/cs272-lectures/blob/main/RegularExpressions/src/main/java/edu/usfca/cs272/RegexWordParsing.java'
