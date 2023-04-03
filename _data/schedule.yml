@@ -1197,10 +1197,15 @@ weeks:
                 name: 'url'
 
               - file: 'lectures'
-                name: 'html'
+                name: 'http_intro'
 
               - file: 'lectures'
-                name: 'http'
+                name: 'http_demo'
+
+          - <<: *optional
+            items:
+              - file: 'lectures'
+                name: 'html'
 
           - <<: *participation
             items:

@@ -307,14 +307,24 @@ html:
   time: '21:03'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fe207fce-2c91-4de6-b71b-afd801860e9d'
 
-http:
+http_intro:
   <<: *default
   tags: ['web']
   text: 'Hypertext Transfer Protocol (HTTP)'
   save: '/files/Hypertext Transfer Protocol (HTTP).pdf'
-  time: '10:09'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8c78b0c6-68ba-49f2-8b00-afd801860ef0'
+  time: '07:37'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=86cdb762-93f5-49ae-b2ba-afd90162eabd'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vRFNQNP4jwQk9p7BrrPkTKiUMOJteNJ99MPodgafcvGoYib8s_T83PuSRyOEs2WE8EhB8nNAXR1op91/pub?start=false&loop=false&delayms=3000'
+
+http_demo:
+  <<: *default
+  tags: ['web']
+  text: 'HTTP Demos'
+  save: '/files/Hypertext Transfer Protocol (HTTP).pdf'
+  time: '11:59'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b91f50d7-d002-47c3-a290-afd90162eae1'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vRFNQNP4jwQk9p7BrrPkTKiUMOJteNJ99MPodgafcvGoYib8s_T83PuSRyOEs2WE8EhB8nNAXR1op91/pub?start=false&loop=false&delayms=3000'
+
 
 # dynamic:
 #   <<: *default
