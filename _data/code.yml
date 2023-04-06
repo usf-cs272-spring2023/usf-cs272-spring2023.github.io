@@ -314,7 +314,7 @@ fileserver:
   tags: ['servlets']
   time: '09:55'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=671e766a-4671-47da-9a51-afdc002779b7'
-  repo: ''
+  repo: '/cs272-lectures/blob/main/ServletBasics/src/main/java/edu/usfca/cs272/SimpleFileServer.java'
 
 gallery:
   <<: *default
@@ -322,7 +322,7 @@ gallery:
   tags: ['servlets']
   time: '08:42'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=065de354-db20-4477-92d2-afdc002777dc'
-  repo: ''
+  repo: '/cs272-lectures/blob/main/ServletBasics/src/main/java/edu/usfca/cs272/GalleryServer.java'
 
 context:
   <<: *default
@@ -330,4 +330,4 @@ context:
   tags: ['servlets']
   time: '15:28'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b4d0650b-4dcd-4410-83c4-afdc0027777f'
-  repo: ''
+  repo: '/cs272-lectures/blob/main/ServletBasics/src/main/java/edu/usfca/cs272/ContextServer.java'
