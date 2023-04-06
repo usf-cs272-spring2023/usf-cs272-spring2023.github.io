@@ -325,20 +325,23 @@ http_demo:
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b91f50d7-d002-47c3-a290-afd90162eae1'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vRFNQNP4jwQk9p7BrrPkTKiUMOJteNJ99MPodgafcvGoYib8s_T83PuSRyOEs2WE8EhB8nNAXR1op91/pub?start=false&loop=false&delayms=3000'
 
+dynamic:
+  <<: *default
+  tags: ['web']
+  text: 'Static vs Dynamic Web'
+  save: '/files/Static vs Dynamic Web.pdf'
+  time: '08:29'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vR-HXvkl7cVq4YHBw9XBuSDcLlGFTvBlzfe8-SAaqIgVY4Az2my-vcBz426YTGm8vZcJeWHMqkitxGi/pub?start=false&loop=false&delayms=3000'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73283792-33d2-4001-af0f-afdc0027768c'
 
-# dynamic:
-#   <<: *default
-#   tags: ['web']
-#   text: 'Static vs Dynamic Web'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vT73FZwlsGn2UvuXfv37r6iokph2P2k7ZRn6qMB97UevKkttkrs-RaKn4Og-ndwjC0cLRcU1PyN4Q94/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1ix3i4i2eoHy-D9aTYgEkp9IPBBzgYxRw/view?usp=sharing'
-
-# jetty:
-#   <<: *default
-#   tags: ['servlets']
-#   text: 'Jetty and Servlets'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vT39ddllMZONA2_tbfEttwCvKAtUdKy5wiGZi9DM-3mCz7yL624y2SEEPsjHYFkQfLLsb4vUcv4FWhO/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1OtvslLGJB1FOhoQRYv1yTFMLE6OCQCCN/view?usp=sharing'
+jetty:
+  <<: *default
+  tags: ['servlets']
+  text: 'Jetty and Servlets'
+  save: '/files/Jetty and Servlets.pdf'
+  time: '10:19'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vT_fIyB-Wdl0QwpHf5KDpfzUrk6B_XkGsmp68sjL1Fu7ua3yZiTKXwVGQaP5LL9eLNxkjHL7NmC1cQH/pub?start=false&loop=false&delayms=3000'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73887688-db72-4e76-be0e-afdc002776d6'
 
 # relational:
 #   <<: *default

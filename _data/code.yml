@@ -307,3 +307,27 @@ sockets:
   time: '18:12'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0b5eb8b1-009d-4b39-a9c1-afdc000b8098'
   repo: '/cs272-lectures/blob/main/Sockets/src/main/java/edu/usfca/cs272/SimpleClient.java'
+
+fileserver:
+  <<: *default
+  text: 'Simple File Server'
+  tags: ['servlets']
+  time: '09:55'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=671e766a-4671-47da-9a51-afdc002779b7'
+  repo: ''
+
+gallery:
+  <<: *default
+  text: 'Gallery Server'
+  tags: ['servlets']
+  time: '08:42'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=065de354-db20-4477-92d2-afdc002777dc'
+  repo: ''
+
+context:
+  <<: *default
+  text: 'Context Server'
+  tags: ['servlets']
+  time: '15:28'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b4d0650b-4dcd-4410-83c4-afdc0027777f'
+  repo: ''

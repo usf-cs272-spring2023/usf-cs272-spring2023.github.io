@@ -1275,6 +1275,29 @@ weeks:
                 icon: 'indented'
                 type: 'push'
 
+              - text: 'Servlet Basics'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/ServletBasics'
+                type: 'pt-2'
+
+              - text: 'Today Server'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/ServletBasics/src/main/java/edu/usfca/cs272/TodayServer.java'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'Hello Server'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/ServletBasics/src/main/java/edu/usfca/cs272/HelloServer.java'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'Visit Server'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/ServletBasics/src/main/java/edu/usfca/cs272/VisitServer.java'
+                icon: 'indented'
+                type: 'push'
+
           - <<: *content
             items:
               - text: 'URL Fetcher'
@@ -1285,9 +1308,35 @@ weeks:
         rows:
           - <<: *videos
             items:
-              - text: 'HTML'
-              - text: 'Servlets'
+              - file: 'lectures'
+                name: 'dynamic'
 
+              - file: 'lectures'
+                name: 'jetty'
+
+              - text: 'Servlet Basics'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/ServletBasics'
+                type: 'pt-2'
+
+              - file: 'code'
+                name: 'fileserver'
+                icon: 'indented'
+                type: 'push'
+
+              - file: 'code'
+                name: 'gallery'
+                icon: 'indented'
+                type: 'push'
+
+              - file: 'code'
+                name: 'context'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'Pending'
+                type: 'pt-2'
+                
           - <<: *participation
             items:
               - text: 'Pending'
