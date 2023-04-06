@@ -204,20 +204,20 @@ http:
   tags: ['web']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415034'
 
-# dynamic:
-#   <<: *default
-#   text: 'Dynamic Web'
-#   date: 2022-11-18
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409370'
-#   tags: ['servlets']
+dynamic:
+  <<: *default
+  text: 'Dynamic Web'
+  date: 2023-04-17
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421160'
+  tags: ['servlets']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415042'
 
-# servlets:
-#   <<: *default
-#   text: 'Servlet Contexts'
-#   date: 2022-11-18
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409340'
-#   tags: ['servlets']
+servlets:
+  <<: *default
+  text: 'Servlet Contexts'
+  date: 2023-04-17
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421157'
+  tags: ['servlets']
 #   test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415041'
 
 # project4:

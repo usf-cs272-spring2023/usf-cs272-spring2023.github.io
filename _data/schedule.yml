@@ -1339,7 +1339,11 @@ weeks:
                 
           - <<: *participation
             items:
-              - text: 'Pending'
+              - file: 'quizzes'
+                name: 'dynamic'
+
+              - file: 'quizzes'
+                name: 'servlets'
 
       - date: 2023-04-14
         rows:
