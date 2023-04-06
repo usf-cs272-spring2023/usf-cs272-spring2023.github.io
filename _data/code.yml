@@ -298,3 +298,12 @@ parsing:
   time: '13:03'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b54acd37-f92c-4556-ad5d-afd80183f5ba'
   repo: '/cs272-lectures/blob/main/RegularExpressions/src/main/java/edu/usfca/cs272/RegexWordParsing.java'
+
+sockets:
+  <<: *default
+  text: 'Simple Client'
+  html: ' and <a href="https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/Sockets/src/main/java/edu/usfca/cs272/SimpleServer.java">Simple Server</a>'
+  tags: ['web']
+  time: '18:12'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0b5eb8b1-009d-4b39-a9c1-afdc000b8098'
+  repo: '/cs272-lectures/blob/main/Sockets/src/main/java/edu/usfca/cs272/SimpleClient.java'

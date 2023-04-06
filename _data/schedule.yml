@@ -1260,12 +1260,26 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - file: 'projects'
-                name: 'project4'
-                type: 'has-text-usf-plum pb-2'
-
-              - text: 'HTTP'
               - text: 'Sockets'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/Sockets'
+
+              - file: 'code'
+                name: 'sockets'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'HTTPS Fetcher'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/Sockets/src/main/java/edu/usfca/cs272/HttpsFetcher.java'
+                icon: 'indented'
+                type: 'push'
+
+          - <<: *content
+            items:
+              - text: 'URL Fetcher'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/Sockets/src/main/java/edu/usfca/cs272/UrlFetcher.java'
 
       - date: 2023-04-13
         rows:
@@ -1314,6 +1328,10 @@ weeks:
         rows:
           - <<: *lectures
             items:
+              - file: 'projects'
+                name: 'project4'
+                type: 'has-text-usf-plum pb-2'
+
               - text: 'Servlets'
 
       - date: 2023-04-20
