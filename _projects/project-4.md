@@ -3,13 +3,12 @@ title: Project 4 Crawl
 navbar: Resources
 layout: resources
 key: 4.0
-# bump: true
 
 project: 4
 
 tags:
- - text: 'Pending'
-  #  type: 'is-primary'
+  - text: 'New'
+    type: 'is-primary'
 
 # tests: 'project4_tests'
 # review1: 'project4_review'

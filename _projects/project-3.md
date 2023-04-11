@@ -7,9 +7,9 @@ bump: false
 
 project: 3
 
-tags:
- - text: 'New'
-   type: 'is-primary'
+# tags:
+#  - text: 'New'
+#    type: 'is-primary'
 
 subsections:
   - text: 'Project Release v3.0'
@@ -26,14 +26,6 @@ subsections:
 
   - text: 'Getting Started'
     link: '#getting-started'
-
-releases:
-  v0:
-    canvas: 'tests_v30'
-    tester: 'ThreadBuildTests.java'
-    tagger: 'test-v3.0'
-    review: 'review_v30'
-    prereq: 'tests_v21'
 
 ---
 

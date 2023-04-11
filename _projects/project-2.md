@@ -6,9 +6,9 @@ key: 2.0
 bump: false
 project: 2
 
-tags:
- - text: 'New'
-   type: 'is-primary'
+# tags:
+#  - text: 'New'
+#    type: 'is-primary'
 
 subsections:
   - text: 'Functionality'
