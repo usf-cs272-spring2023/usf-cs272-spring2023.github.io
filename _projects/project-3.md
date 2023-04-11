@@ -49,7 +49,7 @@ The first release of this project must support multithreaded build using a custo
 
   - If multithreading is enabled, your code must support **multithreaded building** of the thread-safe inverted index using a work queue. Each worker thread should process one file at a time (i.e. create one "task" per file).
 
-  - The output requirements are be the same as the [previous project](project-{{ page.project | minus: 1 }}.html). As before, your code should only generate output files if the necessary flags are provided.
+  - The output requirements are the same as the [previous project](project-{{ page.project | minus: 1 }}.html). As before, your code should only generate output files if the necessary flags are provided.
 
 Your code should support all of the functionality from the [previous project](project-{{ page.project | minus: 1 }}.html) as well.
 
