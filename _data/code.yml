@@ -308,6 +308,14 @@ sockets:
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0b5eb8b1-009d-4b39-a9c1-afdc000b8098'
   repo: '/cs272-lectures/blob/main/Sockets/src/main/java/edu/usfca/cs272/SimpleClient.java'
 
+helloserver:
+  <<: *default
+  text: 'Hello Server'
+  tags: ['servlets']
+  time: '15:09'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7dbe9d5f-467f-41c5-9d0c-afe20148a809'
+  repo: '/cs272-lectures/blob/main/ServletBasics/src/main/java/edu/usfca/cs272/HelloServer.java'
+
 fileserver:
   <<: *default
   text: 'Simple File Server'

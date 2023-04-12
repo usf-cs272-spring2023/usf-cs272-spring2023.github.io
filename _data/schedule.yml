@@ -1290,13 +1290,13 @@ weeks:
                 icon: 'code'
                 href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/ServletBasics/src/main/java/edu/usfca/cs272/HelloServer.java'
                 icon: 'indented'
-                type: 'push'
+                type: 'push del'
 
               - text: 'Visit Server'
                 icon: 'code'
                 href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/ServletBasics/src/main/java/edu/usfca/cs272/VisitServer.java'
                 icon: 'indented'
-                type: 'push'
+                type: 'push del'
 
           - <<: *content
             items:
@@ -1318,6 +1318,11 @@ weeks:
                 icon: 'code'
                 href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/ServletBasics'
                 type: 'pt-2'
+
+              - file: 'code'
+                name: 'helloserver'
+                icon: 'indented'
+                type: 'push'
 
               - file: 'code'
                 name: 'fileserver'
