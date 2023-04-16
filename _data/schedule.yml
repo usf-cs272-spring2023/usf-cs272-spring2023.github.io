@@ -1390,7 +1390,34 @@ weeks:
                 name: 'project4'
                 type: 'has-text-usf-plum pb-2'
 
-              - text: 'Servlets'
+              - text: 'Reverse Server'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/ServletBasics/src/main/java/edu/usfca/cs272/ReverseServer.java'
+
+              - text: 'Visit Server'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/ServletBasics/src/main/java/edu/usfca/cs272/VisitServer.java'
+                type: 'pb-2'
+              
+              - text: 'HTTP Cookies'
+                icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/Cookies'
+
+              - text: 'Cookie Server'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/Cookies/src/main/java/edu/usfca/cs272/CookieServer.java'
+
+              - text: 'Landing Servlet'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/Cookies/src/main/java/edu/usfca/cs272/CookieLandingServlet.java'
+
+              - text: 'Visit Servlet'
+                icon: 'indented'
+                type: 'push'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/blob/main/Cookies/src/main/java/edu/usfca/cs272/CookieVisitServlet.java'
+
 
       - date: 2023-04-20
         rows:
@@ -1398,6 +1425,7 @@ weeks:
             items:
               - text: 'Message Board'
                 icon: 'code'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/ServletData'
               
               - file: 'code'
                 name: 'messages1'
@@ -1409,13 +1437,9 @@ weeks:
                 icon: 'indented'
                 type: 'push'
 
-              - file: 'code'
-                name: 'messages3'
-                icon: 'indented'
-                type: 'push'
-
               - text: 'Adventure Game'
                 icon: 'code'
+                type: 'pt-2'
               
               - file: 'code'
                 name: 'adventure1'
@@ -1432,7 +1456,10 @@ weeks:
                 icon: 'indented'
                 type: 'push'
 
-
+          - <<: *optional
+            items:
+              - file: 'code'
+                name: 'messages3'
 
           - <<: *participation
             items:
