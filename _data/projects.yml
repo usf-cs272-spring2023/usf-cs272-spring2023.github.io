@@ -134,6 +134,7 @@ project4: &project4
   <<: *default
   text: 'Project 4 Crawl'
   tags: ['project4']
+  href: '/resources/projects/project-4.html'
 
 tests_v40:
   <<: *project4
