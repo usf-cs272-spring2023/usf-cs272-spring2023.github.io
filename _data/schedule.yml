@@ -1423,7 +1423,7 @@ weeks:
         rows:
           - <<: *videos
             items:
-              - text: 'Message Board'
+              - text: 'Message Board (Data)'
                 icon: 'code'
                 href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/ServletData'
               
@@ -1437,9 +1437,10 @@ weeks:
                 icon: 'indented'
                 type: 'push'
 
-              - text: 'Adventure Game'
+              - text: 'Adventure Game (Sessions)'
                 icon: 'code'
                 type: 'pt-2'
+                href: 'https://github.com/usf-cs272-spring2023/cs272-lectures/tree/main/Sessions'
               
               - file: 'code'
                 name: 'adventure1'

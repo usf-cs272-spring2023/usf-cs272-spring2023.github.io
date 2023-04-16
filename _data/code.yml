@@ -346,6 +346,7 @@ messages1:
   tags: ['servlets']
   time: '15:58'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ff42067e-b02c-4c8a-bcda-afdc00277882'
+  repo: '/cs272-lectures/blob/main/ServletData/src/main/java/edu/usfca/cs272/MessageServer.java'
 
 messages2:
   <<: *default
@@ -353,6 +354,7 @@ messages2:
   tags: ['servlets']
   time: '27:09'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1793afdf-e9d0-491a-a2d0-afdc002778ef'
+  repo: '/cs272-lectures/blob/main/ServletData/src/main/java/edu/usfca/cs272/MessageServlet.java'
 
 messages3:
   <<: *default
@@ -360,6 +362,7 @@ messages3:
   tags: ['servlets']
   time: '18:32'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b99d1f5c-5568-48e2-89e0-afdc00277977'
+  repo: '/cs272-lectures/blob/main/ServletData/src/main/java/edu/usfca/cs272/BulmaMessageServlet.java'
 
 adventure1:
   <<: *default
@@ -374,6 +377,7 @@ adventure2:
   tags: ['sessions']
   time: '14:47'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7fb2633a-82c4-4590-9348-afe601537d00'
+  repo: '/cs272-lectures/blob/main/Sessions/src/main/java/edu/usfca/cs272/AdventureRoom.java'
 
 adventure3:
   <<: *default
@@ -381,5 +385,5 @@ adventure3:
   tags: ['sessions']
   time: '15:53'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9341c77d-8607-4f93-adc4-afe601537dac'
-
+  repo: '/cs272-lectures/blob/main/Sessions/src/main/java/edu/usfca/cs272/AdventureServlet.java'
 
