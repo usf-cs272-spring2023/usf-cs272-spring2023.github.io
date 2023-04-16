@@ -78,11 +78,11 @@ midterm_survey:
   href: 'https://usfca.instructure.com/courses/1611719/assignments/7299254/'
   date: 2023-03-27
 
-# whatif:
-#   <<: *default
-#   text: 'What-If Check'
-#   date: 2022-11-18
-#   link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409365'
+whatif:
+  <<: *default
+  text: 'End-of-Semester Plan'
+  date: 2023-04-24
+  href: 'https://usfca.instructure.com/courses/1611719/assignments/7305658/'
 
 # final_survey:
 #   <<: *default

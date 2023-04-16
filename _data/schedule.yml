@@ -1400,7 +1400,8 @@ weeks:
 
           - <<: *participation
             items:
-              - text: 'Pending'
+              - file: 'participation'
+                name: 'whatif'
 
       - date: 2023-04-21
         rows:
