@@ -339,3 +339,47 @@ context:
   time: '15:28'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b4d0650b-4dcd-4410-83c4-afdc0027777f'
   repo: '/cs272-lectures/blob/main/ServletBasics/src/main/java/edu/usfca/cs272/ContextServer.java'
+
+messages1:
+  <<: *default
+  text: 'Message Board Setup'
+  tags: ['servlets']
+  time: '15:58'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ff42067e-b02c-4c8a-bcda-afdc00277882'
+
+messages2:
+  <<: *default
+  text: 'Message Board Servlet'
+  tags: ['servlets']
+  time: '27:09'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1793afdf-e9d0-491a-a2d0-afdc002778ef'
+
+messages3:
+  <<: *default
+  text: 'Message Board Style'
+  tags: ['servlets']
+  time: '18:32'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b99d1f5c-5568-48e2-89e0-afdc00277977'
+
+adventure1:
+  <<: *default
+  text: 'Adventure Game Intro'
+  tags: ['sessions']
+  time: '03:28'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d813206c-dcd2-48ed-b2e7-afe601537d4a'
+
+adventure2:
+  <<: *default
+  text: 'Adventure Game Logic'
+  tags: ['sessions']
+  time: '14:47'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7fb2633a-82c4-4590-9348-afe601537d00'
+
+adventure3:
+  <<: *default
+  text: 'Adventure Game Servlet'
+  tags: ['sessions']
+  time: '15:53'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9341c77d-8607-4f93-adc4-afe601537dac'
+
+

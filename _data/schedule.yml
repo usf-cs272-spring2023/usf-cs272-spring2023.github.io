@@ -1396,7 +1396,43 @@ weeks:
         rows:
           - <<: *videos
             items:
-              - text: 'Sessions'
+              - text: 'Message Board'
+                icon: 'code'
+              
+              - file: 'code'
+                name: 'messages1'
+                icon: 'indented'
+                type: 'push'
+
+              - file: 'code'
+                name: 'messages2'
+                icon: 'indented'
+                type: 'push'
+
+              - file: 'code'
+                name: 'messages3'
+                icon: 'indented'
+                type: 'push'
+
+              - text: 'Adventure Game'
+                icon: 'code'
+              
+              - file: 'code'
+                name: 'adventure1'
+                icon: 'indented'
+                type: 'push'
+
+              - file: 'code'
+                name: 'adventure2'
+                icon: 'indented'
+                type: 'push'
+
+              - file: 'code'
+                name: 'adventure3'
+                icon: 'indented'
+                type: 'push'
+
+
 
           - <<: *participation
             items:
