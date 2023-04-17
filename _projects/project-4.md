@@ -37,7 +37,7 @@ This project release must support building an inverted index from a single web p
 
   - Your `main` method must process the command-line argument `-html [seed]` where the flag `-html` indicates the next argument `[seed]` is the seed URL your web crawler should initially crawl to build the index. By default, only one web page will be crawled. 
 
-  - Any URLs (or links) stored by your code must be in a cleaned, absolute, normalized, decoded form. This includes removing the fragment of the URL, converting to absolute, normalizing the path, and decoding any URL-encoded characters. The `URL` and `URI` classes may be used to represent and parse URLs, encoding/decoding each component, and converting relative URLs to absolute normalized form, but may not be used to download the headers or content of URLs.
+  - Any URLs (or links) stored by your code must be in a cleaned, absolute, normalized, encoded form. This includes removing the fragment of the URL, converting to absolute, normalizing the path, and URL-encoding special characters. The `URL` and `URI` classes may be used to represent and parse URLs, URL encoding/decoding, and converting relative URLs to absolute normalized form, but may not be used to download the headers or content of URLs.
 
   - Web pages must be requested using **sockets and HTTP/S** from the web server as follows:
 
@@ -112,7 +112,7 @@ This project release must modify your web crawler functionality to use multithre
 
   - The processing of the HTML must be modified to support crawling other web pages as follows:
 
-      - After removing all HTML comments and block elements, but *before* removing all HTML tags, list all of the cleaned, absolute, normalized, decoded URLs within the HTML content.
+      - After removing all HTML comments and block elements, but *before* removing all HTML tags, list all of the cleaned, absolute, normalized, encoded URLs within the HTML content.
 
       - For each of these URLs, queue a new crawl of that URL if:
 
