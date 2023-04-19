@@ -141,7 +141,7 @@ tests_v40:
   text: 'Project v4.0 Tests'
   date: 2023-05-05
   book: 'https://usfca.instructure.com/courses/1611719/assignments/7285960'
-  java: 'CrawlFileTests.java'
+  java: 'CrawlPageTests.java'
   tags: 'test-v4.0'
 
 tests_v41:
@@ -149,7 +149,7 @@ tests_v41:
   text: 'Project v4.1 Tests'
   date: 2023-05-12
   book: 'https://usfca.instructure.com/courses/1611719/assignments/7285963'
-  java: 'CrawlManyTests.java'
+  java: 'CrawlSiteTests.java'
   tags: 'test-v4.1'
   time: '1.7'
 
