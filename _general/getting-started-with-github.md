@@ -5,9 +5,9 @@ layout: resources
 key: 1.3
 # bump: true
 
-tags:
- - text: 'Required'
-   type: 'is-danger'
+# tags:
+#  - text: 'Required'
+#    type: 'is-danger'
 ---
 
 We will use [GitHub](https://github.com/features) for all things related to code in class, including sharing lecture code examples, sharing starter homework and project code, submitting homeworks and projects, and collaborating on projects. It is a software development platform built on top of the `git` software, which is version control system for software.

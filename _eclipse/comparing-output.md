@@ -8,9 +8,9 @@ key: 4
 #  - text: 'New'
 #    type: 'is-primary'
 
-tags:
- - text: 'Useful'
-   type: 'is-info'
+# tags:
+#  - text: 'Useful'
+#    type: 'is-info'
 
 ---
 

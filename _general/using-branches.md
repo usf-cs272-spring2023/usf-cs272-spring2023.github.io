@@ -5,9 +5,9 @@ layout: resources
 key: 1.4
 bump: true
 
-tags:
- - text: 'Useful'
-   type: 'is-info'
+# tags:
+#  - text: 'Useful'
+#    type: 'is-info'
 
 ---
 
