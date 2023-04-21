@@ -7,7 +7,7 @@ layout: default
 You can find all of the current course resources here. This is a growing list. These resources are also linked from the course schedule.
 
 <br/>
-{%- assign ordered = 'projects,exams,homework,eclipse,general' | split: ',' -%}
+{%- assign ordered = 'projects,exams,homework,databases,eclipse,general' | split: ',' -%}
 {%- for name in ordered %}
 {%- assign collection = site.collections | where: 'label', name | first -%}
 {%- assign items = collection.docs | sort: 'key' -%}

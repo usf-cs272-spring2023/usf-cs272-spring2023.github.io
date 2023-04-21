@@ -48,7 +48,7 @@ collections:
     output: true
     permalink: /resources/:collection/:name:output_ext
 
-  # sql:
-  #   title: 'Databases'
-  #   output: true
-  #   permalink: /resources/:collection/:name:output_ext
+  databases:
+    title: 'Databases'
+    output: true
+    permalink: /resources/:collection/:name:output_ext
