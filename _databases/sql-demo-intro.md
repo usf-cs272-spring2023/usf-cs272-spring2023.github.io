@@ -14,22 +14,22 @@ This is another SQL demo that illustrates the process of designing tables and cr
 
 | name                 | email                     | twitter          | courses                        |
 |----------------------|---------------------------|------------------|--------------------------------|
-| Greg Benson          | benson@usfca.edu          | @gregorydbenson  | CS 315, CS 326                 |
+| Greg D. Benson       | benson@usfca.edu          | @gregorydbenson  | CS 315, CS 326                 |
 | David Guy Brizan     | dgbrizan@usfca.edu        | @davidguybrizan  | CS 245, CS 463                 |
 | Christopher Brooks   | cbrooks@usfca.edu         |                  | CS 462                         |
-| Mehmet Emre          | memre@usfca.edu           |                  | CS 345                         |
-| Sophie Engle         | sjengle@usfca.edu         | @sjengle         | CS 272, CS 360                 |
-| Jeffrey Johnson      | jajohnson9@usfca.edu      |                  | CS 107, CS 110, CS 490         |
-| Alark Joshi          | apjoshi@usfca.edu         | @alark           | CS 110, CS 112, CS 360         |
-| EJ Jung              | ejung2@usfca.edu          |                  | CS 112, CS 245                 |
+| Mehmet Emre          | memre@usfca.edu           | @maemre          | CS 345, CS 414                 |
+| Sophie J. Engle      | sjengle@usfca.edu         | @sjengle         | CS 186, CS 272, CS 360         |
+| Alark Joshi          | apjoshi@usfca.edu         | @alark           | CS 110, CS 112, CS 360, CS 480 |
+| EJ Jung              | ejung2@usfca.edu          |                  | CS 112, CS 221, CS 245         |
 | Olga Karpenko        | okarpenko@usfca.edu       |                  | CS 112, CS 245, CS 272, CS 490 |
-| Michael Kremer       | mkremer@usfca.edu         |                  | CS 110                         |
+| Michael C. Kremer    | mkremer@usfca.edu         |                  | CS 110, CS 386                 |
 | Matthew Malensek     | mmalensek@usfca.edu       | @MatthewMalensek | CS 220, CS 326                 |
-| Phil Peterson        | phpeterson@usfca.edu      |                  | CS 221, CS 315                 |
+| Phil Peterson        | phpeterson@usfca.edu      |                  | CS 221, CS 272, CS 315         |
 | Vahab Pournaghshband | vpournaghshband@usfca.edu |                  | CS 221, CS 336                 |
+| Kelsey Urgo          | kurgo@usfca.edu           |                  | CS 110, CS 486                 |
+| Ellen Veomett        | eveomett@usfca.edu        |                  | CS 245                         |
 | David Wolber         | wolberd@usfca.edu         | @wolberd         | CS 107, CS 110, CS 112         |
-| Beste Yuksel         | byuksel@usfca.edu         | @BesteFYuksel    | CS 107, CS 110, CS 490         |
-
+| Beste F. Yuksel      | byuksel@usfca.edu         | @BesteFYuksel    | CS 107, CS 110, CS 490         |
 {: .table .is-hoverable }
 
 Before viewing the rest of this demonstration, see if you can determine the tables and columns that should be created first.
