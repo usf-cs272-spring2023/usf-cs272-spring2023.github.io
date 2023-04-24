@@ -1,16 +1,15 @@
 ---
-title: 'SQL Database Accounts'
+title: 'Database Accounts'
 navbar: Resources
 layout: resources
-key: 0.1
-bump: true
+key: 0.2
 
 tags:
-  - text: 'New'
-    type: 'is-primary'
+  - text: 'Required'
+    type: 'is-danger'
 ---
 
-We will use [MariaDB](https://mariadb.org/) as the relational database for this course. MariaDB is an open-source fork of MySQL and we will use the `mysql` client to connect to this database from a CS lab computer.
+We will use [MariaDB](https://mariadb.org/) as the relational database for this course. MariaDB is an open-source fork of MySQL and we will use the `mysql` client to connect to this database from a CS vlab computer.
 
 The [knowledge base](https://mariadb.org/documentation/) for MariaDB has a lot of excellent resources. This includes several [training and tutorials](https://mariadb.com/kb/en/training-tutorials/), including:
 
@@ -26,25 +25,26 @@ And several useful references, including:
 
 Everyone has been assigned a database account on our lab MySQL/MariaDB database server.
 
-The database accounts are in the form `user###` where `###` is a number between `010` and `050`. The database for that account is the same as the username.
+The database accounts are in the form `user###` where `###` is a number between `001` and `100`. The database for that account is the same as the username.
 
-See which database account you have been assigned on the [Database Accounts]({{ site.data.info.links.canvas.link }}/pages/database-accounts) Canvas page. Your initial password will be your USF username. **Make sure to change your password after logging in for the first time.**
+See which database account you have been assigned on the [Database Accounts]({{ site.data.info.links.canvas.href }}/pages/database-accounts) Canvas page. Your initial password will be your USF username. **Make sure to change your password after logging in for the first time.**
 
 ### Connecting to Database
 
-First, log into one of the CS lab computers. See the [Using CS Lab Computers](/guides/general/using-cs-lab-computers.html) guide for details.
+First, log into one of the CS vlab computers. See the [Using CS vLab Computers](/resources/databases/using-cs-lab-computers.html) guide for details.
 
-Then, you will need to run the `mysql` command to connect to the SQL database on campus. The command looks like:
+Then, you will need to run the `mysql` command to connect to the database. The command looks like:
 
 <input type="text" class="input is-expanded is-family-code" value="mysql -h sql.cs.usfca.edu -u user### -D user### -p"/>
 
-*Hint: You can edit the command above to use your `user###` database account and then copy/paste.*
+**Hint:** You can edit the text above to replace `user###` with your database account before copying/pasting the command.
+{: .notification .is-success }
 
 Here is what each part means:
 
-  - The `mysql` part runs the MySQL command-line tool.
+  - The `mysql` part runs the MySQL client command-line tool.
 
-  - The `-h sql.cs.usfca.edu` specifies the hostname of our database server. You can actually type `-h sql` and the `cs.usfca.edu` part will be assumed since you are on the CS lab network.
+  - The `-h sql.cs.usfca.edu` specifies the hostname of our database server. You can actually type `-h sql` and the `cs.usfca.edu` part will be assumed when you are on the CS lab network.
 
   - The `-u user###` part will specify the database account username. This is **different** from your CS or USF usernames. See the [Database Accounts]({{ site.data.info.links.canvas.link }}/pages/database-accounts) page for your assigned database account and replace `user###` with your database username.
 
