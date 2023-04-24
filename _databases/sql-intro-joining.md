@@ -1,7 +1,7 @@
 ---
 title: 'SQL Intro: Joining Data'
-navbar: Guides
-layout: guides
+navbar: Resources
+layout: resources
 key: 1.2
 ---
 

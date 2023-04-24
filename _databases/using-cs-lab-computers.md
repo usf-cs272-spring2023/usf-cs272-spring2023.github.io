@@ -4,9 +4,9 @@ navbar: Resources
 layout: resources
 key: 0.1
 
-tags:
-  - text: 'New'
-    type: 'is-primary'
+# tags:
+#   - text: 'New'
+#     type: 'is-primary'
     
 # MUST USE VLAB COMPUTERS!
 

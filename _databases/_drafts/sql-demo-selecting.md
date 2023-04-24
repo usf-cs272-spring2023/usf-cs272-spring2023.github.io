@@ -1,7 +1,7 @@
 ---
 title: 'SQL Demo: Selecting Data'
-navbar: Guides
-layout: guides
+navbar: Resources
+layout: resources
 key: 2.2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'SQL Demo: Faculty Contact'
-navbar: Guides
-layout: guides
+navbar: Resources
+layout: resources
 key: 2.0
 bump: true
 
