@@ -11,53 +11,210 @@ tags:
  - text: 'Pending'
 #    type: 'is-primary'
 
-# subsections:
-#   - text: 'Requirements'
-#     link: '#requirements'
+subsections:
+  - text: 'Project Release v5.0'
+    link: '#project-release-v50'
 
-#   - text: 'Grading'
-#     link: '#grading'
+  - text: 'Core Functionality'
+    link: '#core-functionality'
 
-#   - text: 'Getting Started'
-#     link: '#getting-started'
+  - text: 'Extra Functionality'
+    link: '#extra-functionality'
 
-# tests: 'project3_tests'
-# review1: 'project3_review1'
-# review2: 'project3_review2'
-# design: 'project3_design'
-
-# review0: 'project2_review1'
-# design0: 'project2_design'
+  - text: 'Design Deductions'
+    link: '#design-deductions'
 
 ---
 
-Pending
+For this project, you will extend your [previous project](project-{{ page.project | minus: 1 }}.html) to create a fully functional multithreaded search engine with a web interface that allows users to enter search queries into an HTML form and get back search results as a dynamically generated web page using embedded Jetty and servlets. 
+
+This project will be graded and reviewed during [finals week](final-review.html) only.
+{: .notification .is-danger .is-light }
+
+## Project Release v{{ page.project }}.0
+{: .page-header }
+
+This project release must support building an inverted index from a single web page as follows:
+
+  - Your `main` method must process the command-line arguments `-server [port]` where the flag `-server` indicates to launch a multithreaded search engine web server, and the next *optional* argument `[port]` is the port the web server should use to accept socket connections. Use `8080` as the default value if it is not provided.
+
+      If the `-server` flag is provided, your code should **enable multithreading** with the default number of worker threads even if the `-threads` flag is not provided.
+
+  - Your web server must provide a web interface for searching the inverted index. This functionality is worth 50 points. See the [Core Functionality](#core-functionality) section for details.
+
+  - Your web server must provide up to 50 points of extra functionality of your choosing. See the [Extra Functionality](#extra-functionality) section for details.
+
+Your code should support all of the functionality from the [previous project](project-{{ page.project | minus: 1 }}.html) as well.
+
+{% assign release = "tests_v50" %}
+{% assign prereqs = "design_v3x,tests_v41" %}
+
+### {{ site.data.projects[release].text }}
+
+{% include project_tags.html release=release prereqs=prereqs %}
+
+This grade is earned by meeting the following requirements:
+
+  1. You must already have a passing grade for the [{{ site.data.projects["design_v3x"].text }}]({{ site.data.projects["design_v3x"].book }}) assignment.
+
+  1. You must already have a passing grade for the [{{ site.data.projects["tests_v41"].text }}]({{ site.data.projects["tests_v41"].book }}) assignment.
+
+  1. You must create a release that continues to pass the [{{ site.data.projects["tests_v41"].text }}]({{ site.data.projects["tests_v41"].book }}) tests.
+
+  1. Your code functions as expected when manually user-tested by the instructor during your [final review](final-review.html). The core functionality must pass before extra functionality will be evaluated.
+
+You **CANNOT** use the "Request Project Tests Grade" issue template to request a grade! There are no automated tests for this release. Instead, this project will be manually graded and reviewed during [finals week](final-review.html) only. If you do not attend this appointment, you will not earn credit for this assignment.
+
+If you do not attend a final code review for any reason, you will earn a 0 on this assignment regardless of what you implemented.
+{: .notification .is-danger .is-light }
+
+{% assign release = "design_v50" %}
+{% assign prereqs = "design_v3x,tests_v41,tests_v50" %}
+
+### {{ site.data.projects[release].text }}
+
+This grade is earned by meeting the following requirements:
+
+  1. You earn a passing grade for the [{{ site.data.projects["tests_v50"].text }}]({{ site.data.projects["design_v3x"].book }}) assignment during your [final review](final-review.html).
+
+  1. You have well-designed project code, including all code created for previous projects. See the [Design Deductions](#design-deductions) section for details.
+
+This project will be graded and reviewed during [finals week](final-review.html) only.
+
+### Run Examples
+
+The following are a few examples (non-comprehensive) to illustrate the usage of the command-line arguments that can be passed to your `Driver` class via a "Run Configuration" in Eclipse, assuming you set the working directory to the `project-tests` directory.
+
+Consider the following example:
+
+```
+-html "{{ site.github.url }}/project-web/input/simple/" -crawl 15 -threads 3 -server 8080
+```
+
+The above arguments behave the same as [project {{ page.project | minus: 1 }}](project-{{ page.project | minus: 1 }}.html), except it will also start up a web server on port `8080` for the user to interface with the search engine. No file output will be generated in this example.
+
+## Core Functionality
+{: .page-header }
+
+The functionality for this project is broken into 2 parts: core functionality (50 points) and extra functionality (50 points). Together, these make up the {{ site.data.projects[tests_v50].text }} grade. **You must complete the core functionality before extra features.** 
+
+The core functionality includes, in addition to maintaining the functionality of the [previous project](project-4.html), the following for a total of 50 points:
+
+| Points | Functionality Description |
+|:------:|:--------------------------|
+| 10 | **Web Form:** Display a web page with a form that includes (at a minimum) a text box where users may enter a multi-word search query and a button to submit that query to the web server. |
+| 10 | **Query Processing:** When the web form button is clicked, send the queries to a Jetty servlet and process those queries to match how the data is stored by your inverted index. |
+| 10 | **Partial Search:** After processing the queries, the servlet should retrieve the partial search results of those queries from the index generated by the `Driver` class. The servlet implementation should be thread-safe and multi-user friendly. |
+| 20 | **Search Results:** The servlet should return the partial search results to the client (or web browser) as dynamically generated HTML with sorted (most relevant first) and *clickable* hyperlinks. |
+{: .table .is-hoverable }
+
+You cannot earn credit for extra functionality until the core functionality is working properly.
+
+## Extra Functionality
+{: .page-header }
+
+Once the core functionality is complete, you may implement up to 50 points of extra features. You must successfully implement *at least* 26 points to earn a passing grade on this assignment if you received full credit for core functionality.
+
+These features are broken into several categories. You may choose any combination of features from these categories.
+
+Have a feature idea? You can propose an extra feature in a public post on the course forums. If approved, the instructor will post the number of points that feature will be worth on the final project.
+{: .notification .is-info .is-light }
+
+### User Tracking Features
+
+The following features requires your search engine to track user data. There are two implementation options (choose one):
+
+  1. **Base Functionality:** Implemented by storing data in memory; only supports a single user.
+
+  2. **Extra Functionality:** Implemented by storing data using session tracking or cookies; supports multiple users.
+
+Ideally, you should use the same implementation option for all features in this subcategory. For example, if you implement search history using sessions, you should also implement visited results using sessions.
+
+The possible features are:
+
+| Base | Extra | Description |
+|:----:|:-----:|:--------------------------|
+| 10 | 15 | **Search History:** Store a history of all search queries. Allow users to view and clear that history. |
+| 10 | 15 | **Visited Results:** Store a history of all visited search results (i.e. results clicked on). Allow users to view and clear that history. |
+| 10 | 15 | **Favorite Results:** Allow users to save favorite search results. Allow users to view and clear those favorites. |
+| 10 | 15 | **Time Stamps:** Add timestamps to each item stored. Implement this for all related features to earn full credit. |
+| 10 | 15 | **Private Search:** Allow users to set an option that turns off all tracking of user data. Implement this for all related features to earn full credit. |
+| 10 | 15 | **Last Visit Time:** Track and display the last time a user visited your search engine. This is NOT the current time that the page was generated! |
+{: .table .is-hoverable }
+
+There are 60 to 90 points possible in this category depending if you choose to implement base or extra functionality.
+
+### Metadata Features
+
+The following features requires your search engine to track search metadata (not specific to users). There are two implementation options:
+
+  1. **Base Functionality:** Track metadata in memory (non-persistent).
+
+  2. **Extra Functionality:** Track metadata in the on-campus SQL database (persistent).
+
+Ideally, you should use the same implementation option for all features in this subcategory. For example, if you implement page snippets using a database, you should also implement popular queries using a database too.
+
+The possible features are:
+
+| Base | Extra | Description |
+|:----:|:-----:|:--------------------------|
+| 15 | 30 | **Page Snippets:** When a web page is crawled, store a short snippets of the page. Display the snippet whenever that page is returned as a result. |
+| 15 | 30 | **Page Statistics:** When a web page is crawled, store the page title (via the `<title>` tag in HTML), content length (via the `Content-Length` HTTP header), and timestamp of the crawl. Display these statistics whenever that page is returned as a result. |
+| 10 | 20 | **Most Visited Results:** Track the number of times a page has been visited by any user. Allow users to see the top 5 visited pages. |
+| 10 | 20 | **Most Searched Queries:** Track the number of times a multi-word query has been searched for. Allow users to see the top 5 most popular queries. |
+| 10 | 20 | **Reset Metadata:** Allow users with an administrator password to clear all the metadata stored. |
+{: .table .is-hoverable }
+
+Some features require others to be implemented first. For example, **Reset Metadata** cannot be implemented until at least one of the other features that stores metadata is implemented.
+
+There are 60 to 120 points possible in this category depending if you choose to implement base or extra functionality.
+
+### Extendable Features
+
+The following features have base functionality that can be extended with additional functionality. The base functionality must be implemented first.
+
+| Base | Extra | Base Functionality | Extended Functionality |
+|:----:|:-----:|:-------------------|:-----------------------|
+| 10 | 20 | **New Seed:** Allow a user to specify a new seed URL that should be added to the existing inverted index. If the URL has already been crawled, skip crawling that URL and output a warning to the user. | **Max Crawl Support:** In addition to entering a new seed URL, allow the user to also specify a maximum number of pages to crawl. This is the maximum number of new pages to crawl *in addition to* the pages already crawled. URLs that are already included in the inverted index should be skipped and should not contribute to this maximum count. |
+| 10 | 20 | **Index Browser:** Allow users to browse your inverted index as an HTML page with all of the words stored, clickable links to all of the indexed URLs for those words, and the number of positions stored for that word and location (but not list all of the positions). | **Subindex Browser:** Allow users to enter a specific word and display the data stored in your inverted index for that specific word. |
+| 10 | 20 | **Location Browser:** Allow users to browse all of the locations and their word counts stored by your inverted index as an HTML page with clickable links to all of the indexed URLs. | **Partial Location Search:** Allow users to browse all of the locations and their word counts for locations that start with the same text. For example, browse all locations that start with "https://www.cs.usfca.edu/~cs272". |
+| 10 | 20 | **Index JSON File:** Allow users to download a JSON file of your inverted index by browsing to a specific endpoint on your web server. For example, if users visit "/download", it returns an `index.json` file they can download to their system. | **Alternative Format:** Allow users to download a file in another structured standardized file format (XML, YAML, etc.) by browsing to a specific endpoint on your web server. For example, if users visit "/download?file=index&type=yaml", it returns an `index.yaml` file they can download to their system. |
+{: .table .is-hoverable }
+
+For example, if you implement base functionality for **New Seed**, you will earn 10 points. If you implement both base and extra functionality for **New Seed** (including **Max Crawl Support**), you will earn 20 points instead.
+
+There are 40 to 80 points possible in this category depending if you choose to implement base or extra functionality.
+
+#### Miscellaneous Features
+
+The following miscellaneous features may also be implemented:
+
+| Points | Description |
+|:------:|:--------------------------|
+| 10 | **Graceful Shutdown:** Allow an administrator to trigger a graceful shutdown of your search engine without calling `System.exit()``. |
+| 10 | **Search Statistics:** Display the total number of results along with the time it took to calculate and fetch those results, and display the score and number of matches per search result listed. |
+| 10 | **Server Statistics:** As a footer on every page, display the server uptime (i.e. time since the server was started), total number of words stored, total number of locations stored, and total number of queries conducted. This information can be stored in memory by the server. |
+| 10 | **Quick Search:** Add a new button to your search form (in addition to the normal search button) that automatically redirects the user to the first search result instead of listing all of the search results. This is similar to the Google Search "I'm Feeling Lucky" button. Output a warning if there are no search results. |
+| 10 | **Reverse Sort Order:** Allow the user to select an option to reverse the sort order of the search results using a checkbox on the search form. |
+| 10 | **Partial/Exact Search Toggle:** Allow the user to toggle on/off partial versus exact search using a checkbox on the search form. |
+| 10 | **Web Framework:** Design a search engine using any popular CSS/style framework to create a consistent style for all the web pages. For example, consider using [Bulma](https://bulma.io/), [Bootstrap (Twitter)](https://getbootstrap.com/), [Pure.css](https://purecss.io/), [Material (Google)](https://material.io/develop/web/), [Semantic UI](https://semantic-ui.com/), and many more. |
+| 10 | **Search Brand:** Design a search engine with a distinct brand, logo, and tagline. This includes creating a *locally-hosted logo image* and including it (along with your tagline) on all of the web pages. **Do not use unlicensed unattributed media on your website.**{: .has-text-danger } |
+| 10 | **Light/Dark Mode Toggle:** Allow users to toggle between light mode (light colored background with dark text) and dark mode (dark colored background with light text) styles for your website. |
+{: .table .is-hoverable }
+
+There are 90 points possible in this category.
+
+## Design Deductions
+{: .page-header }
+
+If you earn a passing grade on the [{{ site.data.projects["tests_v50"].text }}]({{ site.data.projects["design_v3x"].book }}) assignment during your [final review](final-review.html), then your code will be evaluated for its design.
+
+
+PENDING
+
 
 {% comment %}
 
-For this project, you will extend your [previous project](project-{{ page.project | minus: 1 }}.html) to create a fully functional search engine. This is the **last project** for this course and is split into two main components:
-
-  - **[Project 4a Web Crawler](project-4a.html)**: Use a work queue to build the index from a seed URL instead of text files. This component will graded using functionality tests only.
-
-  - **[Project 4b Search Engine](project-4b.html)**: Create a search engine web application using Jetty and servlets. This component will be graded in one [final code review](final-review.html) during finals week (if eligible).
-
-See the specific project writeups for mode details.
-
-## Grading
-{: .page-header }
-
-<article class="message is-warning">
-  <div class="message-body"><i class="far fa-exclamation-triangle"></i>&nbsp;The code review for project 4 are handled slightly differently than other projects. Pay close attention to the sections below!</div>
-</article>
-
-This project grade is split into the following assignments:
-
-| Assignment | Points | Deadline | Release | Prerequisites |
-|:-----------|-------:|---------:|:-------:|:--------------|
-| [{{ site.data.projects[page.tests].text }}]({{ site.data.projects[page.tests].canvas }}) | {{ site.data.projects[page.tests].points }} | {{ site.data.projects[page.tests].date | date: "%b %d, %Y" }} | `v{{ page.project }}.0.Z` | `Project{{ page.project }}Test.java`, [{{ site.data.projects[page.review0].text }}]({{ site.data.projects[page.review1].canvas }}), [Test Checks](grading.html#project-tests) |
-| [{{ site.data.projects[page.review1].text }}]({{ site.data.projects[page.review1].canvas }}) (30 min) | {{ site.data.projects[page.review1].points }} | {{ site.data.projects[page.review1].date | date: "%b %d, %Y" }} | `v{{ page.project }}.1.Z` | [{{ site.data.projects[page.design0].text }}]({{ site.data.projects[page.design0].canvas }}), [{{ site.data.projects[page.tests].text }}]({{ site.data.projects[page.tests].canvas }}), [Review Checks](grading.html#project-reviews) |
-
-See below for additional details.
 
 ### Final Code Review
 
@@ -68,241 +225,4 @@ Students must meet the requirements for the [{{ site.data.projects[page.review1]
 Students that are eligible for [{{ site.data.projects[page.review1].text }}]({{ site.data.projects[page.review1].canvas }}) during finals week may complete additional [search engine](project-4b.html) functionality to earn extra credit in the project category. Students that are not eligible for this project may complete [other extra credit](extra-credit.html) opportunities instead at the end of the semester.
 
 These extra credit opportunities can be completed to make up for points lost due to late penalties or other deductions in the projects category. These opportunities may not be used to earn over a 100% grade in this category. 
-{% endcomment %}
-
-{% comment %}
-
-For this project, you will extend your [previous project](project-{{ page.project | minus: 1 }}.html) to support **multithreading**. In addition to meeting the previous project requirements, your code must use a **thread-safe inverted index** using a reentrant conditional read/write lock if multithreading is enabled. 
-
-When multithreading is enabled, your code must use **work queues** to manage threads. The build should be multithreaded such that each worker thread processes a single file. The search should be multithreaded such that each worker thread processes a single multi-word query line.
-
-To do this, you should create new classes (or extend existing classes) to support multithreading. **DO NOT REMOVE YOUR SINGLE THREADING CODE**, as you still need to support single threaded building and searching the index.
-
-Do *NOT* use any of the classes in the `java.util.concurrent` package and do *NOT* use the `Stream.parallel` method for the multithreaded code.
-
-## Requirements
-{: .page-header }
-
-The following detail the functionality requirements that must be implemented for this project.
-
-### Input Requirements
-
-Your `main` method must be placed in a class named `Driver` and must process the following command-line arguments:
-
-  - `-threads [num]` where the flag `-threads` enables multithreading, and indicates the next *optional* argument `[num]` is the number of worker threads to use. If the `[num]` argument is not provided, not a number, or less than `1`, use `5` as the default number of worker threads.
-
-    If the `-threads` flag is not provided, then multithreading should not be enabled. A thread-safe inverted index should *not* be initialized, a work queue should *not* be initialized, no worker threads should be created, and the project should execute with a single main thread *exactly* as previous projects.
-
-The command-line flag/value pairs may be provided in any order or not at all. Do not convert paths to absolute form when processing command-line input!
-
-Output **user-friendly error messages** in the case of exceptions or invalid input. Under no circumstance should your `main()` method output a stack trace to the user!
-
-Your code should support all of the command-line arguments from the [previous project](project-{{ page.project | minus: 1 }}.html) as well.
-
-### Simple Read/Write Lock
-
-If multithreading is enabled, the inverted index must be made thread-safe using a simple **conditional read/write lock**. The conditional read/write lock must support concurrent read operations, non-concurrent write and read/write operations, and allow an active writer to acquire additional read or write locks as necessary (i.e. **reentrant** write lock).
-
-**The thread-safe inverted index should not be used unless multithreading is enabled.** The original version without locking must be used when single threading.
-
-### Simple Work Queue
-
-If multithreading is enabled, your code must use a **work queue** to manage threads. The work queue must support the ability to automatically track unfinished (or pending) work (or tasks), and provide a method that waits until there is no more pending work.
-
-The work queue should also support the ability to shutdown gracefully, and should be gracefully shutdown after all building and searching operations are complete.
-
-**The work queue should not be initialized unless multithreading is enabled.** It is possible to reuse the same work queue for both building and searching if multithreading is enabled.
-
-### Multithreaded Building
-
-If multithreading is enabled, your code must support **multithreaded building** of the thread-safe inverted index using a work queue. Each worker thread should process one file at a time (i.e. create one "task" per file).
-
-### Multithreaded Searching
-
-If multithreading is enabled, your code must support **multithreaded searching** of the thread-safe inverted index using a work queue. Each worker thread should process one multi-word query line at a time (i.e. create one task per line).
-
-### Output Requirements
-
-The output of your inverted index and search results should be the same from the [previous project](project-{{ page.project | minus: 1 }}.html).
-
-As before, your code should **only generate output files if the necessary flags are provided**. If the correct flags are provided, your code should perform the indexing and search operations even if file output is not being generated.
-
-### Run Examples
-
-The following are a few examples (non-comprehensive) to illustrate the usage of the command-line arguments that can be passed to your `Driver` class via a "Run Configuration" in Eclipse, assuming you set the working directory to the `project-tests` directory.
-
-Consider the following example:
-
-```
--text "input/text/simple/" -query "input/query/simple.txt" -results actual/search-exact-simple.json -threads 3
-```
-
-The above arguments behave the same as [project {{ page.project | minus: 1 }}](project-{{ page.project | minus: 1 }}.html), except use `3` worker threads in a work queue to multithread both the building and search.
-
-```
--text "input/text/simple/" -query "input/query/simple.txt" -results actual/search-exact-simple.json -threads
-```
-
-The above arguments are nearly the same, except use the default of `5` worker threads.
-
-```
--text "input/text/simple/" -query "input/query/simple.txt" -threads
-```
-
-The above arguments are similar, except it does NOT produce any file output. The code should still build the index and calculate the search results! This is important for benchmarking your code.
-
-```
--text "input/text/simple/" -query "input/query/simple.txt" -results actual/search-exact-simple.json
-```
-
-This should behave *exactly* the same as [project {{ page.project | minus: 1 }}](project-{{ page.project | minus: 1 }}.html), using single-threading without any worker threads.
-
-## Grading
-{: .page-header }
-
-<article class="message is-warning">
-  <div class="message-body"><i class="far fa-exclamation-triangle"></i>&nbsp;The tests for project 3 are handled slightly differently than other projects. Pay close attention to the sections below!</div>
-</article>
-
-This project grade is split into the following assignments:
-
-| Assignment | Points | Deadline | Release | Prerequisites |
-|:-----------|-------:|---------:|:-------:|:--------------|
-| [{{ site.data.projects[page.tests].text }}]({{ site.data.projects[page.tests].canvas }}) | {{ site.data.projects[page.tests].points }} | {{ site.data.projects[page.tests].date | date: "%b %d, %Y" }} | `v{{ page.project }}.0.Z` | `Project{{ page.project }}aTest.java`, [{{ site.data.projects[page.review0].text }}]({{ site.data.projects[page.review1].canvas }}), [Test Checks](grading.html#project-tests) |
-| [{{ site.data.projects[page.review1].text }}]({{ site.data.projects[page.review1].canvas }}) (30 min) | {{ site.data.projects[page.review1].points }} | {{ site.data.projects[page.review1].date | date: "%b %d, %Y" }} | `v{{ page.project }}.1.Z` | `Project{{ page.project }}aTest.java`, [{{ site.data.projects[page.design0].text }}]({{ site.data.projects[page.design0].canvas }}), [{{ site.data.projects[page.tests].text }}]({{ site.data.projects[page.tests].canvas }}), [Review Checks](grading.html#project-reviews) |
-| [{{ site.data.projects[page.review2].text }}]({{ site.data.projects[page.review2].canvas }}) (15 min)<sup>1</sup> | {{ site.data.projects[page.review2].points }} | <span style="white-space: nowrap;">{{ site.data.projects[page.review2].date | date: "%b %d, %Y" }}</span> | `v{{ page.project }}.2.Z` | `Project{{ page.project }}aTest.java`, `Project{{ page.project }}bTest.java`, 1.1x Speedup, [{{ site.data.projects[page.review1].text }}]({{ site.data.projects[page.review1].canvas }}), [Review Checks](grading.html#project-reviews) |
-| <span style="white-space: nowrap;">Project {{ page.project }} Review Y (15 min)<sup>2</sup></span> | 0 | <span style="white-space: nowrap;">{{ site.data.projects[page.design].date | date: "%b %d, %Y" }}</span> | `v{{ page.project }}.Y.Z` | `Project{{ page.project }}aTest.java`, `Project{{ page.project }}bTest.java`, 1.1x Speedup, [{{ site.data.projects[page.review2].text }}]({{ site.data.projects[page.review2].canvas }}), [Review Checks](grading.html#project-reviews) |
-| [{{ site.data.projects[page.design].text }}]({{ site.data.projects[page.design].canvas }}) | {{ site.data.projects[page.design].points }} | {{ site.data.projects[page.design].date | date: "%b %d, %Y" }} | `v{{ page.project }}.Y.Z` | `Project{{ page.project }}aTest.java`, `Project{{ page.project }}bTest.java`, 1.5x Speedup, [{{ site.data.projects[page.review2].text }}]({{ site.data.projects[page.review2].canvas }}), [Review Checks](grading.html#project-reviews), Passing Pull Request |
-{: .table .is-auto .is-hoverable :}
-
-<sup>1</sup> You should start on [project {{ page.project | plus: 1 }}](project-{{ page.project | plus: 1 }}.html) after receiving a grade for [{{ site.data.projects[page.review2].text }}]({{ site.data.projects[page.review2].canvas }})---do NOT wait to finish this project to start the next one!
-
-<sup>2</sup> It takes approximately 3 to 4 code reviews to pass the design of this project. Keep in mind you may have only 30 minutes worth of code review appointments every 5 days. Due to weekends, that works out to approximately 3 weeks or more of code reviews.
-
-See the [Project Grading](grading.html) guide for details on how projects are graded. 
-
-### Multithreading Tests
-
-The project tests primarily check the file output of your code. Therefore, it is difficult to detect whether your code is actually multithreading as required. The tests can only detect is whether your code initializes a work queue, not whether that work queue is properly used.
-
-Submitting code for a test grade that is not multithreading using a work queue and conditional read/write lock will result in a **one-time 10 to 20 point deduction** to the test score. It is up to you to manually verify that:
-
-  - Your code is creating tasks as required (one per file for building, one per line for searching) and adding those tasks to a work queue to be executed.
-
-  - Your code is utilizing a conditional read/write lock to protect access to your inverted index data structure.
-
-You are strongly encouraged to use logging to verify tasks are being created and run as intended.
-
-### Benchmarking Tests
-
-Unlike previous projects, the tests for this project are broken in two: `Project3aTest.java` and `Project3bTest.java`.
-
-For the test grade and first code review, your code only needs to pass the tests in the `Project3aTest.java` group of JUnit tests. These tests verify your code still produces the correct file output.
-
-For the following code reviews and the final release of this project, your code must also pass the `Project3bTest.java` group of JUnit tests. These tests benchmark your single-threaded versus multithreaded code and make sure your multithreaded version is faster.
-
-For code reviews, this includes getting a speedup of at least `1.1x` faster on average using multithreading. For the final release, the speedup should be at least `1.5x` faster.
-
-## Getting Started
-{: .page-header }
-
-The following sections may be useful for getting started on this project.
-
-### Related Homework
-
-The following homework assignments may be useful for this project:
-
-  - The **[{{ site.data.homework.loggersetup.text }}]({{ site.data.homework.loggersetup.link }})** homework is useful for learning how to set up and configure `log4j2`, which will be helpful when it comes to debugging multithreaded code.
-
-  - The **[{{ site.data.homework.readwritelock.text }}]({{ site.data.homework.readwritelock.link }})** homework is useful for creating a  simple conditional read/write lock. The conditional lock class can be used directly for your project. It also illustrates how to use a conditional lock to make a data structure class thread-safe.
-
-  - The **[{{ site.data.homework.primefinder.text }}]({{ site.data.homework.primefinder.link }})** homework is useful for creating a work queue that tracks pending work. This work queue class can be used directly for your project. It also illustrates how to use this work queue and create tasks for non-recursive problems.
-
-You can modify homework assignments as necessary for this project. However, make sure your code is passing all of the tests before using.
-
-**You should NOT wait until you have completed all of the associated homework assignments to start the project.**{: .has-text-danger :} You should develop the project *iteratively* as you progress throughout the semester, integrating assignments one at a time into your project code.
-
-### Related Content
-
-The following lecture content may be useful for this project:
-
-  - The **synchronization** lecture code illustrates how to use a conditional read/write lock to make a data structure class thread-safe.
-
-  - The **work queues** lecture code illustrates how to use a work queue and create tasks for recursive problems. If your approach is not recursive, this example might not be helpful for this project.
-
-You can use and modify lecture code as necessary for this project. However, make sure you understand the concepts *before* using the code.
-
-**You should NOT wait until you have covered all of the associated lecture content to start the project.**{: .has-text-danger :} You should develop the project *iteratively* as you progress throughout the semester, integrating concepts one at a time into your project code.
-
-### Suggestions
-
-Your goal should be to get to **testable code** as quickly as possible first, and then **developing iteratively** to pass the functionality tests.
-
- One possible breakdown of tasks are:
-
-  - Configure `log4j2` add debug messages in your code. Once you are certain a class is working, disable debug messages for that class in your `log4j2.xml` configuration file.
-
-  - Extend your previous inverted index to create a thread-safe version using a conditional read/write lock.
-
-  - Create new code to build the index using a work queue (creating one task per file). Make sure your code still passes the tests.
-
-  - Create new code to process the query file using a work queue (creating one task per query line). Make sure your code still passes the tests.
-
-  - Test your code in a multitude of settings and with different numbers of threads. Some issues will only come up occasionally, or only on certain systems.
-
-  - Test your code with logging enabled. Then, test your code with logging completely disabled. Your code will run faster without logging, which sometimes causes some concurrency problems.
-
-**Do not worry about efficiency until after your first code review.** However, if you have had one code review and are running into issues, look for the following common issues:
-
-  - Make sure the code does not over-notify (e.g. does not wake up threads more often than necessary).
-
-  - Make sure the code does not over-finish (e.g. does not call finish more often than necessary).
-
-  - Make sure the code does not over-block (e.g. does not perform blocking operations within a loop).
-
-  - Make sure the code does not over-synchronize (e.g. does not prevent operations that could occur at the same time).
-
-These issues are best detected using logging.
-
-It is important to **get started early** so you have plenty of time to think about how you want to approach the project *and* start coding iteratively. Planning to complete the code in too large of a chunk is a recipe to get stuck and fall behind!
-
-<i class="fas fa-info-circle"></i>&nbsp;These hints may or may not be useful depending on your approach. Do not be overly concerned if you do not find these hints helpful for your approach for this project.
-{: .notification }
-
-{ comment }
-
-### Hints
-
-**Do not start on this project until you understand the multithreading code shown in class.** If you are stuck on the code shown in class, we are here to help!
-
-Your goal should be to get to testable code as quickly as possible first, and then to focus on passing the functionality tests. One possible breakdown of tasks are:
-
-  - Configure `log4j2` add debug messages in your code. Once you are certain a class is working, disable debug messages for that class in your `log4j2.xml` file.
-
-  - Extend your previous inverted index to create a thread-safe version using a conditional read/write lock.
-
-  - Create new code to build the index using a work queue (creating one task per file). Make sure your code still passes the tests.
-
-  - Create new code to process the query file using a work queue (creating one task per query line). Make sure your code still passes the tests.
-
-  - Test your code in a multitude of settings and with different numbers of threads. Some issues will only come up occasionally, or only on certain systems.
-
-  - Test your code with logging enabled. Then, test your code with logging completely disabled. Your code will run faster without logging, which sometimes causes some concurrency problems.
-
-**Do not worry about efficiency until after your first code review.** However, if you have had one code review and are running into issues, look for the following common issues:
-
-  - Make sure the code does not over-notify (e.g. wake up threads more often than necessary).
-
-  - Make sure the code does not over-finish (e.g. call finish more often than necessary).
-
-  - Make sure the code does not over-block (e.g. perform blocking operations within a loop).
-
-  - Make sure the code does not over-synchronize (e.g. preventing operations that could occur at the same time).
-
-These issues are best detected using logging.
-
-It is important to **get started early** so you have plenty of time to think about how you want to approach the project *and* start coding iteratively. Planning to complete the code in too large of a chunk is a recipe to get stuck and fall behind!
-
-<i class="fas fa-info-circle"></i>&nbsp;These hints may or may not be useful depending on your approach. Do not be overly concerned if you do not find these hints helpful for your approach for this project.
-{: .notification }
 {% endcomment %}

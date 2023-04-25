@@ -162,10 +162,12 @@ tests_v50:
   <<: *project5
   text: 'Project v5.0 Tests'
   date: 2023-05-18
+  tags: false
   book: 'https://usfca.instructure.com/courses/1611719/assignments/7285964'
 
 design_v50:
   <<: *project5
   text: 'Project v5.0 Design'
   date: 2023-05-18
+  tags: false
   book: 'https://usfca.instructure.com/courses/1611719/assignments/7285965'
