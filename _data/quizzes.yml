@@ -231,7 +231,7 @@ joins:
   <<: *default
   text: 'SQL Joins'
   date: 2023-05-01
-  # link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409387'
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421159'
   tags: ['sql']
   # test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415040'
 
@@ -239,7 +239,7 @@ groups:
   <<: *default
   text: 'SQL Groups'
   date: 2023-05-01
-  # link: 'https://usfca.instructure.com/courses/1608197/quizzes/2409377'
+  href: 'https://usfca.instructure.com/courses/1611719/quizzes/2421165'
   tags: ['sql']
   # test: 'https://usfca.instructure.com/courses/1608197/quizzes/2415038'
 
