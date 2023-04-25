@@ -28,7 +28,7 @@ subsections:
 
 For this project, you will extend your [previous project](project-{{ page.project | minus: 1 }}.html) to create a fully functional multithreaded search engine with a web interface that allows users to enter search queries into an HTML form and get back search results as a dynamically generated web page using embedded Jetty and servlets. 
 
-This project will be graded and reviewed during [finals week](final-review.html) only.
+This project will be graded and reviewed during [finals week](final-review.html) only. If you do not attend a final code review, you will earn a 0 on these assignments regardless of what you implemented.
 {: .notification .is-danger .is-light }
 
 ## Project Release v{{ page.project }}.0
@@ -38,11 +38,11 @@ This project release must support building an inverted index from a single web p
 
   - Your `main` method must process the command-line arguments `-server [port]` where the flag `-server` indicates to launch a multithreaded search engine web server, and the next *optional* argument `[port]` is the port the web server should use to accept socket connections. Use `8080` as the default value if it is not provided.
 
-      If the `-server` flag is provided, your code should **enable multithreading** with the default number of worker threads even if the `-threads` flag is not provided.
+  - If the `-server` command-line argument is provided, your code should **enable multithreading** with the default number of worker threads even if the `-threads` flag is not provided. 
+  
+  - Your web server must use **Jetty and servlets** to provide a web interface for searching the inverted index. This core functionality is worth 50 points. See the [Core Functionality](#core-functionality) section for details.
 
-  - Your web server must provide a web interface for searching the inverted index. This functionality is worth 50 points. See the [Core Functionality](#core-functionality) section for details.
-
-  - Your web server must provide up to 50 points of extra functionality of your choosing. See the [Extra Functionality](#extra-functionality) section for details.
+  - After implementing core functionality, your web server must provide up to 50 points of extra functionality of your choosing. See the [Extra Functionality](#extra-functionality) section for details.
 
 Your code should support all of the functionality from the [previous project](project-{{ page.project | minus: 1 }}.html) as well.
 
@@ -55,17 +55,15 @@ Your code should support all of the functionality from the [previous project](pr
 
 This grade is earned by meeting the following requirements:
 
-  1. You must already have a passing grade for the [{{ site.data.projects["design_v3x"].text }}]({{ site.data.projects["design_v3x"].book }}) assignment.
+  1. You must already have a passing grade for the [{{ site.data.projects["design_v3x"].text }}]({{ site.data.projects["design_v3x"].book }}) and [{{ site.data.projects["tests_v41"].text }}]({{ site.data.projects["tests_v41"].book }}) assignments.
 
-  1. You must already have a passing grade for the [{{ site.data.projects["tests_v41"].text }}]({{ site.data.projects["tests_v41"].book }}) assignment.
+  1. You must create a release that continues to pass the [{{ site.data.projects["tests_v41"].text }}]({{ site.data.projects["tests_v41"].book }}) and earlier tests.
 
-  1. You must create a release that continues to pass the [{{ site.data.projects["tests_v41"].text }}]({{ site.data.projects["tests_v41"].book }}) tests.
+  1. You must attend a [final code review](final-review.html) with the instructor where your core and extra functionality will be manually user tested. Core functionality must pass before extra functionality will be graded and tested.
+  
+This project is manually graded and reviewed during your [finals review](final-review.html) only. You can earn a **partial grade** for this assignment (unlike other test assignments).
 
-  1. Your code functions as expected when manually user-tested by the instructor during your [final review](final-review.html). The core functionality must pass before extra functionality will be evaluated.
-
-You **CANNOT** use the "Request Project Tests Grade" issue template to request a grade! There are no automated tests for this release. Instead, this project will be manually graded and reviewed during [finals week](final-review.html) only. If you do not attend this appointment, you will not earn credit for this assignment.
-
-If you do not attend a final code review for any reason, you will earn a 0 on this assignment regardless of what you implemented.
+There are no automated tests for this release. Do **NOT** use the "Request Project Tests Grade" issue template to request a grade.
 {: .notification .is-danger .is-light }
 
 {% assign release = "design_v50" %}
