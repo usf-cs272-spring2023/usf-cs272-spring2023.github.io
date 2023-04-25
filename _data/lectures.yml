@@ -361,47 +361,6 @@ sql:
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c557e02-4323-47fc-add5-afef003fbb64'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vTxHpIGuQPb7mBLga9sDgcOOJmX2OhBrYEN_kSPKJzHpV0kxxXXh0s7g_GSsjb6ZvLx-cx0qC3V6mgK/pub?start=false&loop=false&delayms=3000'
 
-accounts:
-  tags: ['sql']
-  icon: 'website'
-  save: false
-  text: 'Database Accounts'
-  href: '/resources/databases/database-accounts.html'
-
-sqlintro1:
-  tags: ['sql']
-  icon: 'website'
-  save: false
-  text: 'SQL Intro, Part 1'
-  time: '25:45'
-  html: ' (<a href="/resources/databases/sql-intro-started.html">Walkthrough</a>)'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=def0d38e-8f17-454a-b2c9-afef003fbbc2'
-
-sqlintro2:
-  tags: ['sql']
-  icon: 'website'
-  save: false
-  text: 'SQL Intro, Part 2'
-  time: '24:53'
-  html: ' (<a href="/resources/databases/sql-intro-joining.html">Walkthrough</a>)'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9f8cf31f-b794-453c-b242-afef003fbc00'
-
-sqlintro3:
-  tags: ['sql']
-  icon: 'website'
-  save: false
-  text: 'SQL Intro, Part 3'
-  time: '08:36'
-  html: ' (<a href="/resources/databases/sql-intro-enforcing.html">Walkthrough</a>)'
-  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cc30b05e-1dfb-4ac2-9f06-afef003fbc67'
-
-sqldemo:
-  tags: ['sql']
-  icon: 'website'
-  save: false
-  text: 'SQL Faculty Demo'
-  href: '/resources/databases/sql-demo-intro.html'
-
 # jdbc:
 #   <<: *default
 #   text: 'Java Database Connectivity (JDBC)'

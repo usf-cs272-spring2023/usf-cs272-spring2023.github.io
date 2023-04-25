@@ -1510,7 +1510,7 @@ weeks:
                 name: relational
                 type: pt-2 pb-2
 
-              - file: lectures
+              - file: code
                 name: sqldemo
 
               - text: 'Getting Started'
@@ -1536,7 +1536,7 @@ weeks:
                 name: sql
                 type: pb-2
               
-              - file: lectures
+              - file: code
                 name: accounts
                 type: pb-2
 
@@ -1544,19 +1544,19 @@ weeks:
                 icon: 'website'
                 href: '/resources/databases/sql-intro-started.html'
 
-              - file: lectures
+              - file: code
                 name: sqlintro1
                 text: 'Getting Started'
                 icon: 'indented'
                 type: 'push'
 
-              - file: lectures
+              - file: code
                 name: sqlintro2
                 text: 'Joining Data'
                 icon: 'indented'
                 type: 'push'
 
-              - file: lectures
+              - file: code
                 name: sqlintro3
                 text: 'Enforcing Relationships'
                 icon: 'indented'
@@ -1564,7 +1564,7 @@ weeks:
 
           - <<: *content
             items:
-              - file: lectures
+              - file: code
                 name: sqldemo
 
           - <<: *participation
