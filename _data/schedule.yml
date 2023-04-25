@@ -1505,6 +1505,8 @@ weeks:
                 type: 'has-text-usf-plum pb-2'
 
               - text: 'Exam Review'
+                icon: 'website'
+                href: '/resources/exams/exam-2.html'
 
               - file: lectures
                 name: relational
