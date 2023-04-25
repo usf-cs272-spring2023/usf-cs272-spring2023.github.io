@@ -17,6 +17,46 @@ table {
 
 We will work up to the primary table we want. Lets start with something a little bit less complex first. When working on these, keep in mind there are many ways to write equivalent `SELECT` statements, so your solution may be different from the one given.
 
+### Names and Email Table
+
+See if you can re-create the following table with a `SELECT` statement:
+
+| name                 | email                     |
+|----------------------|---------------------------|
+| Greg D. Benson       | benson@usfca.edu          |
+| David Guy Brizan     | dgbrizan@usfca.edu        |
+| Christopher Brooks   | cbrooks@usfca.edu         |
+| Mehmet Emre          | memre@usfca.edu           |
+| Sophie J. Engle      | sjengle@usfca.edu         |
+| Alark Joshi          | apjoshi@usfca.edu         |
+| EJ Jung              | ejung2@usfca.edu          |
+| Olga Karpenko        | okarpenko@usfca.edu       |
+| Michael C. Kremer    | mkremer@usfca.edu         |
+| Matthew Malensek     | mmalensek@usfca.edu       |
+| Phil Peterson        | phpeterson@usfca.edu      |
+| Vahab Pournaghshband | vpournaghshband@usfca.edu |
+| Kelsey Urgo          | kurgo@usfca.edu           |
+| Ellen Veomett        | eveomett@usfca.edu        |
+| David Wolber         | wolberd@usfca.edu         |
+| Beste F. Yuksel      | byuksel@usfca.edu         |
+
+<details>
+<summary>See Answer.</summary>
+
+{% highlight sql %}
+SELECT
+CONCAT(
+  first, ' ', 
+  IFNULL(CONCAT(middle, '. '), ''), 
+  last) AS 'name',
+CONCAT(usfid, '@usfca.edu') AS 'email'
+FROM faculty_names
+ORDER BY faculty_names.last;
+{% endhighlight %}
+</details><br/>
+
+Now we can start working on some `JOIN` statements.
+
 ### Twitter Table
 
 See if you can re-create the following table with a `SELECT` statement:

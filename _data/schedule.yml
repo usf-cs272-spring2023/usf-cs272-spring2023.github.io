@@ -1504,18 +1504,76 @@ weeks:
                 name: 'project5'
                 type: 'has-text-usf-plum pb-2'
 
-              - text: 'SQL'
               - text: 'Exam Review'
+
+              - file: lectures
+                name: relational
+                type: pt-2 pb-2
+
+              - file: lectures
+                name: sqldemo
+
+              - text: 'Getting Started'
+                icon: indented
+                type: push
+                href: '/resources/databases/sql-demo-intro.html'
+
+              - text: 'Creating Tables'
+                icon: indented
+                type: push
+                href: '/resources/databases/sql-demo-creating.html'
+
+              - text: 'Selecting Data'
+                icon: indented
+                type: push
+                href: '/resources/databases/sql-demo-selecting.html'
 
       - date: 2023-04-27
         rows:
           - <<: *videos
             items:
-              - text: 'SQL'
+              - file: lectures
+                name: sql
+                type: pb-2
+              
+              - file: lectures
+                name: accounts
+                type: pb-2
+
+              - text: 'SQL Introduction'
+                icon: 'website'
+                href: '/resources/databases/sql-intro-started.html'
+
+              - file: lectures
+                name: sqlintro1
+                text: 'Getting Started'
+                icon: 'indented'
+                type: 'push'
+
+              - file: lectures
+                name: sqlintro2
+                text: 'Joining Data'
+                icon: 'indented'
+                type: 'push'
+
+              - file: lectures
+                name: sqlintro3
+                text: 'Enforcing Relationships'
+                icon: 'indented'
+                type: 'push'
+
+          - <<: *content
+            items:
+              - file: lectures
+                name: sqldemo
 
           - <<: *participation
             items:
-              - text: 'Pending'
+              - file: quizzes
+                name: joins
+
+              - file: quizzes
+                name: groups
 
       - date: 2023-04-28
         rows:

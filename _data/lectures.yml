@@ -343,58 +343,64 @@ jetty:
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vT_fIyB-Wdl0QwpHf5KDpfzUrk6B_XkGsmp68sjL1Fu7ua3yZiTKXwVGQaP5LL9eLNxkjHL7NmC1cQH/pub?start=false&loop=false&delayms=3000'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73887688-db72-4e76-be0e-afdc002776d6'
 
-# relational:
-#   <<: *default
-#   tags: ['sql']
-#   text: 'Relational Databases'
-#   save: true
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vS6PhZvk930AAO0SHo7uXY4c-gfAv3-xUFiEDPKqI1MIOptUkBXtj1BfAYVZyi5vv72f8g1qdzg6Wxr/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1L-CLDjzNTGVzZPds1CkaU9uGvHl7FtwW/view?usp=sharing'
+relational:
+  <<: *default
+  tags: ['sql']
+  text: 'Relational Databases'
+  save: '/files/Relational Databases.pdf'
+  time: '19:12'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=753c00bf-903a-4c4e-9e39-afef003fbb2c'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQ0KFxmtZiY2FvNPf5BaYVwotg9BiebdRhN5mmHxltmy0Y_vXCTlm1Hxq8-Cl7VCH74XUghBbkTgAFR/pub?start=false&loop=false&delayms=3000'
 
-# sql:
-#   <<: *default
-#   tags: ['sql']
-#   text: 'Structured Query Language (SQL)'
-#   tube: 'https://drive.google.com/file/d/1jjVGe-4dbyefIr3k_5z2ZEjXL5cPL3MH/view?usp=sharing'
-#   save: true
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vREjA4w_CDftw9Gcl6Uwsxb2YxPckK9r7_3GoxYLbSbJF0aNbXPyVaJGAjz6JEFYRiciIL0nH9Hc9to/pub?start=false&loop=false&delayms=3000'
+sql:
+  <<: *default
+  tags: ['sql']
+  text: 'Structured Query Language (SQL)'
+  time: '20:45'
+  save: '/files/Structured Query Language (SQL).pdf'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c557e02-4323-47fc-add5-afef003fbb64'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vTxHpIGuQPb7mBLga9sDgcOOJmX2OhBrYEN_kSPKJzHpV0kxxXXh0s7g_GSsjb6ZvLx-cx0qC3V6mgK/pub?start=false&loop=false&delayms=3000'
 
-# dbaccounts:
-#   icon: 'website'
-#   save: false
-#   text: 'Database Accounts'
-#   href: '/guides/sql/database-accounts.html'
+accounts:
+  tags: ['sql']
+  icon: 'website'
+  save: false
+  text: 'Database Accounts'
+  href: '/resources/databases/database-accounts.html'
 
-# sqlintro1:
-#   icon: 'website'
-#   save: false
-#   text: 'SQL Intro, Part 1'
-#   href: '/guides/sql/sql-intro-started.html'
-#   tube: 'https://drive.google.com/file/d/1W5pneWmLOXVkDrvxL9YWhRsZ8PwjM4vZ/view?usp=sharing'
-#   tags: ['sql']
+sqlintro1:
+  tags: ['sql']
+  icon: 'website'
+  save: false
+  text: 'SQL Intro, Part 1'
+  time: '25:45'
+  html: ' (<a href="/resources/databases/sql-intro-started.html">Walkthrough</a>)'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=def0d38e-8f17-454a-b2c9-afef003fbbc2'
 
-# sqlintro2:
-#   icon: 'website'
-#   save: false
-#   text: 'SQL Intro, Part 2'
-#   href: '/guides/sql/sql-intro-joining.html'
-#   tube: 'https://drive.google.com/file/d/1auHLPbiHxJq8tr_78HtNrKELu2Wi_zk4/view?usp=sharing'
-#   tags: ['sql']
+sqlintro2:
+  tags: ['sql']
+  icon: 'website'
+  save: false
+  text: 'SQL Intro, Part 2'
+  time: '24:53'
+  html: ' (<a href="/resources/databases/sql-intro-joining.html">Walkthrough</a>)'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9f8cf31f-b794-453c-b242-afef003fbc00'
 
-# sqlintro3:
-#   icon: 'website'
-#   save: false
-#   text: 'SQL Intro, Part 3'
-#   href: '/guides/sql/sql-intro-enforcing.html'
-#   tube: 'https://drive.google.com/file/d/1MOokzFUB8FXT2msoxU65PcqMlxYOsd0B/view?usp=sharing'
-#   tags: ['sql']
+sqlintro3:
+  tags: ['sql']
+  icon: 'website'
+  save: false
+  text: 'SQL Intro, Part 3'
+  time: '08:36'
+  html: ' (<a href="/resources/databases/sql-intro-enforcing.html">Walkthrough</a>)'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cc30b05e-1dfb-4ac2-9f06-afef003fbc67'
 
-# sqldemo:
-#   icon: 'website'
-#   save: false
-#   text: 'SQL Faculty Demo'
-#   href: '/guides/sql/sql-demo-intro.html'
-#   tags: ['sql']
+sqldemo:
+  tags: ['sql']
+  icon: 'website'
+  save: false
+  text: 'SQL Faculty Demo'
+  href: '/resources/databases/sql-demo-intro.html'
 
 # jdbc:
 #   <<: *default
