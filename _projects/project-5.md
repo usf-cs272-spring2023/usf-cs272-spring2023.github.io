@@ -79,7 +79,7 @@ This grade is earned by meeting the following requirements:
 
   1. You have well-designed project code, including all code created for previous projects. See the [Design Deductions](#design-deductions) section for details.
 
-This project will be graded and reviewed during [finals week](final-review.html) only.
+This project will be graded and reviewed during [finals week](final-review.html) only. You can earn a **partial grade** for this assignment (unlike other design assignments).
 
 ### Run Examples
 
@@ -191,7 +191,7 @@ The following miscellaneous features may also be implemented:
 
 | Points | Description |
 |:------:|:--------------------------|
-| 10 | **Graceful Shutdown:** Allow an administrator to trigger a password-protected graceful shutdown of your search engine without calling `System.exit()``. |
+| 10 | **Graceful Shutdown:** Allow an administrator to trigger a password-protected graceful shutdown of your search engine without calling `System.exit()`. |
 | 10 | **Web Framework:** Design a search engine using any popular CSS/style framework to create a consistent style for all the web pages. For example, consider using [Bulma](https://bulma.io/), [Bootstrap (Twitter)](https://getbootstrap.com/), [Pure.css](https://purecss.io/), [Material (Google)](https://material.io/develop/web/), [Semantic UI](https://semantic-ui.com/), and many more. |
 | 05 | **Light/Dark Mode Toggle:** Allow users to toggle between light mode (light colored background with dark text) and dark mode (dark colored background with light text) styles for your website. |
 | 05 | **Search Brand:** Design a search engine with a distinct brand, logo, and tagline. This includes creating a *locally-hosted logo image* and including it (along with your tagline) on all of the web pages. **Do not use unlicensed unattributed media on your website.**{: .has-text-danger } |
@@ -207,22 +207,21 @@ There are 55 points possible in this category.
 ## Design Deductions
 {: .page-header }
 
-If you earn a passing grade on the [{{ site.data.projects["tests_v50"].text }}]({{ site.data.projects["design_v3x"].book }}) assignment during your [final review](final-review.html), then your code will be evaluated for its design.
+If you complete the **core functionality** for the [{{ site.data.projects["tests_v50"].text }}]({{ site.data.projects["design_v3x"].book }}) assignment during your [final review](final-review.html), then your code will be evaluated for its design. The following design considerations will be evaluated:
 
+| Points | Description |
+|:------:|:------------|
+| 05 | **Code style** (spacing, formatting, capitalization, names of classes, methods, and members) |
+| 05 | **Javadoc comments** (well-formatted, none missing, all information professional described) |
+| 05 | **Keywords** used appropriately (static, final, default, abstract, implements, extends) |
+| 05 | **Exception handling** (thrown or caught when appropriate, no suppressed exceptions) |
+| 10 | **Encapsulation** (appropriate use of public vs private, safe get or view methods) |
+| 10 | **Generalization** (generally useful classes where appropriate) |
+| 10 | **Reusability** (limited amount of duplicate code, code created to be as reusable as possible by other developers) |
+| 10 | **Efficiency** when single-threading (avoiding unnecessary loops or copies in code, creating unnecessary objects, unnecessary String concatenation) |
+| 10 | **Efficiency** when multithreading (avoiding over synchronization, over blocking, over notification, over finishing, using a work queue or conditional lock when appropriate) |
+| 10 | **Efficiency** when networking (avoiding calling fetch multiple times, downloading content unless necessary) |
+| 10 | **Multiple simultaneous users** supported in web server (design of forms, use of thread-safe data) |
+| 10 | **Injection attacks** avoided in web server (cross-site scripting XSS and SQL injection) |
 
-PENDING
-
-
-{% comment %}
-
-
-### Final Code Review
-
-Students must meet the requirements for the [{{ site.data.projects[page.review1].text }}]({{ site.data.projects[page.review1].canvas }}) grade prior to their [final code review](final-review.html) appointment. Since the last normal code reviews are offered on **Friday, December 9th**, this means all project 3 code reviews must be completed by then. Students cannot have a project 3 and project 4 code review in their final code review appointment. See the [final code review](final-review.html) guide for details.
-
-### Project Extra Credit
-
-Students that are eligible for [{{ site.data.projects[page.review1].text }}]({{ site.data.projects[page.review1].canvas }}) during finals week may complete additional [search engine](project-4b.html) functionality to earn extra credit in the project category. Students that are not eligible for this project may complete [other extra credit](extra-credit.html) opportunities instead at the end of the semester.
-
-These extra credit opportunities can be completed to make up for points lost due to late penalties or other deductions in the projects category. These opportunities may not be used to earn over a 100% grade in this category. 
-{% endcomment %}
+All of your code will be reviewed, but the focus will be on your web crawler and search engine code. Minor issues will result in fewer deductions than major issues. For example, a small number of formatting issues will result in a smaller point deduction than pervasive formatting issues throughout the code.
