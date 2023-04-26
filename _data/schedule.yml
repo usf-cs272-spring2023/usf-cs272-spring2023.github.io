@@ -1618,7 +1618,7 @@ weeks:
         rows:
           - <<: *videos
             items:
-              - text: 'Software Testing'
+              - text: 'JDBC'
 
           - <<: *participation
             items:
@@ -1667,17 +1667,13 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'JDBC'
+              - text: 'Conclusion'
 
       - date: 2023-05-11
         rows:
           - <<: *lectures
             items:
-              - text: 'In Person Lecture'
-                icon: 'warning'
-                type: 'has-text-weight-medium has-text-warning pb-2'
-
-              - text: 'Conclusion'
+              - text: 'Software Testing'
 
       - date: false
         rows:
