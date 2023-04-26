@@ -72,6 +72,10 @@ warning:
   text: 'Warning'
   type: 'fas fa-exclamation-triangle'
 
+info:
+  text: 'Info'
+  type: 'fas fa-info-circle'
+
 indented:
   text: 'Indented'
   type: 'fal fa-minus'

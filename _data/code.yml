@@ -427,3 +427,35 @@ sqldemo:
   save: false
   text: 'SQL Faculty Demo'
   href: '/resources/databases/sql-demo-intro.html'
+
+faculty1:
+  <<: *default
+  tags: ['jdbc']
+  text: 'Faculty Server Part 1'
+  time: '13:41'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b8ba9664-3d5d-41be-95f5-aff00152f22c'
+  # repo: '/cs272-lectures/'
+
+faculty2:
+  <<: *default
+  tags: ['jdbc']
+  text: 'Faculty Server Part 2'
+  time: '18:13'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cc7f3942-5ad3-4a1f-9608-aff00152f2bf'
+  # repo: '/cs272-lectures/'
+
+faculty3:
+  <<: *default
+  tags: ['jdbc']
+  text: 'Faculty Server Part 3'
+  time: '07:43'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=efe6dc8a-76c5-41b2-bd5a-aff00152f2ea'
+  # repo: '/cs272-lectures/'
+
+faculty4:
+  <<: *default
+  tags: ['jdbc']
+  text: 'Faculty Server Part 4'
+  time: '38:22'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=07a05d15-ed6b-4b77-9107-aff00152f354'
+  # repo: '/cs272-lectures/'

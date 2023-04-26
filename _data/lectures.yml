@@ -361,35 +361,37 @@ sql:
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c557e02-4323-47fc-add5-afef003fbb64'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vTxHpIGuQPb7mBLga9sDgcOOJmX2OhBrYEN_kSPKJzHpV0kxxXXh0s7g_GSsjb6ZvLx-cx0qC3V6mgK/pub?start=false&loop=false&delayms=3000'
 
-# jdbc:
-#   <<: *default
-#   text: 'Java Database Connectivity (JDBC)'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vQSTQGh8TMFe3Jn8oShnlC3mnWcyAixqbc9bZ-417tqPcvay0WFRactomEqoQLW-x2RHcA_8iSVHf2O/pub?start=false&loop=false&delayms=3000'
-#   tube: 'https://drive.google.com/file/d/1bgEAcSx7OhRRziOo8MsiP_DjcrOrhClG/view?usp=sharing'
-#   tags: ['jdbc']
+jdbc:
+  <<: *default
+  text: 'Java Database Connectivity (JDBC)'
+  save: '/files/Java Database Connectivity (JDBC).pdf'
+  time: '12:12'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vTVzPbBtOzPowhYoshT3YdbHIzlTKHzfZxzOMJUziA3tXdMpVO2pyCGvcv_SJSjlfU0N4fSaoXNjIM6/pub?start=false&loop=false&delayms=3000'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0b85317c-d4ce-4823-bed2-aff00152f1dd'
+  tags: ['jdbc']
+
+testing_bugs:
+  <<: *default
+  tags: ['testing']
+  text: 'Software Bugs'
+  save: '/files/Software Bugs.pdf'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQdjUj1o8oAntzst1ZMz7jWIDWkZo6pxVhVW7yV3BkR4SMcBVXqfA5kU2uXyTPOUGN0Y_KKKH2b3RsO/pub?start=false&loop=false&delayms=3000'
+
+testing_intro:
+  <<: *default
+  tags: ['testing']
+  text: 'Software Testing'
+  save: '/files/Software Testing.pdf'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vSsb_Oz18l8oBxTcOM846kBLhBcc8MqoC_SBPQ9T162lnAw44mJmo5aQOm6fhg8XLrR_jMvix_7XT29/pub?start=false&loop=false&delayms=3000'
+
+testing_unit:
+  <<: *default
+  tags: ['testing']
+  text: 'Unit Testing'
+  save: '/files/Unit Testing.pdf'
+  view: 'https://docs.google.com/presentation/d/e/2PACX-1vQqlccD49DFn6ShL-ImZ7H34QaUj-loGq4F4YlBBrbwSFbcdLm1YivUCu7TmObJPkj7V_TkZvdYu6RK/pub?start=false&loop=false&delayms=3000'
 
 # recap:
 #   <<: *default
 #   text: 'Course Recap'
 #   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRWVK3jB5Ec0QJYLNd__v-6oz9FvnOMqTXGTCBPk0dE0k6bsqtqoEUIHXaUWwqKlkIuAshjf8IcXOdF/pub?start=false&loop=false&delayms=3000'
-
-
-
-
-# testing_bugs:
-#   <<: *default
-#   tags: ['testing']
-#   text: 'Software Bugs'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRx3Celd7paeP5-TbE-LEU-1f1UzcoG93-PlqwrmTsW76tMXlyOH3qxlJB067TaeUWEznDGa7CsDcwN/pub?start=false&loop=false&delayms=3000'
-
-# testing_intro:
-#   <<: *default
-#   tags: ['testing']
-#   text: 'Software Testing'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vSBCRFRsHERFo9gqwW8TsusCW63wgsBDXs5k2SBuphtbigsZplHkiQB6sxesTaNFcKPHDU8u2f7ZpbD/pub?start=false&loop=false&delayms=3000'
-
-# testing_unit:
-#   <<: *default
-#   tags: ['testing']
-#   text: 'Unit Testing'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRRfeHE_j03Wl4zQRnubmZBztMMC94gUt4Gs2FnN7Ka31KuO7GMK8bQjmEzSHnoZZeqrnRQNCAZTDNU/pub?start=false&loop=false&delayms=3000'

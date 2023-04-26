@@ -1616,9 +1616,44 @@ weeks:
 
       - date: 2023-05-04
         rows:
-          - <<: *videos
+          - <<: *optional
             items:
-              - text: 'JDBC'
+              - text: 'Optional Content; Project 5 Only'
+                icon: info
+                type: has-text-grey em
+
+              - file: lectures
+                name: jdbc
+                type: pt-2
+
+              - text: 'Faculty Server'
+                icon: 'code'
+                type: pt-2
+
+              - file: code
+                name: faculty1
+                icon: indented
+                type: push
+                text: Demo and Setup
+
+              - file: code
+                name: faculty2
+                icon: indented
+                type: push
+                text: Database Connector
+
+              - file: code
+                name: faculty3
+                icon: indented
+                type: push
+                text: Faculty Server
+
+              - file: code
+                name: faculty4
+                icon: indented
+                type: push
+                text: Faculty Servlet
+
 
           - <<: *participation
             items:
@@ -1626,8 +1661,6 @@ weeks:
                 icon: 'exam'
                 type: 'has-text-weight-bold has-text-danger pb-2'
                 date: 2023-05-12
-
-              - text: 'Pending'
 
       - date: 2023-05-05
         rows:
@@ -1673,7 +1706,18 @@ weeks:
         rows:
           - <<: *lectures
             items:
-              - text: 'Software Testing'
+              - file: lectures
+                name: testing_bugs
+
+              - file: lectures
+                name: testing_intro
+
+              - file: lectures
+                name: testing_unit
+
+          - <<: *participation
+            items:
+              - text: Pending
 
       - date: false
         rows:
