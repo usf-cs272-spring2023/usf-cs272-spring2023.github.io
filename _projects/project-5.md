@@ -8,8 +8,8 @@ bump: false
 project: 5
 
 tags:
- - text: 'Pending'
-#    type: 'is-primary'
+ - text: 'New'
+   type: 'is-primary'
 
 subsections:
   - text: 'Project Release v5.0'

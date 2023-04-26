@@ -157,6 +157,7 @@ project5: &project5
   <<: *default
   text: 'Project 5 Server'
   tags: ['project5']
+  href: '/resources/projects/project-5.html'
 
 tests_v50:
   <<: *project5
