@@ -1,7 +1,7 @@
 ---
 title: Final Code Reviews
-navbar: Guides
-layout: guides
+navbar: Resources
+layout: resources
 key: 5.1
 bump: true
 
@@ -9,14 +9,12 @@ tags:
   - text: 'Important'
     type: 'is-danger'
 
-optional_homework: Friday, December 12, 2022
+review_request:  Tuesday, May 9, 2023
+review_deadline: Friday, May 12, 2023
 
-review_request:  Sunday, December 4, 2022
-review_deadline: Friday, December 9, 2022
-
-other_deadline:  Friday, December 16, 2022
-extend_request:  Friday, December 16, 2022
-extend_deadline: Wednesday, December 21, 2022
+other_deadline:  Friday, May 19, 2023
+extend_request:  Friday, May 19, 2023
+extend_deadline: Wednesday, May 24, 2023
 
 ---
 
@@ -59,20 +57,20 @@ You can open a code review request on GitHub to prepare the pull request needed 
 
 ##### What if I already have a design grade for project 3?
 
-Nice work! You do not need any more normal code reviews. You will have project 4 reviewed during your [final code review](#final-code-reviews) appointment.
+Nice work! You do not need any more normal code reviews. You will have project 5 reviewed during your [final code review](#final-code-reviews) appointment.
 
-##### Can I get project 4 reviewed early?
+##### Can I get project 5 reviewed early?
 
-No, you cannot. Project 4 will only be reviewed during your [final code review](#final-code-reviews) appointment.
+No, you cannot. Project 5 will only be reviewed during your [final code review](#final-code-reviews) appointment.
 
 <!---------------------------------------------------------------------->
 
 ## Final Code Reviews
 {: .page-header }
 
-The final code review is your last code review opportunity of the semester. Final code reviews are conducted during finals week from **Tuesday Dec 13th to Thursday Dec 15th** between 11:15am and 5:30pm Pacific Time. Each final code review appointment is **30 minutes** each.
+The final code review is your last code review opportunity of the semester. Final code reviews are conducted during finals week from **Monday May 15th to Thursday May 18th** between 12:00pm and 5:00pm Pacific Time. Each final code review appointment is **30 minutes** each.
 
-All students should sign up for a final code review appointment. These appointments do not need to be pre-approved; students should sign up right away regardless of their project progress. Students must sign up for an appointment using the **[Canvas scheduler](https://community.canvaslms.com/t5/Student-Guide/How-do-I-sign-up-for-a-Scheduler-appointment-in-the-Calendar/ta-p/536)**. Look for "Final Code Review" on the calendar. Appointments will be released gradually in batches.
+**All students should sign up for a final code review appointment.** These appointments do not need to be pre-approved; students should sign up right away regardless of their project progress. Students must sign up for an appointment using the **[Canvas scheduler](https://community.canvaslms.com/t5/Student-Guide/How-do-I-sign-up-for-a-Scheduler-appointment-in-the-Calendar/ta-p/536)**. Look for "Final Code Review" on the calendar. Appointments will be released gradually in batches.
 
 If you are eligible for a code review, your appointment will start with that code review. If the code review is for a design grade, you will earn partial or full credit for that design grade.
 
@@ -98,7 +96,7 @@ No, you should sign up for an appointment as soon as possible. You do not need t
 
 Yes, for projects 1, 2, and 3, please follow the same process to request a code review before your appointment. This will setup the pull request necessary for your final code review. If you forget, the instructor will let you make the code review request during the appointment. However, if it fails, we will not conduct the code review.
 
-For project 4, you do not need to complete this step beforehand. However, please still create a warning-free release that passes the tests before your appointment. If you forget, the instructor will let you create a release during your appointment. However, if it fails to pass the tests, we will not conduct the code review.
+For project 4 and 5, you do not need to complete this step beforehand. However, please still create a warning-free release that passes the tests before your appointment. If you forget, the instructor will let you create a release during your appointment. However, if it fails to pass the tests, we will not conduct the code review.
 
 ##### I am not eligible for a code review. Should I cancel my final code review appointment?
 
@@ -114,7 +112,7 @@ You can cancel the appointment using the **[Canvas scheduler](https://community.
 
 ##### What happens if I do not attend a final code review appointment?
 
-Your grade for incomplete project review assignments will remain 0%. You will still be able to submit [non-review assignments](#non-review-assignments) for which you are eligible up until the {{ page.other_deadline }}. However, you will NOT qualify for an [extension](#extensions).
+Your grade for incomplete project review and design assignments will remain 0%. You will still be able to submit [non-review assignments](#non-review-assignments) for which you are eligible up until the {{ page.other_deadline }}. However, you will NOT qualify for an [extension](#extensions).
 
 ##### What happens if I miss my final code review appointment?
 
@@ -149,13 +147,13 @@ Your late homework grade request will be denied and your homework grade will rem
 
 You can submit late participation assignments or quizzes on Canvas by this deadline. You can also open late homework or project grade requests on GitHub by this deadline. This deadline does not cover exams, exam retakes, or code review requests.
 
-##### Can I complete the optional homework assignment late?
+##### Can I request a project design grade by this deadline?
 
-No, you cannot. The optional homework assignment is graded during lab on **{{ page.optional_homework }}**. It is the *only* time you can earn credit for the optional homework assignment.
+Yes, but the requirements remain the same: you need a conditional pass in your last code review for that project, and must still make the necessary changes and a final release. For example, if you passed project 3 in your final code review appointment, you have until **{{ page.other_deadline }}** to make the last set of changes and successfully request the design grade.
 
 ##### Do I still need to meet the eligibility requirements for project assignments?
 
-Yes. The eligibility requirements for project assignments are unchanged. For example, if you did not complete [{{ site.data.projects.project3_review1.text }}]({{ site.data.projects.project3_review1.canvas }}) by your final code review appointment, you are ineligible for the [{{ site.data.projects.project4_tests.text }}]({{ site.data.projects.project4_tests.canvas }}) grade regardless of an extension. You should work on [project extra credit](#project-extra-credit) instead.
+Yes. The eligibility requirements for project assignments are unchanged.
 
 ##### Does late penalties still apply for these submissions?
 
@@ -165,9 +163,13 @@ Yes, late penalties based on the individual assignment deadlines still apply.
 
 No, you cannot. The only opportunity you have to earn partial grades is during your final code review appointment, with or without an extension.
 
+##### Can I get a B letter grade if I do not pass project 3, but pass project 4?
+
+No, you cannot. You must pass project 3 to be eligible for a C- or higher letter grade. If you are not passing project 3, you will earn between an F to D+ letter grade. 
+
 ##### Can I get an extension to this deadline?
 
-Yes, you can get an extension to **{{ page.extend_deadline }}** instead if you follow the steps in the [Extensions](#extensions) section below.
+Yes, you can get an extension to **{{ page.extend_deadline }}** instead if you meet the prerequisites and follow the steps in the [Extensions](#extensions) section below.
 
 ##### When is the deadline to request an extension to this deadline?
 
@@ -182,17 +184,15 @@ No, you cannot.
 ## Extensions
 {: .page-header }
 
-If you attend a final code review appointment but do not earn a passing grade for this class in that appointment, you may request an extension to submit late [non-review assignments](#non-review-assignments) or [extra credit](#project-extra-credit) in an attempt to pass the class. However, your final letter grade will be capped at a C letter grade.
+If you attend a final code review appointment but do not earn a passing grade for this class in that appointment, you may request an extension to submit late [non-review assignments](#non-review-assignments) in an attempt to pass the class. However, your final letter grade will be capped at a C letter grade.
 
-This extends the deadline to submit late [non-review assignments](#non-review-assignments) and [extra credit](#project-extra-credit) from {{ page.other_deadline }} to **{{ page.extend_deadline }}** instead. It does not change the original deadlines of those assignments; late penalties still apply. 
+This extends the deadline to submit late [non-review assignments](#non-review-assignments) from {{ page.other_deadline }} to **{{ page.extend_deadline }}** instead. It does not change the original deadlines of those assignments; late penalties still apply. 
 
 To request this extension, you must make a private post on Piazza by **{{ page.extend_request }}** with the following:
 
   - A brief 1 paragraph justification for the extension, which can range from struggles with physical or mental health, disruptions to living circumstances, and even poor planning. I only ask that you are honest about why you ended up behind and need an extension.
 
-  - The [non-review assignments](#non-review-assignments) and/or [extra credit](#project-extra-credit) you plan to submit late. *Make sure you are eligible to complete these assignments!*
-
-  - A screenshot of a "What-If" analysis in Canvas that shows completing the proposed assignments will raise your final grade to a 74% or C letter grade. *Keep in mind that late penalties still apply!*
+  - The [non-review assignments](#non-review-assignments) you plan to submit late. *Make sure you are eligible to complete these assignments!*
 
 I will only approve your request if it is on-time and demonstrates it is possible to pass the class by submitting a reasonable number of non-review assignments for which you are eligible.
 
@@ -204,6 +204,10 @@ See below for clarification on some frequently asked questions.
 
 Only students that do not earn a passing 74% or higher letter grade during their final code review appointment may request an extension.
 
+##### Who should request an extension?
+
+Students should request an extension if they have a C- in their final code review and need extra time to bring up their homework and other averages to qualify for a C letter grade. Students that passed project 3 code review in their final code review appointment should also request an extension to submit their design grade if needed.
+
 ##### Can I request an extension if I did not attend a final code review appointment?
 
 No, not unless you have a compelling reason for not attending a final code review appointment.
@@ -214,7 +218,7 @@ Your final letter grade will be capped at a C letter grade. If after the extende
 
 ##### What type of late work can I submit with an extension?
 
-You can submit the same type of assignments as listed in the [non-review assignments](#non-review-assignments) category *and* you can also submit [project extra credit](#project-extra-credit) as well. You are encouraged to only work on extra credit if you are otherwise unable to obtain a passing grade.
+You can submit the same type of assignments as listed in the [non-review assignments](#non-review-assignments) category.
 
 ##### Can I get another code review after my final code review appointment?
 

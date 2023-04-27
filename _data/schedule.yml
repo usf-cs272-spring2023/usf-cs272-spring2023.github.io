@@ -1700,7 +1700,24 @@ weeks:
         rows:
           - <<: *lectures
             items:
+              - file: 'projects'
+                name: 'project5'
+                type: 'has-text-usf-plum'
+
+              - text: 'Final Code Review'
+                icon: project
+                href: '/resources/projects/final-review.html'
+                type: 'has-text-usf-plum pb-2'
+
               - text: 'Conclusion'
+
+          - <<: *deadlines
+            items:
+              - text: 'Review Requests'
+                icon: project
+                date: 2023-05-09
+                type: 'has-text-usf-plum'
+                href: '/resources/projects/final-review.html'
 
       - date: 2023-05-11
         rows:
@@ -1717,19 +1734,17 @@ weeks:
 
           - <<: *participation
             items:
-              - text: Pending
+              - text: Course Evaluations
+              - text: Course Survey
 
-      - date: false
+      - date: 2023-05-12
         rows:
-          - <<: *assignments
-            text: 'Last Assignments'
+          - text: 'Deadlines (No Lab)'
+            info: 'classes ended; no lab'
             items:
               - file: 'attendance'
                 name: 'week16'
 
-          - <<: *deadlines
-            text: 'Last Major Deadlines'
-            items:
               - file: 'participation'
                 name: 'ask_anything'
 
@@ -1745,14 +1760,14 @@ weeks:
                 type: 'has-text-weight-bold has-text-danger pb-2'
                 date: 2023-05-12
 
+              - text: 'Review Cutoff'
+                icon: project
+                date: 2023-05-12
+                type: 'has-text-usf-plum'
+                href: '/resources/projects/final-review.html'
+
               - file: 'projects'
                 name: 'tests_v41'
-
-              - file: 'projects'
-                name: 'tests_v50'
-
-              - file: 'projects'
-                name: 'design_v50'
 
   - week: 'Finals'
     days:
@@ -1763,6 +1778,33 @@ weeks:
             items:
               - text: 'Final Code Reviews'
                 icon: 'project'
+                href: '/resources/projects/final-review.html'
+                type: 'has-text-usf-plum'
 
-      - date: false
-      - date: false
+      - date: 2023-05-18
+        rows:
+          - text: 'End of Finals Week'
+            info: 'last day of finals week'
+            items:
+              - file: 'projects'
+                name: 'tests_v50'
+
+              - file: 'projects'
+                name: 'design_v50'
+
+      - date: 2023-05-19
+        rows:
+          - <<: *deadlines
+            text: 'End of Semester'
+            items:
+              - text: 'Late Grades'
+                date: 2023-05-19
+                icon: date
+                type: 'has-text-danger has-text-weight-bold'
+                href: '/resources/projects/final-review.html'
+
+              - text: 'Extension Requests'
+                date: 2023-05-19
+                icon: date
+                type: 'has-text-danger has-text-weight-bold'
+                href: '/resources/projects/final-review.html'
