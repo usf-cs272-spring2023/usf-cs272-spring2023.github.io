@@ -211,7 +211,7 @@ If you complete the **core functionality** for the [{{ site.data.projects["tests
 
 | Points | Description |
 |:------:|:------------|
-| 05 | **Code style** (spacing, formatting, capitalization, names of classes, methods, and members) |
+| 05 | **Code style and warnings** (compile warnings, spacing, formatting, capitalization, names of classes, methods, and members) |
 | 05 | **Javadoc comments** (well-formatted, none missing, all information professional described) |
 | 05 | **Keywords** used appropriately (static, final, default, abstract, implements, extends) |
 | 05 | **Exception handling** (thrown or caught when appropriate, no suppressed exceptions) |
