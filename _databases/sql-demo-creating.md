@@ -46,7 +46,7 @@ We will create a `faculty_names` table with 1 row per professor that stores:
 |--------|-------------|------|-----|---------|-------|
 | usfid  | char(20)    | NO   | PRI | NULL    |       |
 | first  | varchar(20) | NO   |     | NULL    |       |
-| middle | varchar(20) | YES  |     | NULL    |       |
+| middle | char(1)     | YES  |     | NULL    |       |
 | last   | varchar(20) | NO   |     | NULL    |       |
 
 <details>
