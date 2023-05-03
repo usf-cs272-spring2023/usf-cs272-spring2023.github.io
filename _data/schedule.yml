@@ -1735,8 +1735,8 @@ weeks:
 
           - <<: *participation
             items:
-              - text: Course Evaluations
-              - text: Course Survey
+              - file: participation
+                name: final_survey
 
       - date: 2023-05-12
         rows:
@@ -1755,6 +1755,9 @@ weeks:
               - file: 'participation'
                 name: 'cs_event2'
                 type: 'pb-2'
+
+              - file: participation
+                name: final_survey
 
               - text: 'Exam 2 Retake'
                 icon: 'exam'
