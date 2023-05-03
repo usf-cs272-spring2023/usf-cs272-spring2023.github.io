@@ -375,21 +375,27 @@ testing_bugs:
   tags: ['testing']
   text: 'Software Bugs'
   save: '/files/Software Bugs.pdf'
+  time: '31:47'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vQdjUj1o8oAntzst1ZMz7jWIDWkZo6pxVhVW7yV3BkR4SMcBVXqfA5kU2uXyTPOUGN0Y_KKKH2b3RsO/pub?start=false&loop=false&delayms=3000'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8b3d8019-ff49-40c1-8789-aff70174fe23'
 
 testing_intro:
   <<: *default
   tags: ['testing']
   text: 'Software Testing'
+  time: '15:51'
   save: '/files/Software Testing.pdf'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vSsb_Oz18l8oBxTcOM846kBLhBcc8MqoC_SBPQ9T162lnAw44mJmo5aQOm6fhg8XLrR_jMvix_7XT29/pub?start=false&loop=false&delayms=3000'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=59f07b09-ca70-48be-8f9b-aff701745576'
 
 testing_unit:
   <<: *default
   tags: ['testing']
   text: 'Unit Testing'
+  time: '12:54'
   save: '/files/Unit Testing.pdf'
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vQqlccD49DFn6ShL-ImZ7H34QaUj-loGq4F4YlBBrbwSFbcdLm1YivUCu7TmObJPkj7V_TkZvdYu6RK/pub?start=false&loop=false&delayms=3000'
+  href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7239a2e3-0bcf-4554-8f6f-aff70174554e'
 
 # recap:
 #   <<: *default
