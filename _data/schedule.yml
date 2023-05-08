@@ -1710,7 +1710,8 @@ weeks:
                 href: '/resources/projects/final-review.html'
                 type: 'has-text-usf-plum pb-2'
 
-              - text: 'Conclusion'
+              - file: 'lectures'
+                name: 'recap'
 
           - <<: *deadlines
             items:

@@ -397,7 +397,8 @@ testing_unit:
   view: 'https://docs.google.com/presentation/d/e/2PACX-1vQqlccD49DFn6ShL-ImZ7H34QaUj-loGq4F4YlBBrbwSFbcdLm1YivUCu7TmObJPkj7V_TkZvdYu6RK/pub?start=false&loop=false&delayms=3000'
   href: 'https://usfca.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7239a2e3-0bcf-4554-8f6f-aff70174554e'
 
-# recap:
-#   <<: *default
-#   text: 'Course Recap'
-#   href: 'https://docs.google.com/presentation/d/e/2PACX-1vRWVK3jB5Ec0QJYLNd__v-6oz9FvnOMqTXGTCBPk0dE0k6bsqtqoEUIHXaUWwqKlkIuAshjf8IcXOdF/pub?start=false&loop=false&delayms=3000'
+recap:
+  <<: *default
+  text: 'Course Recap'
+  save: '/files/Course Recap.pdf'
+  href: 'https://docs.google.com/presentation/d/e/2PACX-1vQTa_hdkJtM3D6DNGZPAvBgiHihBluLN8vZg6QeziCvaNCI0d-bucrj23cLUU9NKUDWMwyrsfIZ0twM/pub?start=false&loop=false&delayms=3000'
