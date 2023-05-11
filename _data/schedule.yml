@@ -1723,7 +1723,7 @@ weeks:
 
       - date: 2023-05-11
         rows:
-          - <<: *lectures
+          - <<: *videos
             items:
               - file: lectures
                 name: testing_bugs
