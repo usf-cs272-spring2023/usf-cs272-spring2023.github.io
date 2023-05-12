@@ -195,6 +195,7 @@ The following miscellaneous features may also be implemented:
 | 10 | **Web Framework:** Design a search engine using any popular CSS/style framework to create a consistent style for all the web pages. For example, consider using [Bulma](https://bulma.io/), [Bootstrap (Twitter)](https://getbootstrap.com/), [Pure.css](https://purecss.io/), [Material (Google)](https://material.io/develop/web/), [Semantic UI](https://semantic-ui.com/), and many more. |
 | 05 | **Light/Dark Mode Toggle:** Allow users to toggle between light mode (light colored background with dark text) and dark mode (dark colored background with light text) styles for your website. |
 | 05 | **Search Brand:** Design a search engine with a distinct brand, logo, and tagline. This includes creating a *locally-hosted logo image* and including it (along with your tagline) on all of the web pages. **Do not use unlicensed unattributed media on your website.**{: .has-text-danger } |
+| 05 | **Pop-Up Interaction:** Enable pop-up/modal functionality in JavaScript and/or CSS. At least part of the JavaScript or CSS code must be stored in an static file hosted by your web server. |
 | 05 | **Search Statistics:** Display the total number of results along with the time it took to calculate and fetch those results, and display the score and number of matches per search result listed. |
 | 05 | **Server Statistics:** As a footer on every page, display the server uptime (i.e. time since the server was started), total number of words stored, total number of locations stored, and total number of queries conducted. This information can be stored in memory by the server. |
 | 05 | **Quick Search:** Add a new button to your search form (in addition to the normal search button) that automatically redirects the user to the first search result instead of listing all of the search results. This is similar to the Google Search "I'm Feeling Lucky" button. Output a warning if there are no search results. |
@@ -202,7 +203,7 @@ The following miscellaneous features may also be implemented:
 | 05 | **Partial/Exact Search Toggle:** Allow the user to toggle on/off partial versus exact search using a checkbox on the search form. |
 {: .table .is-hoverable }
 
-There are 55 points possible in this category.
+There are 60 points possible in this category.
 
 ## Design Deductions
 {: .page-header }
